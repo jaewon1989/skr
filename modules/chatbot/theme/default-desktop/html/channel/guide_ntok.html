@@ -1,0 +1,24 @@
+<h4 class="guide-title">네이버톡톡 연동을 위해서 아래의 항목을 체크해주세요 </h4>
+<ul class="sns-guide">
+    <li>1) 네이버톡톡 파트너센터(<a href="https://partner.talk.naver.com/" target="_blank">https://partner.talk.naver.com/</a>) 접속. <li>
+    <li>2) 회사 아이디 혹은 대표 아이디로 로그인. <li>
+    <li>3) 계정관리 페이지(<a href="https://partner.talk.naver.com/accounts" target="_blank">https://partner.talk.naver.com/</a>) 로 이동.<li>
+    <li>4) 기존 계정을 사용할 경우 바로 계정관리 페이지로 이동하고('계정관리' 버튼) 신규 계정 생성.<li>
+    <li>5) 계정관리 페이지(<a href="https://partner.talk.naver.com/accounts" target="_blank">https://partner.talk.naver.com/</a><strong>{고유번호}</strong>) 메뉴 중 '개발자도구 > <code>챗봇API 설정</code>' 메뉴 클릭.<li>
+    <li>6) <strong>Webhook</strong> > <code>이벤트 받을 URL</code> 에 아래 URL 을 등록(저장)하고 <strong>Event 변경</strong> 버튼 클릭해서 <code>send,open</code> 2개의 이벤트를 선택.</li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;" id="webhookUrl-wrapper"> 
+            <div class="input-group">
+                <input type="text" class="form-control" value="{$return_url}" disabled />
+                <span class="input-group-addon">
+                    <button class="btn btn-default btn-copy" data-role="clipboard-copy" data-clipboard-text="{$return_url}" data-container="#webhookUrl-wrapper" data-feedback="URL 이 복사되었습니다.">복사</button>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li>7) <strong>보내기 API</strong> > <code>Authorization</code> 에서 인증코드를 발급받은 후 아래 입력란에 입력.
+        <div class="input-wrapper"> 
+            <input type="text" class="form-control" placeholder="API Authorization" name="auth_code" value="{$auth_code}" />
+        </div>
+    <li>
+</ul>

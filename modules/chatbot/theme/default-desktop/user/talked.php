@@ -1,0 +1,1 @@
+<?php echo $chatbot->getUserBotList($my['uid'],'talked',$where,30,1);?>

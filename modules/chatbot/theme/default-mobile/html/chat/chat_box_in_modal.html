@@ -1,0 +1,51 @@
+<header id="cb-navigator" class="bar bar-nav cb-box-shadow">
+    <div class=" cb-navigator-wrapper">
+        <div class="cb-cell-layout">
+            <div class="cb-cell cb-cell-left">
+                <span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>
+            </div>
+            <div class="cb-cell cb-cell-center">
+                <h3>{$bot_service}</h3>
+            </div>
+            <div class="cb-cell cb-cell-right">
+                {$btn_lang}
+                <a href="{$bot_home}" target="_blank">
+                   <span class="cb-icon cb-icon-house"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="cb-chatting-body" class="content">
+    <div class="cb-chatting-scroll" data-role="cb-box-{$bot_id}">
+       {$chat_rows}          
+    </div>
+</section>
+
+<section id="cb-chatting-input{$position}">
+    <div class="emoticon-wrapper" data-role="emoticon-box">
+        {$emoticon_list}
+    </div>
+    <div class="cb-layout">
+        <div class="cb-right">
+            <ul class="cb-chatting-icon">
+                <li>
+                    <span class="cb-icon cb-icon-smile" data-role="btn-showEmoticon"></span>
+                </li>
+                <li>
+                    <span class="cb-icon cb-icon-recom" data-id="{$bot_id}" data-role="btn-showRecGoods"></span>
+                    <span class="cb-chatting-send" style="display:none;" data-id="{$bot_id}" data-role="btn-send">전송</span>
+                </li>
+            </ul>
+        </div>
+        <div class="cb-left">
+            <div class="cb-chatting-profile">
+                <img src="{$user_avatar_src}" alt="Chatting Profile Image" />
+            </div>
+        </div>
+        <div class="cb-center">
+            <input type="text" name="user_input" data-id="{$bot_id}" placeholder="메시지를 입력하세요." data-role="bot-talks"/>
+        </div>
+    </div>
+</section>

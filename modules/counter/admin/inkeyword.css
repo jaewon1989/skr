@@ -1,0 +1,7 @@
+.kbox {width:97%;height:350px;border:#dfdfdf solid 1px;background:#f9f9f9;margin:0 0 35px 0;padding:20px;overflow:auto;}
+.kbox .keywordarea {float:left;width:140px;height:30px;border:#efefef solid 1px;margin:3px;padding:4px 0 9px 5px;background:#ffffff;overflow:hidden;}
+.kbox .keywordarea:hover {background:#efefef;}
+.kbox .keywordarea a {color:#111;}
+.kbox .keywordarea a:hover {text-decoration:underline;}
+.kbox .keywordarea .num {font-size:12px;font-family:arial;color:#ff0000;font-weight:bold;}
+.kbox .keywordarea .hit {font-size:12px;font-family:dotum;color:#999;}

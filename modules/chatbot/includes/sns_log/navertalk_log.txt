@@ -1,0 +1,726 @@
+{"events":[{"type":"message","replyToken":"b4a6ba5cfa7e4377a60cff2e74cfd9a7","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534722176480,"message":{"type":"text","id":"8444908706219","text":"줌팁이뭔가요"}}]}
+{"events":[{"type":"postback","replyToken":"93a6d17135cc44c3935e8816d3f5fbef","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534722269577,"postback":{"data":"hMenu-801"}}]}
+{"event":"send","user":"zNAbXyiPLCCreV9z8EnmeQ","textContent":{"text":"줌팁이 뭔가요/","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"zNAbXyiPLCCreV9z8EnmeQ","textContent":{"text":"줌팁이 뭔가요/","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"zNAbXyiPLCCreV9z8EnmeQ","textContent":{"text":"IT Platform Service","code":"hMenu-801","inputType":"button"},"options":{"mobile":false},"origin":"@11055"}
+{"event":"send","user":"zNAbXyiPLCCreV9z8EnmeQ","textContent":{"text":"IT Platform Service","code":"hMenu-801","inputType":"button"},"options":{"mobile":false},"origin":"@11055"}
+{
+  "events": [
+    {
+      "replyToken": "00000000000000000000000000000000",
+      "type": "message",
+      "timestamp": 1534847077860,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100001",
+        "type": "text",
+        "text": "Hello, world"
+      }
+    },
+    {
+      "replyToken": "ffffffffffffffffffffffffffffffff",
+      "type": "message",
+      "timestamp": 1534847077860,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100002",
+        "type": "sticker",
+        "packageId": "1",
+        "stickerId": "1"
+      }
+    }
+  ]
+}
+
+{
+  "events": [
+    {
+      "replyToken": "00000000000000000000000000000000",
+      "type": "message",
+      "timestamp": 1534847102617,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100001",
+        "type": "text",
+        "text": "Hello, world"
+      }
+    },
+    {
+      "replyToken": "ffffffffffffffffffffffffffffffff",
+      "type": "message",
+      "timestamp": 1534847102617,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100002",
+        "type": "sticker",
+        "packageId": "1",
+        "stickerId": "1"
+      }
+    }
+  ]
+}
+
+{
+  "events": [
+    {
+      "replyToken": "00000000000000000000000000000000",
+      "type": "message",
+      "timestamp": 1534847265258,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100001",
+        "type": "text",
+        "text": "Hello, world"
+      }
+    },
+    {
+      "replyToken": "ffffffffffffffffffffffffffffffff",
+      "type": "message",
+      "timestamp": 1534847265258,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100002",
+        "type": "sticker",
+        "packageId": "1",
+        "stickerId": "1"
+      }
+    }
+  ]
+}
+
+
+
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"안녕"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"안녕"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"리니지 청룡도 얼마야"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"비용문의"}
+
+{
+  "events": [
+    {
+      "replyToken": "00000000000000000000000000000000",
+      "type": "message",
+      "timestamp": 1534848150772,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100001",
+        "type": "text",
+        "text": "Hello, world"
+      }
+    },
+    {
+      "replyToken": "ffffffffffffffffffffffffffffffff",
+      "type": "message",
+      "timestamp": 1534848150772,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100002",
+        "type": "sticker",
+        "packageId": "1",
+        "stickerId": "1"
+      }
+    }
+  ]
+}
+
+{
+  "events": [
+    {
+      "replyToken": "00000000000000000000000000000000",
+      "type": "message",
+      "timestamp": 1534848176861,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100001",
+        "type": "text",
+        "text": "Hello, world"
+      }
+    },
+    {
+      "replyToken": "ffffffffffffffffffffffffffffffff",
+      "type": "message",
+      "timestamp": 1534848176861,
+      "source": {
+        "type": "user",
+        "userId": "Udeadbeefdeadbeefdeadbeefdeadbeef"
+      },
+      "message": {
+        "id": "100002",
+        "type": "sticker",
+        "packageId": "1",
+        "stickerId": "1"
+      }
+    }
+  ]
+}
+
+
+
+
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"카카오톡상담"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"리니지 청룡도 얼마야"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"3개 주문할게"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"결제하기"}
+{"events":[{"type":"follow","replyToken":"0393bc1c454942aca8fc5667e8839f4c","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534848364142}]}
+{"events":[{"type":"message","replyToken":"9c9f866da5774e43898c6866b129f026","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534848380448,"message":{"type":"text","id":"8452570914828","text":"리니지 청룡도 얼마야"}}]}
+{"events":[{"type":"message","replyToken":"3b6b8bc8d911420eac55ae4263302fcd","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534848442124,"message":{"type":"text","id":"8452575737764","text":"안녕"}}]}
+{"events":[{"type":"message","replyToken":"765d7b8cc1c24eea947f287054ab4346","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534848452294,"message":{"type":"text","id":"8452576532275","text":"리니지 청룡도 얼마야"}}]}
+
+{"object":"page","entry":[{"id":"273113573508094","time":1534850492361,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534850491837,"message":{"mid":"KPSkG0QZTrd1uq2gE-755aH22nnDoUGZw3PgMEedWb85WXG0zOUpoqL9-mzrfBN53UTGxQ0_IRnK1_bX_jUUbA","seq":13634,"text":"\uc548\ub155","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534850502438,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534850501829,"message":{"mid":"nEjudTp-DlD1jneyzkVSm6H22nnDoUGZw3PgMEedWb8adktE40uOmkVTgUUeY8cqA_B_FUxcvnG4VA5v3FasiA","seq":13636,"text":"\ub9ac\ub2c8\uc9c0 \uccad\ub8e1\ub3c4 \uc5bc\ub9c8\uc57c","nlp":{"entities":{}}}}]}]}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"리니지 청룡도 얼마야?","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"리니지 청룡도 얼마야?","inputType":"typing"},"options":{"mobile":false}}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"events":[{"type":"message","replyToken":"e849c4d754004dbc935732bbe292d767","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534850918766,"message":{"type":"text","id":"8452775924603","text":"안녕"}}]}
+{"events":[{"type":"message","replyToken":"a57f5fb3e81e47a3a86ac0dff457f61c","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534850926975,"message":{"type":"text","id":"8452776612439","text":"리니지 청룡도 얼마야"}}]}
+{"events":[{"type":"message","replyToken":"328f400710624de0a0fa703c81f29d32","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534851472086,"message":{"type":"text","id":"8452822120552","text":"안녕"}}]}
+{"events":[{"type":"message","replyToken":"0dc7bb0b074c4a23b6366ef74f63b9a3","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534851488416,"message":{"type":"text","id":"8452823504584","text":"리니지 청룡도 얼마야"}}]}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+
+{"events":[{"type":"message","replyToken":"0e3b6145b6534610bbbf56c707dfdbac","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534900803372,"message":{"type":"text","id":"8455338693019","text":" ㄴㄷㅂㄷㅂㄷ"}}]}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격 얼마야?","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격 얼마야?","inputType":"typing"},"options":{"mobile":false}}
+{"events":[{"type":"message","replyToken":"ead1450f674a4e6b8eaa20ccfcdaa243","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534922953070,"message":{"type":"text","id":"8456755532526","text":"안녕"}}]}
+{"events":[{"type":"message","replyToken":"fb780a1e69734186ba42d92fb978fec6","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534922962136,"message":{"type":"text","id":"8456756118873","text":"리니지 청룡도 얼마야"}}]}
+{"events":[{"type":"message","replyToken":"9987930c369a4f4180d4bcb10f7535d1","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534922974051,"message":{"type":"text","id":"8456756882307","text":"3개 주문할게"}}]}
+{"events":[{"type":"postback","replyToken":"216e7a9ed7f34e18b4d8e09a640cd3cd","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1534922978416,"postback":{"data":"hMenu-1267"}}]}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"3개 주문할게","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"3개 주문할게","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"하이","inputType":"typing"},"options":{"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"얼마야","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"얼마야","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"리니지 청룡도 주문할게","inputType":"typing"},"options":{"mobile":true}}
+{"object":"page","entry":[{"id":"273113573508094","time":1534924742670,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534924741692,"message":{"mid":"7Ms0_quwtW8a-JLhbKSk46H22nnDoUGZw3PgMEedWb8CGamCD5VNXqdy9R1NMlxFEBQc08u9-HHywI2EcbPnJA","seq":13650,"text":"\uc548\ub155","nlp":{"entities":{}}}}]}]}
+{"events":[{"type":"follow","replyToken":"d50b9c81b3b04457bd545bacb9e42995","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1534924758080}]}
+{"events":[{"type":"message","replyToken":"70458aab6f0040199b37a26c666eca48","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1534924771780,"message":{"type":"text","id":"8456874392624","text":"얼마야"}}]}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"events":[{"type":"message","replyToken":"8a93c5d7a7144d0fabff5af1193d360b","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1534924784833,"message":{"type":"text","id":"8456875268299","text":"리니지 청룡도 주문할게"}}]}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"irUBP73m0306-rw_1gELhw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":false}}
+{"object":"page","entry":[{"id":"273113573508094","time":1534924886969,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534924885837,"message":{"mid":"3NCWvHAHu-3CXpeMdZlIZ6H22nnDoUGZw3PgMEedWb_2Nc6Igc0Ifl_DnQmwIWmp7POwc3eyMA_9esEOWRFF2Q","seq":13651,"text":"\uc548\ub155","nlp":{"entities":{}}}}]}]}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"ㅇㅇ","inputType":"typing"},"options":{"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"리니지 청룡도 살게","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"리니지 청룡도 살게","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"5개줘","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"5개줘","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"2개살게","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"2개살게","inputType":"typing"},"options":{"mobile":true}}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가게"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"3개 주세요"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"결제하기"}
+{"events":[{"type":"message","replyToken":"31a91b9850694fd0ac429a040e150d19","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1534939830525,"message":{"type":"text","id":"8458052104512","text":"리니지 청룡도 살게"}}]}
+{"events":[{"type":"message","replyToken":"73ea36c27f0c465c8fa44657a3750637","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1534939837785,"message":{"type":"text","id":"8458052742131","text":"3개줘"}}]}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"리니지 청룡도 살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"두개살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"결제하기"}
+
+{"user_key":"Xd87GbolE7AA","type":"text","content":"안녕"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"리니지 청룡도 얼마야"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"3개 주문할게"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"결제하기"}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"3개 구매할게","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"3개 구매할게","inputType":"typing"},"options":{"mobile":true}}
+{"object":"page","entry":[{"id":"273113573508094","time":1534940293457,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534940290175,"message":{"mid":"7PomKXn7QobIkku9QTYJPqH22nnDoUGZw3PgMEedWb_pzdNYrp-6WD5F-ToXNdBOcldrkDYkOM7jCpOyKLiLPA","seq":13652,"text":"\ub9ac\ub2c8\uc9c0 \uccad\ub8e1\ub3c4 \uc5bc\ub9c8\uc57c","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534940307484,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534940306439,"message":{"mid":"PxoYDYAatVbrNm-nNxM-y6H22nnDoUGZw3PgMEedWb_MVzUFGOamAYFZMJwlOGlJnjR0cs4He1PUHrdokw4Aag","seq":13656,"text":"3\uac1c \uc8fc\ubb38\ud560\uac8c","nlp":{"entities":{"quantity":[{"confidence":1,"value":3,"type":"value","unit":"unnamed"}]}}}}]}]}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"3개 주세요"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"결제하기"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"3개 주세요"}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"결제하기"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"3개 주세요"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"결제하기"}
+
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"7개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"7개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"4개 주세요"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"3개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"2개 주세요"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"결제하기"}
+{"events":[{"type":"follow","replyToken":"acfee6dd99154ae4aa398279ee673c78","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534973968659}]}
+{"events":[{"type":"message","replyToken":"80c8e58f72504448a70ace68d8b7544c","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534973994373,"message":{"type":"text","id":"8459833390697","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"96d0196ac5b24d9ca7097bd2a18d4359","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974009637,"message":{"type":"text","id":"8459833815856","text":"5개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"b75d63829bb14525956b3128686da0a4","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974013106,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"665040bd2e4b45029de67a3fca96ba45","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974016718,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"f970b72d0e1c406b81c16c892f6bacfd","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974021444,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"26aaa9a43654429f992d61d91a9d3b9a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974024798,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"1db3fdea51b74e8e989d13116433a471","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974025422,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"143fe4fd43d8462fac80652ed4d6f4cf","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974027726,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"d84fc7c2183b40ca8bf509ee4d029c6c","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974027960,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"ea3a61f9814b48c39be009f0b80993d1","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974029908,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"f271df95603841668fa73c8747bc75f1","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974030417,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"1d484f8023d6414bb805cf94db5e4e32","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974030600,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"b7153989907d46249ed6340710f60993","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974031003,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"afda277518874eefbc6476ff5e41040a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974031052,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"bd62557c38734133b3564853c32a2fd7","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974031102,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"4e8da69063bb4768adcc80eed8691622","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974031246,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"21674992a03046c1a35677d865ae6534","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974031390,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"message","replyToken":"58304b5ab6eb491184e4713e188ba677","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974087347,"message":{"type":"text","id":"8459835992835","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"1579542941294f7cabb285de8abe367f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974104514,"message":{"type":"text","id":"8459836472766","text":"2 개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"fc5d22cd4b6047cfa13d4c2b5621ab23","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974107678,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"f61765bb19c74c57ba5aa791588c50c0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974109466,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"6b73013ffb514aae8febfef52e6041d8","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974110957,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"b1b6613ec5644cf3870f6db9240e98b4","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974111119,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"55b0f1c68a4545f4b47da71fcbf133bd","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974111284,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"b7684e25a38f4285916bd3efcf0f0b8c","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974114157,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"7a18c73a84b546aea3759b3d48cf805f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974114783,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"0389804619f543db8efb80426fdc1262","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974117192,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"6906d524864b4ea380b66ce8b39d5fb0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974117828,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"f49612e22c1c456cb73b9a2fb9d4b775","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974118377,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"cb7e15eb5aa84b46985779c4428ccbab","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534974122574,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"980ba9e411b04776b20de3aabda565c0","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534974321135,"postback":{"data":"hMenu-674"}}]}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"4개 주세요"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"3개 주세요"}
+
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"4 개 구매"}
+{"events":[{"type":"message","replyToken":"87a0951dd6f7424d8e219f6415c784c5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977401537,"message":{"type":"text","id":"8459941040342","text":"리니지 청룡도"}}]}
+{"events":[{"type":"message","replyToken":"f0ca5ec7c3fd460085b8f47bb09a8aed","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977423061,"message":{"type":"text","id":"8459941807901","text":"5개 구매"}}]}
+{"events":[{"type":"postback","replyToken":"bc34caf6f06645c8892c95af213368e7","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977426175,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"bb94207846f54664af796e7449a8ff02","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977428702,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"e07cb984b1a54eefbb553e73e53f3b58","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977429534,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"0440b3eca41842bfad2a7656d17c9aff","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977429883,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"d10fe71c882a403b9f76f068791f316e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977430120,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"3f627e47c4804ecbb32fc1869048228c","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977430483,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"7cd4a22d95b5460da75231e1177504c5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977468532,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"cb7dfcc0becf4b43b72e1b4907084f5d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977469202,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"6991cb80055d44cdb4d2858b65c447f7","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977469439,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"4e9f55ac8bef4a3a8ccdfac876959f4a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534977469760,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"2eb4a196fa8146ce95c96043a05d73fd","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534980681979,"postback":{"data":"hMenu-1267"}}]}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"2개 구매","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"2개 구매","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"events":[{"type":"message","replyToken":"860448bbd54a45c2b2c37c4eb2608de4","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534981301028,"message":{"type":"text","id":"8460102499886","text":"줌팁이뭔가요"}}]}
+{"events":[{"type":"postback","replyToken":"af1ce15f0b3c4206abacc31064d90f02","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534981334759,"postback":{"data":"hMenu-649"}}]}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가컥"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"5개 구매"}
+{"events":[{"type":"message","replyToken":"becc449dd3124acba180000d6d8e1a50","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981704370,"message":{"type":"text","id":"8460120875688","text":" 리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"a642f3a78ec646e1b04be0f7e29ae791","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981714573,"message":{"type":"text","id":"8460121339933","text":"2개 부매"}}]}
+{"events":[{"type":"postback","replyToken":"228d9c274f7e4c5aabc5792fa38ec807","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981717197,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"45c50bc9d1574ab38049814405e13fc9","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981724435,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"8b926b304ff7423cb6fcbb49fe372efc","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981725312,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"edcd2b94bd7e480280df58681d3b0799","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981725896,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"7564478bb5354e8ab8ac50e4df9d84b6","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981726626,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"7c0c8075987d42289fc4ea00860a97a0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981727087,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"8daaab4dc8e4454bb7c5b75fd5a83cb3","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981727266,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"685fcab88a074f30b0622b0e9240ebe3","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981727723,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"921c434b26874fedb5d7f3f10e18d71f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981727994,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"41fb70e7e8be4820a452c03b0c5089a0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534981728213,"postback":{"data":"hMenu-1267"}}]}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"4개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"4개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"events":[{"type":"message","replyToken":"f57119ed857e4ea5aa229248e6163b31","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982294022,"message":{"type":"text","id":"8460148038758","text":"리니지  청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"107112e33dd04eb7acf8484c86d8b329","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982308742,"message":{"type":"text","id":"8460148712299","text":"5개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"a54030dac8214a51949820015178e189","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982312335,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"af3c54070fac4faa8e40d560f802b2be","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982313670,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"2349810969ad4bee89725ade8bbd058f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982314314,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"4c890004db794a2ab80bef2dd68a513b","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982314460,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"1d9e30704b8344539d4fcc721a88987e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982314782,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"8178458cd61144a6b2e38b7749dbc813","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982315759,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"071cd83ef4d24df19e0059b039322fbd","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982317661,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"b5915d77e0ef4ff491dc5976dde29c33","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982318374,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"738e64e98e4f4003b48873e71b0f9fab","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982318516,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"e2940497046f4e469847a86067e492ca","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982321237,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"e276ab33266d4f68a16eebaf791825d2","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982322158,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"2f8376c90b6f4a9588c200fa08a91a0d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982323596,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"cba904d420fb4bfea3c0b9efbc868e54","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982323874,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"cf777cd14924407f94bbb8fb41219fa2","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982324546,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"7f79c18eecf84af891d542aa708c5db0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982346631,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"2373c2d7e0a9443a8bea16f3e0fa3800","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982347551,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"eb143ca7559a437fb1c75d77f14638ff","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982352751,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"4dbba2115ba440aba1d5ec084557b5c1","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982353052,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"335bc77962f242e895fc8fa8155bd8ef","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982353635,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"4bc58612ee084589ab11702bc75e4ea5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982357114,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"ee1c8ef3a8c24d80bd9f274f0745d274","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982357283,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"message","replyToken":"047ac4fb8d71466e99cbfdbb9fbf6893","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982507797,"message":{"type":"text","id":"8460158091451","text":"리니지 청령도 가격"}}]}
+{"events":[{"type":"message","replyToken":"288557d4d23e4af3a03cffaa78bf5d59","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982530530,"message":{"type":"text","id":"8460159165440","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"4cf3121188394d878e84ac459ac1aa4b","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982543105,"message":{"type":"text","id":"8460159762456","text":"2개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"b8e87b6fd2fe414fa1d43a5c9ba6e208","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982545664,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"0c25695bc1e34803a43e137bf2467b68","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982547292,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"46687ed6990245929f75ded2c3e5bd5e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982548963,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"c5a8c586c2774ebab2e7585bd8367aa6","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982549122,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"90c9300df2454dbeb217b0cdb348e1ec","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982549283,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"6bc918d5995f4e97a57c6eb9aa95620e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982549487,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"1b08f7dd7bd54decb884aac2fed88153","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982549659,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"53b9ac94315c4faaa1201bf268c2a8ff","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982549814,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"5d921b31594b448ea2e148c26f3a3baa","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982549959,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"288697376c07433a896ffba64786aa4b","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982551412,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"dafc5d09b4404e2e8d79669467bb305e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982551788,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"92ad5b52614e480cbcfeea7ab208e930","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982552036,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"809a290aed5d4f37a84d242bda6346eb","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982552775,"postback":{"data":"img-1432"}}]}
+{"events":[{"type":"postback","replyToken":"4243cfef9feb4177896f71276d637bba","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982554039,"postback":{"data":"img-1432"}}]}
+{"events":[{"type":"postback","replyToken":"b647ce6f2d514e1ab12b66317cdf083f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982554911,"postback":{"data":"img-1432"}}]}
+{"events":[{"type":"postback","replyToken":"20aca1a969c04716b8ea0d8e1ff13e98","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982557875,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"f5f3aeccb4e547cf95fe033bef7b544e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558405,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"bef2b90273bf4935833401c1626b3c87","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558510,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"f4c58d44645e4fc0b64941c3438b25c7","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558624,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"62ad41ca16b24f9598761065b2dff24f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558712,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"cda5576945984201b9d5fe558fbaea68","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558789,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"8ba1fde89fc6456aa72bad0f1f990894","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558841,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"179e536ef3c5442c922a9d757d0097f1","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558942,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"1554436780224967a717e0d98fec2476","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982558984,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"5d1397b2d1ca4543b7d324214a7e597e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982559080,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"fe0b3692f48045f7847ec58f0b4c51d0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982559137,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"6ed449629f614c86a84d01874f5ff39a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982559219,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"2d1f74bdc5ae48839a76b5251f8edaeb","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982559295,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"bf88bbfcec08424f85907e370a43e7ad","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982559519,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"9af526ebfe5844cc9b095c9db2db950d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982559884,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"921257731ac84167a14bbf608644f3c0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982560045,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"2fdb726a869c40ec89939f1f1eedcf19","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982560186,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"1011ebb98bac40aba3298e3b07a11b1d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982560342,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"c6dac9bd0f7c437db6686c50966968b0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982560846,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"f2e39657636f4247a585ae238d257c16","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982560850,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"a44c5eaa675541d8a24a64aaf3213121","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982561041,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"98c01369651341a9bf8fd3faf774f8db","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982561477,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"f497144a223c417690afc5d2a7e4c616","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982565479,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"77861ffaaa4d41b4b144b15f16ed3c46","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982565643,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"1b564c6be67a47c7beb96ad7b4a6e50b","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982566006,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"ed15a4ca18424aeb82bf0392e5d7d844","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982566321,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"afcac49a49eb4f0598485dadbb65de10","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982566531,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"ac2370f7be00431493a55f0793fdf29c","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982566846,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"365442dbb82a4620b36cbe7b6ac8d1f2","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982693128,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"39bd777b024248e283506815b79144d2","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982693546,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"400ef6191ec34169a8802c65fad68be8","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982693721,"postback":{"data":"hMenu-1267"}},{"type":"postback","replyToken":"995f4b803bb24f12bdd07a0d4b535d21","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982693935,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"da84640832094cfa9766fe9994d3ce1d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982694192,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"d7ca352c9e194b71b19c7c3612a23c62","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982694648,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"bd2c88fb609b417ca7a795a4d2eb084b","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982694866,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"375d076ebdd24683b5eb7bd3e9680b36","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534982710149,"postback":{"data":"hMenu-801"}}]}
+{"events":[{"type":"postback","replyToken":"acf5f49f238d47288ec87c7b2fee3179","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534982714323,"postback":{"data":"hMenu-801"}}]}
+{"events":[{"type":"postback","replyToken":"c380bccbd85c471597f944dca1054fbe","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534982719870,"postback":{"data":"hMenu-801"}}]}
+{"events":[{"type":"postback","replyToken":"a03868f2a706461f972f39f076ac4e2e","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534982734506,"postback":{"data":"hMenu-802"}}]}
+{"events":[{"type":"postback","replyToken":"e8ad87cbab694ffb9ea9225980ba31c5","source":{"userId":"Ue44ac835387cc052898eb31923790647","type":"user"},"timestamp":1534982748313,"postback":{"data":"hMenu-801"}}]}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"5개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"5개 주세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"events":[{"type":"message","replyToken":"572fdccd37164086ae6ab32e59eb2f18","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982904011,"message":{"type":"text","id":"8460176704024","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"42b864ccc5b04cc4b057aace627f5d9d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982913487,"message":{"type":"text","id":"8460177147595","text":"2개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"0a0e05eaac814a028aa29887e04a8595","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982916228,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"message","replyToken":"374856e00c944526821bcc1e56134e65","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982974391,"message":{"type":"text","id":"8460180016422","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"44a93c1c223a4749bf5ead572fb11889","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982986204,"message":{"type":"text","id":"8460180568658","text":"5개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"873c2f7855334ffc87fbe933c20376cf","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982988602,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"8e9e3e4bdc924b8aa1089224f6d51770","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982992834,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"c444bd2a0fad4e63b07a35c55af13a01","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982994403,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"0624869cf1af4227af7cd227642768e5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982994811,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"fdf4a8b6ec2f4d2893318f634e8f9989","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534982994999,"postback":{"data":"hMenu-1267"}}]}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"뭐하고 있어?","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"뭐하고 있어?","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"링크 버튼","code":"hMenu-1433","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"링크 버튼","code":"hMenu-1433","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"events":[{"type":"message","replyToken":"db715672aa934d4bbe667b8d0715a0b4","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983240565,"message":{"type":"text","id":"8460192626427","text":"뭐하고 있어?"}}]}
+{"events":[{"type":"postback","replyToken":"007fcce73efd4f158c9c265f67f73354","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983244025,"postback":{"data":"hMenu-1434"}}]}
+{"events":[{"type":"postback","replyToken":"58f69a080a864b6fa0efceb683910eae","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983247121,"postback":{"data":"hMenu-1433"}}]}
+{"events":[{"type":"message","replyToken":"bad2a686d442468db7233838c6771049","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983342244,"message":{"type":"text","id":"8460197474640","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"fc132f0d1d964b29a81bbc03ad50ccee","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983354710,"message":{"type":"text","id":"8460198080549","text":"4개 구매"}}]}
+{"events":[{"type":"postback","replyToken":"128adb0c34154bbc89cb7d4c5c90f0ba","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983357648,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"6ddeb7bb966c4e02953e011ac607513d","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983359891,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"b41b444a68d24c369e9499631645a67a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983362524,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"fe9403ff5a6e44bba3479610f86ff834","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983363392,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"fec37271293349e6825f0757716f8b28","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983364138,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"message","replyToken":"3da454f7a09b415a880dec555551b419","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983464758,"message":{"type":"text","id":"8460203365156","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"de234b95af254312a155148f0c1011d2","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983474162,"message":{"type":"text","id":"8460203812988","text":"2개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"0cd7963fd2414cd29c7b6f069341b242","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983477380,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"50b321dc27ce446fb9370be223998c7f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983479923,"postback":{"data":"hMenu-1267"}}]}
+
+
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"리니지 청룡도 살게"}
+{"events":[{"type":"message","replyToken":"9feb8f4e8a8848b4bb70d1a9102a8d92","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983518809,"message":{"type":"text","id":"8460205957991","text":"리니지 청룡도 가격"}}]}
+{"events":[{"type":"message","replyToken":"6047f01455ed4e0c800335fc03d8f17e","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983529570,"message":{"type":"text","id":"8460206473322","text":"2개 주세요"}}]}
+{"events":[{"type":"postback","replyToken":"bf9fad29928748d884e59a9eb9d81c88","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983533153,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"dd3b3c07b13c40dba45f5f03023a9ca5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983535074,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"b770720c0eac407bab95d74e7c8cfc17","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983536472,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"46cc4cad6a68470c83029cb76f89c30a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983538432,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"356873c862e24ff3b5d27f7be8dac29c","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983538840,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"143035c6ca15475abb23c365ea733e0f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539022,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"3f2aad21fd14404eac86237feb239dbe","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539176,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"71af1e07c7bd4f64aacef875c591e4d8","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539326,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"8da25bb6a1454822aba624a511fc8081","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539491,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"b73122285e6b4df1affa44b7f1b41343","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539618,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"1e68518327ee4d4d97ac750c54336aa8","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539769,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"a813737228864f1ba294f09e4e522c43","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983539920,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"7ed42a19de6c4122bde2a9c549f67aa4","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983540341,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"053e2dcd97e04f4ab1558ade7a17c5f1","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983540519,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"c2bcbede849a46c1b3c3d32786ad42d1","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983540671,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"800f36e8e084405883d1022e133e202a","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983540834,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"fe04bbd8c6fb47d4a0b32dd07d13aba4","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983540994,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"c29e33d8d6b843aea6c1afe3b94f21b5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983541326,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"4e869fa512ea47b1a0a240797332e4c0","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983541496,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"6e8f798e3a21430c87f696c1e65333eb","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983541674,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"57ce2a0a0fab4973935de95e02f7bda2","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983541869,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"1a0f0c0432ed41609410c3517852515f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983542521,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"341ccff400814525a71ad853c13516ec","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983545362,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"ffd930e511914ede8d0d8f24269bb657","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983547188,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"bb936161d7a9488f82ba559a41f89949","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983547481,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"fd02cf7381ea42a6b3f2db9aae8e4a78","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983550355,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"3aa51fc9ac654b0a8e1fae3c0610756f","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983551537,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"c00183adcb6f4cab903dafea602398a5","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983552541,"postback":{"data":"hMenu-1435"}}]}
+{"events":[{"type":"postback","replyToken":"a8c5567fa8994fd58aa367d8edc92599","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983552834,"postback":{"data":"hMenu-1435"}},{"type":"postback","replyToken":"f1aea0f4577449a3a8956acfb78a3b90","source":{"userId":"U207b97b01822bfb19adccb858a11f067","type":"user"},"timestamp":1534983552934,"postback":{"data":"hMenu-1435"}}]}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"7개살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"일곱개살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"다섯개 살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"5개살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"6개살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"여섯개살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"아홉개 살게"}
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"일곱개 살게"}
+{"object":"page","entry":[{"id":"273113573508094","time":1534983726897,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534983725385,"message":{"mid":"R0k8yvwcQDxvcKl3DmIo-6H22nnDoUGZw3PgMEedWb-drYMnb3egX8lNDpwgrfiPZZbmou5IYwai4OT6ZIXnTw","seq":13666,"text":"\ub9ac\ub2c8\uc9c0 \uccad\ub8e1\ub3c4 \uc5bc\ub9c8\uc57c","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534983740773,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1534983739906,"message":{"mid":"iQGvU8Ii5lo049Ee40YsaaH22nnDoUGZw3PgMEedWb9DSfSb5j1pHdMfpnIoLWE2feybrpGcUZtffvI8IrMGJg","seq":13673,"text":"3\uac1c \uc8fc\ubb38\ud560\uac8c","nlp":{"entities":{"quantity":[{"confidence":1,"value":3,"type":"value","unit":"unnamed"}]}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534983746592,"messaging":[{"recipient":{"id":"273113573508094"},"timestamp":1534983746592,"sender":{"id":"1820298601418337"},"postback":{"payload":"hMenu-1267","title":"\uacb0\uc81c\ud558\uae30"}}]}]}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"리니지 청룡도 얼마야","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"3개 주문할게","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"3개 주문할게","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":true},"origin":"@11090"}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":true},"origin":"@11090"}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":true}}
+
+{"user_key":"Xd87GbolE7AA","type":"text","content":"리니지 청룡도 얼마야"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"3개 주문할게"}
+
+{"user_key":"UkvQ6qEgcOWH","type":"text","content":"리니지 청룡도 살게"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"청룡도"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"청룡도 사려구"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"청룡도 산다구"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지 청룡도"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"팔게요"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"5개 얼마?"}
+
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"2pSFEW97bXTcuBeA0sWd-Q","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지 망토"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"리니지 청룡도 가격","inputType":"typing"},"options":{"mobile":false}}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지 아이템 뭐가 있나"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"6개 구매","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"6개 구매","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"event":"send","user":"2pSFEW97bXTcuBeA0sWd-Q","textContent":{"text":"결제하기","code":"hMenu-1267","inputType":"button"},"options":{"mobile":false},"origin":"@11090"}
+{"object":"page","entry":[{"id":"273113573508094","time":1534991122836,"messaging":[{"sender":{"id":"1620735251370399"},"recipient":{"id":"273113573508094"},"timestamp":1534991121823,"message":{"mid":"sNX_tAePwQ2DzDGd_U-xNsGeJoeoLhXoLSZ7ZZRO094NjJ9AcfPcMlW-FNBOIeo0mmvMmpuuaQGw3UTXGlGx8g","seq":875995,"text":"\uc548\ub155","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534991552937,"messaging":[{"sender":{"id":"1620735251370399"},"recipient":{"id":"273113573508094"},"timestamp":1534991552018,"message":{"mid":"foQmg1Kwa5GbaHlkhWmq58GeJoeoLhXoLSZ7ZZRO095rQDPFIBXoKebcPldvwyaPBWm3Vr3sjW92b-JNp0UKLw","seq":876025,"text":"\ub9ac\ub2c8\uc9c0 \uccad\ub8e1\ub3c4 \uc5bc\ub9c8\uc57c?","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534991741568,"messaging":[{"sender":{"id":"1620735251370399"},"recipient":{"id":"273113573508094"},"timestamp":1534991740657,"message":{"mid":"dcCN4CMl95CuUUeIxeBxg8GeJoeoLhXoLSZ7ZZRO094kB7gm53NE3N02GmWOa7IFm7Olnxi1bic3LXCNu3r-CA","seq":876052,"text":"3\uac1c \uc8fc\ubb38\ud560\uac8c","nlp":{"entities":{"quantity":[{"confidence":1,"value":3,"type":"value","unit":"unnamed"}]}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1534991771829,"messaging":[{"recipient":{"id":"273113573508094"},"timestamp":1534991771829,"sender":{"id":"1620735251370399"},"postback":{"payload":"hMenu-1267","title":"\uacb0\uc81c\ud558\uae30"}}]}]}
+
+
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"할줄아는게 머야"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"말해바"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"아이템"}
+
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격 "}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"일곱개 주세요"}
+
+{"object":"page","entry":[{"id":"2123017287967642","time":1535046533190,"messaging":[{"sender":{"id":"2278849685490953"},"recipient":{"id":"2123017287967642"},"timestamp":1535046532603,"message":{"mid":"6osLd_eoqPFOcUhlaq_lFgm8rmgB7IVzsy6zkNwOyRSYccmSrwXK-0ZUj9XAo5Bhja2O8cW5DZV18ZOa6Clhhw","seq":8519,"text":"\uc90c\ud301\uc774\ubb54\uac00\uc694"}}]}]}
+
+
+
+
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"청룡조"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"청룡도"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지 청룡도"}
+
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"?"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"무어"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"무엇"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"청룡도"}
+{"user_key":"H6SC1Q2FWWor","type":"text","content":"리니지"}
+
+
+
+{"user_key":"dMKKL2x27rcb","type":"text","content":"롤 아이템"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"롤 아이템"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"청룡도"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"가시갑"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"롤 아이템"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"Lol 아이템"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"리그오브레전드"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"게임"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"가능한게임"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"거래가능"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"목록"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"사고싶어"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"그거말고"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"청룡도"}
+
+
+{"user_key":"dMKKL2x27rcb","type":"text","content":"오버워치"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"배틀그라운드"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"아이템"}
+{"user_key":"dMKKL2x27rcb","type":"text","content":"청룡도 사고싶어"}
+
+
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"안녕"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"리니지 청룡도 얼마야"}
+{"user_key":"Pt-EwNBLrU1p","type":"text","content":"2개 주문할게"}
+{"events":[{"type":"message","replyToken":"6fc524bf8bda4728aa4d5fcce0d5e82d","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1538368906914,"message":{"type":"text","id":"8652498751542","text":"안녕"}}]}
+{"events":[{"type":"message","replyToken":"40d9515ffa9142eaa056acad8a593b95","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1538368915144,"message":{"type":"text","id":"8652499307990","text":"리니지 청룡도 얼마야"}}]}
+{"events":[{"type":"message","replyToken":"b596a4dd91a6422bb1f5193bcfae532b","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1538368926984,"message":{"type":"text","id":"8652500101853","text":"2개 주문할게"}}]}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"irUBP73m0306-rw_1gELhw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"mobile":false}}
+{"event":"open","user":"OcIDKzO1Shs7LVHkQe_lew","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"OcIDKzO1Shs7LVHkQe_lew","options":{"inflow":"none","referer":"","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"object":"page","entry":[{"id":"273113573508094","time":1538369239028,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1538369237995,"message":{"mid":"IHkS3cZbMhP-pT-2oZu6Q6H22nnDoUGZw3PgMEedWb8VuKu85WGXFHQ4bXDt31gz03REzhWy1PBF5N7NQ1zp0A","seq":13982,"text":"\uc548\ub155","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1538369299978,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1538369299223,"message":{"mid":"7C0K5jcVhjeIJ2plEZfVGKH22nnDoUGZw3PgMEedWb-MDTt6KTyw2Lf66t47dLQ3T6sCiVJJUGt8Rmtc5eBeRQ","seq":13990,"text":"\ub9ac\ub2c8\uc9c0 \uccad\ub8e1\ub3c4 \uc5bc\ub9c8\uc57c","nlp":{"entities":{}}}}]}]}
+{"object":"page","entry":[{"id":"273113573508094","time":1538369314617,"messaging":[{"sender":{"id":"1820298601418337"},"recipient":{"id":"273113573508094"},"timestamp":1538369313966,"message":{"mid":"GfeUSY0nTUuqIBP95nOFk6H22nnDoUGZw3PgMEedWb9TBcK88F3PNy6VJIuueqT6w0kKGaGBohaiEIcDbGbjwA","seq":13996,"text":"2\uac1c \uc8fc\ubb38\ud560\uac8c","nlp":{"entities":{"quantity":[{"confidence":1,"value":2,"type":"value","unit":"unnamed"}]}}}}]}]}
+{"event":"open","user":"OcIDKzO1Shs7LVHkQe_lew","options":{"inflow":"button","referer":"https://nid.naver.com/login/sso/finalize.nhn?url=https%3A%2F%2Ftalk.naver.com%2Fct%2Fwcdiyn%3Fnidref%23nafullscreen&sid=sZG7bRz2YVSEyJ00&svctype=262144","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"OcIDKzO1Shs7LVHkQe_lew","options":{"inflow":"button","referer":"https://nid.naver.com/login/sso/finalize.nhn?url=https%3A%2F%2Ftalk.naver.com%2Fct%2Fwcdiyn%3Fnidref%23nafullscreen&sid=sZG7bRz2YVSEyJ00&svctype=262144","friend":false,"under14":false,"under19":false,"mobile":true}}
+
+
+{"events":[{"type":"postback","replyToken":"e36364de6bf34073a6a2cd55d7db312f","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1538379559376,"postback":{"data":"hMenu-1267"}}]}
+{"events":[{"type":"postback","replyToken":"62874e5861454478bebe0aa3b7400408","source":{"userId":"Ub61623f5ed908ee5a4b332550e863a77","type":"user"},"timestamp":1538379565844,"postback":{"data":"hMenu-1267"}}]}
+
+
+
+{"user_key":"JVUcKgkAbhwg","type":"text","content":"님"}
+{"user_key":"JVUcKgkAbhwg","type":"text","content":"그"}
+{"user_key":"JVUcKgkAbhwg","type":"text","content":"아이템사게요"}
+{"user_key":"JVUcKgkAbhwg","type":"text","content":"롤아이템요"}
+{"event":"open","user":"OcIDKzO1Shs7LVHkQe_lew","options":{"inflow":"button","referer":"https://nid.naver.com/login/sso/finalize.nhn?url=https%3A%2F%2Ftalk.naver.com%2Fct%2Fwcdiyn%3Fnidref%23nafullscreen&sid=sZG7bRz2YVSEyJ00&svctype=262144","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"OcIDKzO1Shs7LVHkQe_lew","options":{"inflow":"button","referer":"https://nid.naver.com/login/sso/finalize.nhn?url=https%3A%2F%2Ftalk.naver.com%2Fct%2Fwcdiyn%3Fnidref%23nafullscreen&sid=sZG7bRz2YVSEyJ00&svctype=262144","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"events":[{"type":"postback","replyToken":"439402849795420a9ac5031115c55d2f","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1542879185042,"postback":{"data":"hMenu-1267"}}],"destination":"U2291080157189887d8c7fe080b4cd9be"}
+{"event":"open","user":"4kr1QwPviIvR611JLzfBXw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":true}}
+{"event":"open","user":"4kr1QwPviIvR611JLzfBXw","options":{"inflow":"list","referer":"https://talk.naver.com/","friend":false,"under14":false,"under19":false,"mobile":true}}
+
+{"user_key":"DSw9t3OANtN2","type":"text","content":"안녕"}
+{"user_key":"DSw9t3OANtN2","type":"text","content":"클래시로얄 계정 팔고싶어"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"리니지 청룡도 가격"}
+{"user_key":"E7t5CUQx84Wq","type":"text","content":"5개 주세요"}
+
+
+
+
+
+{"events":[{"type":"message","replyToken":"e5eb9bf765bb49e2892695d8180fe9f5","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1546078794043,"message":{"type":"text","id":"9091194691006","text":"리니지"}}],"destination":"U2291080157189887d8c7fe080b4cd9be"}
+{"events":[{"type":"message","replyToken":"c17f4ea49bcb47ff8a98870addbdaf94","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1546078805805,"message":{"type":"text","id":"9091195543688","text":"구매할게"}}],"destination":"U2291080157189887d8c7fe080b4cd9be"}
+{"events":[{"type":"postback","replyToken":"11d0c64524cd4019aa483497260f6a54","source":{"userId":"U7ff4ca4d70ccb73566ee2b174e19fd55","type":"user"},"timestamp":1546078809157,"postback":{"data":"hMenu-4817"}}],"destination":"U2291080157189887d8c7fe080b4cd9be"}
+
+
+{"user_key":"Xd87GbolE7AA","type":"text","content":"리니지얼마야"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"1개줘"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"청룡도 얼마야"}
+{"user_key":"Xd87GbolE7AA","type":"text","content":"1개 주문할게"}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"unreadMessage":false,"mobile":false}}
+{"event":"open","user":"VtpVNLPQFq3Eb0jxj4DKsw","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"unreadMessage":false,"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕하세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"send","user":"VtpVNLPQFq3Eb0jxj4DKsw","textContent":{"text":"안녕하세요","inputType":"typing"},"options":{"mobile":false}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"unreadMessage":false,"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"unreadMessage":false,"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"하이","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"하이","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":true}}
+{"event":"send","user":"Rf_dZDUujbjnb9cfb1apSA","textContent":{"text":"안녕","inputType":"typing"},"options":{"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"unreadMessage":false,"mobile":true}}
+{"event":"open","user":"Rf_dZDUujbjnb9cfb1apSA","options":{"inflow":"none","friend":false,"under14":false,"under19":false,"unreadMessage":false,"mobile":true}}

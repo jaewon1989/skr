@@ -1,0 +1,82 @@
+
+<div id="langbox-wrap" style="right: 60px;padding-top:2px;">
+    <div class="langbox">
+        <span class="flag-wrap" >
+            <img id="top_lang_img2" src="{$g_s}/_core/images/flag/ko1.png" data-role="toggle-langsel">
+        </span>
+
+        <div class="langsel" id="langsel2">
+            <ul>
+                <li>
+                    <a href="#googtrans(pl|ko)" data-role="trans-act" data-lang="ko">
+                       <img class="langimg" src="{$g_s}/_core/images/flag/ko2.png" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(pl|en)" data-role="trans-act" data-lang="en">
+                       <img class="langimg" src="{$g_s}/_core/images/flag/en2.png" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(pl|zh-CN)" data-role="trans-act" data-lang="zh">
+                        <img class="langimg" src="{$g_s}/_core/images/flag/zh2.png" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#googtrans(pl|ja)" data-role="trans-act" data-lang="ja">
+                        <img class="langimg" src="{$g_s}/_core/images/flag/ja2.png" alt=""> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+// var toggle_btn = $('[data-toggling]'); // 토글링 할 형제 레이어를 갖고있는 버튼
+// var translate_btn = $('[data-translang]'); // 번역할 국가 버튼
+
+// 번역 버튼 클릭 
+$('[data-role="trans-act"]').on('click',function(){
+   var location = $(this).attr('href'); 
+   var lang = $(this).data('lang');
+   sessionStorage.setItem("now_lang",lang);
+   
+   window.location=location;
+   window.location.reload();
+ 
+});
+
+// 토글링
+$('[data-role="toggle-langsel"]').on('click', function(){
+   $('#langsel2').toggle();
+})
+
+
+// 번역시 국가 국기 변경
+var lang_check2_interval = '';
+
+function lang_check2_action(){
+   var now_lang = sessionStorage.getItem("now_lang")?sessionStorage.getItem("now_lang"):'ko';
+   var src = rooturl+'/_core/images/flag/'+now_lang+'1.png';
+   $('#top_lang_img2').attr("src",src);
+   // if(now_lang=='ko') $('.cb-box-shadow').css("top","0px");
+   // else $('.cb-box-shadow').css("top","40px"); 
+   
+}
+
+function lang_check2(){
+    setTimeout(lang_check2_action,500); 
+}
+
+// $(document).ready(function(){
+//    lang_check2();
+// });
+function googleTranslateElementInit() {
+ new google.translate.TranslateElement({
+ pageLanguage: 'ko',autoDisplay: false 
+ }, 'google_translate_element');
+ lang_check2();
+}
+
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

@@ -1,0 +1,857 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.dm-body {
+    margin: 0;
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+.dm-actual-body {
+    width: 100%;
+}
+
+.dm-takeup-space {
+    width: 100%;
+    display: table;
+}
+
+.dm-icon, .dm-button, .dm-img {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.dm-ul {
+    display: table;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dm-ul li {
+    float: left;
+}
+
+.dm-h1, .dm-h2, .dm-h3, .dm-h4, .dm-h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.dm-p {
+    margin: 0;
+}
+
+.dm-ft-default {    
+    color: #666666;
+}
+
+.dm-ft-pink {
+    color: #ff0066;
+}
+
+.dm-ft-blue {
+    color: #606dbb;
+}
+
+.dm-ft-gray {
+    color: #ccc;
+}
+
+.dm-border-color {
+    border-color: #d5d5d5!important;
+}
+
+.dm-left, .dm-center, .dm-right {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dm-bold {
+    font-weight: bold;
+}
+
+.dm-a, .dm-a:hover, dm-a:visited {
+    text-decoration: none;    
+}
+
+.dm-icon-hide .dm-icon {
+    display: none;
+}
+
+.dm-img-menu01 {
+    width: 111px;
+    height: 41px;
+    background: url("../_images/01/01/menu-01.png") no-repeat center center;
+}
+
+.dm-img-menu01:hover, .dm-img-menu01.selected {
+    width: 111px;
+    height: 41px;
+    background: url("../_images/01/01/menu-01-over.png") no-repeat center center;
+}
+
+.dm-img-menu02 {
+    width: 116px;
+    height: 41px;
+    background: url("../_images/01/01/menu-02.png") no-repeat center center;
+}
+
+.dm-img-menu02:hover, .dm-img-menu02.selected {
+    width: 116px;
+    height: 41px;
+    background: url("../_images/01/01/menu-02-over.png") no-repeat center center;
+}
+
+.dm-img-menu03 {
+    width: 157px;
+    height: 41px;
+    background: url("../_images/01/01/menu-03.png") no-repeat center center;
+}
+
+.dm-img-menu03:hover, .dm-img-menu03.selected {
+    width: 157px;
+    height: 41px;
+    background: url("../_images/01/01/menu-03-over.png") no-repeat center center;
+}
+
+.dm-img-menu04 {
+    width: 121px;
+    height: 41px;
+    background: url("../_images/01/01/menu-04.png") no-repeat center center;
+}
+
+.dm-img-menu04:hover, .dm-img-menu04.selected {
+    width: 121px;
+    height: 41px;
+    background: url("../_images/01/01/menu-04-over.png") no-repeat center center;
+}
+
+.dm-img-sample01 {
+    width: 961px;
+    height: 962px;
+    background: url("../_images/01/02/b_img.png") no-repeat center center;
+}
+
+.dm-img-sample02 {
+    width: 94px;
+    height: 94px;
+    background: url("../_images/01/02/s_thum.png") no-repeat center center;
+}
+
+.dm-img-market {
+    width: 122px;
+    height: 26px;
+    background: url("../_images/01/02/bottom_market.png") no-repeat center center;
+}
+
+.dm-img-bg {
+    width: 1080px;
+    height: 299px;
+    background: url("../_images/01/02/t_img.png") no-repeat center center;
+}
+
+.dm-img-logo {
+    width: 215px;
+    height: 42px;
+    background: url("../_images/01/02/t_logo.png") no-repeat center center;
+}
+
+.dm-list-sample01 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img01.png") no-repeat center center;
+}
+
+.dm-list-sample02 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img02.png") no-repeat center center;
+}
+
+.dm-list-sample03 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img03.png") no-repeat center center;
+}
+
+.dm-list-sample01 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img01.png") no-repeat center center;
+}
+
+.dm-list-sample04 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img04.png") no-repeat center center;
+}
+
+.dm-list-sample05 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img05.png") no-repeat center center;
+}
+
+.dm-list-sample06 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img06.png") no-repeat center center;
+}
+
+.dm-list-sample07 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img07.png") no-repeat center center;
+}
+
+.dm-list-sample08 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img08.png") no-repeat center center;
+}
+
+.dm-list-sample09 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img09.png") no-repeat center center;
+}
+
+.dm-list-sample10 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img10.png") no-repeat center center;
+}
+
+.dm-list-sample11 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img11.png") no-repeat center center;
+}
+
+.dm-list-sample12 {
+    width: 359px;
+    height: 359px;
+    background: url("../_images/01/03/list_img12.png") no-repeat center center;
+}
+
+.dm-img-marketbanner {
+    width: 135px;
+    height: 380px;
+    background: url("../_images/04/r_banner_market.png") no-repeat center center;
+}
+
+.dm-img-playbanner {
+    width: 135px;
+    height: 380px;
+    background: url("../_images/04/r_banner_play.png") no-repeat center center;
+}
+
+.dm-icon-defaultuser {
+    width: 104px;
+    height: 104px;
+    background: url("../_images/06/04/letter_profileTalk.png") no-repeat center center;
+}
+
+.dm-icon-mysingleview {
+    width: 101px;
+    height: 97px;
+    background: url("../_images/011/02/myPage_01.png") no-repeat center center;
+}
+
+.dm-icon-mygoview {
+    width: 101px;
+    height: 97px;
+    background: url("../_images/011/02/myPage_02.png") no-repeat center center;
+}
+
+.dm-icon-justmark {
+    width: 19px;
+    height: 33px;
+    background: url("../_images/011/04/myPage_style_arrow.png") no-repeat center center;  
+}
+
+.dm-icon-circlehashtag {
+    width: 63px;
+    height: 63px;
+    background: url("../_images/010/05/upload_sharp.png") no-repeat center center;    
+}
+
+.dm-icon-switchblack {
+    width: 166px;
+    height: 65px;
+    background: url("../_images/09/setting_on_01.png") no-repeat center center;
+}
+
+.dm-icon-switchblack-off {
+    width: 166px;
+    height: 65px;
+    background: url("../_images/010/05/upload_off.png") no-repeat center center;    
+}
+
+.dm-icon-switchpink {
+    width: 166px;
+    height: 65px;
+    background: url("../_images/09/setting_on_02.png") no-repeat center center;
+}
+
+.dm-icon-switchblue {
+    width: 166px;
+    height: 65px;
+    background: url("../_images/09/setting_on_03.png") no-repeat center center;
+}
+
+.dm-icon-switchgray {
+    width: 166px;
+    height: 65px;
+    background: url("../_images/09/setting_off.png") no-repeat center center;
+}
+
+.dm-icon-camera {
+    width: 79px;
+    height: 71px;
+    background: url("../_images/06/04/letter_cameraTalk.png") no-repeat center center;
+}
+
+.dm-icon-heart {
+    width: 73px;
+    height: 63px;
+    background: url("../_images/06/04/letter_goodTalk.png") no-repeat center center;
+}
+
+.dm-icon-circlecheck {
+    width: 64px;
+    height: 64px;
+    background: url("../_images/06/03/letter_check.png") no-repeat center center;
+}
+
+.selected .dm-icon-circlecheck {
+    width: 64px;
+    height: 64px;
+    background: url("../_images/06/03/letter_check_on.png") no-repeat center center;
+}
+
+.dm-icon-msg-plus {
+    width: 125px;
+    height: 81px;
+    background: url("../_images/06/02/notice_letter.png") no-repeat center center;
+}
+
+.dm-icon-personplus-blue {
+    width: 125px;
+    height: 81px;
+    background: url("../_images/06/01/notice_friend_follow.png") no-repeat center center;
+}
+
+.dm-icon-personplus-blueactive {
+    width: 125px;
+    height: 81px;
+    background: url("../_images/06/01/notice_friend_following.png") no-repeat center center;
+}
+
+.dm-icon-downward {
+    width: 19px;
+    height: 33px;
+    transform: rotate(90deg);
+    background: url("../_images/011/04/myPage_style_arrow.png") no-repeat center center;
+}
+
+.dm-icon-prev {
+    width: 30px;
+    height: 30px;
+    background: url("../_images/00/icon_prev.png") no-repeat center center;
+}
+.dm-icon-prev2 {
+    width: 30px;
+    height: 30px;
+    background: url("../_images/00/back2.png") no-repeat center center;
+}
+
+.dm-icon-next {
+    width: 40px;
+    height: 40px;
+    background: url("../_images/00/icon_next.png") no-repeat center center;
+}
+
+.dm-icon-checkbullet {
+    width: 60px;
+    height: 60px;
+    background: url("../_images/01/01/check_bullet.png") no-repeat center center;
+}
+
+.dm-icon-whitecheck {
+    width: 37px;
+    height: 29px;
+    background: url("../_images/01/01/icon_check.png") no-repeat center center;
+}
+
+.dm-icon-filter {
+    width: 55px;
+    height: 58px;
+    background: url("../_images/01/01/icon_filter.png") no-repeat center center;
+}
+
+.dm-icon-prevlong {
+    width: 57px;
+    height: 39px;
+    background: url("../_images/01/01/t_prev_btn.png") no-repeat center center;
+}
+
+.dm-icon-share {
+    width: 65px;
+    height: 54px;
+    background: url("../_images/011/02/myPage_share.png") no-repeat center center;
+}
+
+.dm-icon-configthicker {
+    width: 61px;
+    height: 58px;
+    background: url("../_images/011/02/myPage_setting.png") no-repeat center center;
+}
+
+.dm-icon-chatballoon {
+
+}
+
+.dm-icon-filtergray {
+    width: 96px;
+    height: 96px;
+    background: url("../_images/01/02/b_filter.png") no-repeat center center;
+}
+
+.dm-icon-purplerect {
+    width: 100px;
+    height: 97px;
+    background: url("../_images/01/02/b01.png") no-repeat center center;
+}
+
+.dm-icon-gostyle {
+    width: 97px;
+    height: 97px;
+    background: url("../_images/01/02/b02.png") no-repeat center center;
+}
+
+.dm-icon-homeblack {
+    width: 84px;
+    height: 75px;
+    background: url("../_images/01/02/bottom_icon01.png") no-repeat center center;
+}
+
+.dm-icon-homegray {
+    width: 86px;
+    height: 86px;
+    background: url("../_images/01/02/home-gray.png") no-repeat center center;
+}
+
+.dm-icon-listgray {
+    width: 83px;
+    height: 77px;
+    background: url("../_images/01/02/bottom_icon02.png") no-repeat center center;
+}
+
+.dm-icon-listblack {
+    width: 86px;
+    height: 86px;
+    background: url("../_images/01/02/list-black.png") no-repeat center center;
+}
+
+.dm-icon-lens {
+    width: 83px;
+    height: 83px;
+    background: url("../_images/01/02/bottom_icon03.png") no-repeat center center;
+}
+
+.dm-icon-persongray {
+    width: 55px;
+    height: 77px;
+    background: url("../_images/01/02/bottom_icon04.png") no-repeat center center;
+}
+
+.dm-icon-personblack {
+    width: 86px;
+    height: 86px;
+    background: url("../_images/01/02/person-black.png") no-repeat center center;
+}
+
+.dm-icon-commentgray {
+    width: 74px;
+    height: 61px;
+    background: url("../_images/01/02/icon_comment.png") no-repeat center center;
+}
+
+.dm-icon-dotgray {
+    width: 12px;
+    height: 13px;
+    background: url("../_images/01/02/icon_dot.png") no-repeat center center;
+}
+
+.dm-icon-heart.selected {
+    width: 65px;
+    height: 55px;
+    background: url("../_images/01/02/icon_hear_on.png") no-repeat center center;
+}
+
+.dm-icon-heartfilled {
+    width: 33px;
+    height: 27px;
+    background: url("../_images/011/03/myPage_sgood.png") no-repeat center center;    
+}
+
+.dm-icon-heart {
+    width: 66px;
+    height: 56px;
+    background: url("../_images/01/02/icon_heart.png") no-repeat center center;
+}
+
+.dm-icon-circleplus {
+    width: 79px;
+    height: 79px;
+    background: url("../_images/011/05/myPage_plus.png") no-repeat center center;    
+}
+
+.dm-icon-circlepink {
+    width: 97px;
+    height: 97px;
+    background: url("../_images/011/04/myPage_mBig.png") no-repeat center center;    
+}
+
+.dm-icon-circlem {
+    width: 60px;
+    height: 60px;
+    background: url("../_images/01/02/icon_m.png") no-repeat center center;
+}
+
+.dm-icon-sharegray {
+    width: 61px;
+    height: 48px;
+    background: url("../_images/01/02/icon_share.png") no-repeat center center;
+}
+
+.dm-icon-allmenu {
+    width: 42px;
+    height: 35px;
+    background: url("../_images/01/02/t_all_memu_icon.png") no-repeat center center;
+}
+
+.dm-icon-crown {
+    width: 35px;
+    height: 36px;
+    background: url("../_images/01/02/t_icon_crown.png") no-repeat center center;
+}
+
+.dm-icon-n {
+    width: 25px;
+    height: 30px;
+    background: url("../_images/01/02/t_icon_n.png") no-repeat center center;
+}
+
+.dm-icon-checkwhite {
+    width: 37px;
+    height: 29px;
+    background: url("../_images/01/01/icon_check.png") no-repeat center center;
+}
+
+.dm-icon-star {
+    width: 36px;
+    height: 34px;
+    background: url("../_images/01/02/t_icon_star.png") no-repeat center center;
+}
+
+.dm-icon-star {
+    width: 37px;
+    height: 34px;
+    background: url("../_images/01/02/t_icon_video.png") no-repeat center center;
+}
+
+.dm-icon-goldcoin {
+    width: 54px;
+    height: 41px;
+    background: url("../_images/01/02/t_money_icon.png") no-repeat center center;
+}
+
+.dm-icon-search {
+    width: 48px;
+    height: 48px;
+    background: url("../_images/01/02/t_search_icon.png") no-repeat center center;
+}
+
+.dm-icon-playwhite {
+    width: 56px;
+    height: 48px;
+    background: url("../_images/01/03/play_icon.png") no-repeat center center;
+}
+
+.dm-icon-crown01 {
+    width: 113px;
+    height: 100px;
+    background: url("../_images/01/04/crown_num1.png") no-repeat center center;
+}
+
+.dm-icon-crown02 {
+    width: 113px;
+    height: 100px;
+    background: url("../_images/01/04/crown_num2.png") no-repeat center center;
+}
+
+.dm-icon-crown03 {
+    width: 113px;
+    height: 100px;
+    background: url("../_images/01/04/crown_num3.png") no-repeat center center;
+}
+
+.dm-icon-crown04 {
+    width: 79px;
+    height: 97px;
+    background: url("../_images/01/04/lanking_4.png") no-repeat center center;
+}
+
+.dm-icon-crown05 {
+    width: 79px;
+    height: 97px;
+    background: url("../_images/01/04/lanking_5.png") no-repeat center center;
+}
+
+.dm-icon-w {
+    width: 111px;
+    height: 97px;
+    background: url("../_images/01/04/fashion_tb01.png") no-repeat center center;
+}
+
+.dm-icon-m {
+    width: 100px;
+    height: 97px;
+    background: url("../_images/01/04/fashion_tb02.png") no-repeat center center;
+}
+
+.dm-icon-youtube {
+    width: 58px;
+    height: 58px;
+    background: url("../_images/01/04/icon-youtu.png") no-repeat center center;
+}
+
+.dm-icon-like {
+    width: 94px;
+    height: 141px;
+    background: url("../_images/01/04/good_icon.png") no-repeat center center;
+}
+
+.dm-icon-nextblue {
+    width: 17px;
+    height: 33px;
+    background: url("../_images/02/01/friend_arrow_r.png") no-repeat center center;
+}
+
+.dm-icon-searchwhite {
+    width: 48px;
+    height: 48px;
+    background: url("../_images/02/01/t_search_icon01.png") no-repeat center center;
+}
+
+.dm-icon-personplus {
+    width: 62px;
+    height: 39px;
+    background: url("../_images/02/01/t_search_icon02.png") no-repeat center center;
+}
+
+.dm-icon-blackcrown {
+    width: 66px;
+    height: 66px;
+    background: url("../_images/02/02/blakc_crown_icon.png") no-repeat center center;
+}
+
+.dm-icon-personblue {
+    width: 32px;
+    height: 43px;
+    background: url("../_images/02/02/people_icon_on.png") no-repeat center center;
+}
+
+.dm-icon-hashtag {
+    width: 32px;
+    height: 43px;
+    background: url("../_images/02/02/tag_icon.png") no-repeat center center;
+}
+
+.dm-icon-video {
+    width: 32px;
+    height: 43px;
+    background: url("../_images/02/02/grey_video_icon.png") no-repeat center center;
+}
+
+.dm-icon-crowngold {
+    width: 66px;
+    height: 66px;
+    background: url("../_images/02/02/blakc_crown_icon.png") no-repeat center center;
+}
+
+.dm-icon-checkbox {
+    width: 56px;
+    height: 47px;
+    background: url("../_images/04/list_icon01.png") no-repeat center center;
+}
+
+.dm-icon-bell {
+    width: 50px;
+    height: 50px;
+    background: url("../_images/04/list_icon02.png") no-repeat center center;
+}
+
+.dm-icon-mail {
+    width: 52px;
+    height: 38px;
+    background: url("../_images/04/list_icon03.png") no-repeat center center;
+}
+
+.dm-icon-voc {
+    width: 61px;
+    height: 49px;
+    background: url("../_images/04/list_icon04.png") no-repeat center center;
+}
+
+.dm-icon-config {
+    width: 52px;
+    height: 49px;
+    background: url("../_images/04/list_icon05.png") no-repeat center center;
+}
+
+.dm-icon-me {
+    width: 44px;
+    height: 63px;
+    background: url("../_images/04/mypage_t_icon01.png") no-repeat center center;
+}
+
+.dm-icon-delivery {
+    width: 69px;
+    height: 54px;
+    background: url("../_images/04/mypage_t_icon02.png") no-repeat center center;
+}
+
+.dm-icon-cart {
+    width: 87px;
+    height: 74px;
+    background: url("../_images/04/mypage_t_icon03.png") no-repeat center center;
+}
+
+.dm-icon-clip {
+    width: 69px;
+    height: 55px;
+    background: url("../_images/04/mypage_t_icon04.png") no-repeat center center;
+}
+
+.dm-icon-balloon {
+    width: 92px;
+    height: 88px;
+    background: url("../_images/04/mypage_t_img.png") no-repeat center center;
+}
+
+.dm-icon-x {
+    width: 34px;
+    height: 41px;
+    background: url("../_images/04/mypage_t_close_icon.png") no-repeat center center;
+}
+
+.dm-icon-flag {
+    width: 74px;
+    height: 75px;
+    background: url("../_images/04/mypage_t_flag_icon.png") no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+.dm-button-viewapp {
+    width: 543px;
+    height: 104px;
+    background: url("../_images/013/01/viewApp_btn.png") no-repeat center center;
+    background-size: 100%;
+}
+
+.dm-button-no {
+    width: 160px;
+    height: 63px;
+    background: url("../_images/00/icon_no.png") no-repeat center center;
+    background-size: 100%;
+}
+
+.dm-button-yes {
+    width: 160px;
+    height: 63px;
+    background: url("../_images/00/icon_yes.png") no-repeat center center;
+    background-size: 100%;
+}
+
+.dm-button-ok {
+    width: 496px;
+    height: 125px;
+    background: url("../_images/01/01/btn_ok.png") no-repeat center center;
+}
+
+.dm-button-re {
+    width: 493px;
+    height: 124px;
+    background: url("../_images/01/01/btn_re.png") no-repeat center center;
+}
+
+.dm-button-followplus {
+    width: 167px;
+    height: 67px;
+    background: url("../_images/01/02/follow_btn.png") no-repeat center center;
+}
+
+.dm-button-follow {
+    width: 135px;
+    height: 73px;
+    background: url("../_images/01/04/bb01.png") no-repeat center center;
+}
+
+.dm-button-followactive {
+    width: 287px;
+    height: 73px;
+    background: url("../_images/01/04/following_btn.png") no-repeat center center;
+}
+
+.dm-button-following {
+    width: 167px;
+    height: 67px;
+    background: url("../_images/02/02/following_btn.png") no-repeat center center;
+}
+
+.dm-button-hide {
+    width: 135px;
+    height: 73px;
+    background: url("../_images/01/04/bb02.png") no-repeat center center;
+}
+
+.dm-button-myplay {
+    width: 304px;
+    height: 77px;
+    background: url("../_images/04/mypage_t_b01.png") no-repeat center center;
+}
+
+.dm-button-myping {
+    width: 304px;
+    height: 77px;
+    background: url("../_images/04/mypage_t_b02.png") no-repeat center center;
+}
+
+.dm-button-login {
+    width:273px;
+    height: 82px;
+    background: url("../_images/04/mypage_btn01.png") no-repeat center center;
+}
+
+.dm-button-recentitem {
+    width:273px;
+    height: 82px;
+    background: url("../_images/04/mypage_btn02.png") no-repeat center center;
+}
+
+.dm-button-pcversion {
+    width:235px;
+    height: 82px;
+    background: url("../_images/04/mypage_btn03.png") no-repeat center center;
+}
+

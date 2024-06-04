@@ -1,0 +1,35 @@
+
+
+
+/* write */
+#userinfo {margin:auto;padding:30px 0 30px 0;}
+#userinfo td {padding:2px 0 2px 0;}
+#userinfo .editbox {padding:15px 0 15px 0;}
+#userinfo .td1 {width:70px;font-weight:bold;color:#444444;vertical-align:top;padding:10px 0 0 10px;letter-spacing:-1px;}
+#userinfo .td1 span {font-weight:normal;font-size:12px;font-family:arial;color:#ff0000;padding:0 0 0 5px;}
+#userinfo .td2 {text-align:center;vertical-align:top;padding:10px 5px 0 5px;color:#999999;font-size:11px;}
+#userinfo .td3 {color:#999999;}
+#userinfo .td3 div {padding:0 0 5px 0;}
+#userinfo .td3 textarea {border:#dfdfdf solid 1px;padding:5px;margin:1px;line-height:150%;}
+#userinfo .td3 .guide {font-size:11px;font-family:dotum;color:#999;padding:10px 0 10px 0;line-height:150%;}
+#userinfo .td3 .guide img {position:relative;top:3px;}
+#userinfo .td3 .check {color:#666;}
+#userinfo .td3 .check input {position:relative;top:2px;}
+#userinfo .td3 .input {height:18px;}
+#userinfo .td3 .subject {width:400px;}
+#userinfo .td3 .xphoto {padding:1px;background:#ffffff;border:#efefef solid 1px;width:150px;}
+#userinfo .td3 select {margin:1px;padding:2px 2px 2px 0;}
+#userinfo .td3 select .cattt {background:#efefef;}
+#userinfo .td3 .dnfile {background:#ffffff;border:#dfdfdf solid 1px;height:21px;margin:1px;}
+#userinfo .iconbox {border-left:#e0e0e0 solid 1px;border-top:#e0e0e0 solid 1px;border-right:#e0e0e0 solid 1px;background:#f9f9f9;padding:6px 0 8px 7px;}
+#userinfo .iconbox a {padding:0 3px 0 3px;font-size:11px;font-family:dotum;color:#333;}
+#userinfo .iconbox a:hover {color:#7899C7;}
+#userinfo .iconbox a img {position:relative;top:2px;left:-2px;margin-right:3px;}
+#userinfo .iconbox .split {padding:0 2px 0 2px;margin-bottom:-1px;}
+#userinfo .bottombox {text-align:center;padding:20px 0 20px 0;}
+#userinfo .bottombox .btngray {font-weight:bold;height:25px;}
+#userinfo .bottombox .btnblue {font-weight:bold;height:25px;}
+/* @write */
+
+
+

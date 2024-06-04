@@ -1,0 +1,25 @@
+<div class="cb-chatting-form cb-form-start">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon" style="max-width:75%;">
+                    <p>
+                        무배당 KB 계획이 다 있는 연금보험 상품은 챗봇에서 상품에 대한 설명 및 가입을 진행하실 수 있으며 보험료 결제는 결제 전 상담사가 연락드립니다.<br>
+                        연금보험 상품 가입을 진행하시겠습니까?
+                    </p>
+                </div>
+                <div class="btn_wrap mt10">
+                    <span class="kwd-item w30 submit_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="start">네</span>
+                    <span class="kwd-item cancel w30 cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">아니오</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

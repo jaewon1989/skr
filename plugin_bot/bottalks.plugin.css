@@ -1,0 +1,68 @@
+.bottalks-left{left:25px !important;}
+.bottalks-right{right:25px !important;}
+.bottalks-hidden {display:none !important;}
+.bottalks-button-wrapper {
+	position:fixed !important; z-index:2147483647 !important; display:none; overflow:initial !important;
+}
+.bottalks-button-chat {
+	position:relative !important; overflow:initial !important; display:-webkit-box !important; display:-webkit-flex !important; display:-ms-flexbox !important; display:flex !important;
+	-webkit-align-items:center !important; -webkit-box-align:center !important; -ms-flex-align:center !important; align-items:center !important; -webkit-box-pack:center !important;
+	-webkit-justify-content:center !important; -ms-flex-pack:center !important; justify-content:center !important; box-sizing:border-box !important;
+	-webkit-animation:ani_btn 0.2s cubic-bezier(0.1,0,0.6,1) !important; animation:ani_btn 0.2s cubic-bezier(0.1,0,0.6,1) !important; -webkit-animation-delay:0.35s !important; animation-delay:0.35s !important;
+	-webkit-animation-fill-mode:backwards !important; animation-fill-mode:backwards !important; cursor:pointer !important;
+	border-radius:50% !important; background-color:transparent; background-repeat:no-repeat; background-position:center center; background-size:contain;
+}
+
+.bottalks-chat {
+	position:fixed !important; display:none !important; z-index:1000000000 !important; overflow:hidden !important; background-color:transparent !important;
+	-webkit-animation:ani_chat 0.25s ease-out !important; animation:ani_chat 0.25s ease-out !important;
+}
+.bottalks-iframe {
+	position:relative !important; height:100% !important; width:100% !important; max-width:100% !important; background:#fff !important; border:none !important;
+}
+
+.bottalks-mobile {position:fixed !important; left:0 !important; top:0 !important; right:0 !important; bottom:0 !important; width:100% !important; height:100% !important; height:100vh !important; overflow:hidden !important;}
+.bottalks-wrap.open .bottalks-button-wrapper {display:none !important;}
+.bottalks-wrap.open .bottalks-chat {display:block !important;}
+
+@media screen and (max-width: 768px) {
+	.bottalks-wrap.open {position:fixed !important; z-index:2147483647 !important; top:0 !important; left:0 !important; bottom:0 !important; right:0 !important; height:100% !important; height:100vh !important; background:#fff !important; overflow:hidden !important;}
+	.bottalks-button-wrapper {right:30px; bottom:25px;}
+	.bottalks-button-chat {width:50px; height:50px; max-width:60px; max-height:60px;}
+	.bottalks-chat {
+		top:0 !important; left:0 !important; bottom:0 !important; right:0 !important; width:100% !important; height:100% !important;
+	}
+}
+@media screen and (min-width: 768px) {
+	.bottalks-button-wrapper {right:70px; bottom:30px;}
+	.bottalks-button-chat {width:65px; height:65px; max-width:120px; max-height:120px;}
+	.bottalks-chat {
+		right:25px !important; bottom:25px !important; width:360px !important; min-height:480px !important; max-height:720px !important; height:70% !important;
+		box-shadow:0 6px 30px 0 rgba(81,99,120,0.4) !important; border-radius:10px !important;
+	}
+}
+
+@keyframes ani_btn {
+	0% {opacity: 0; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8);}
+	100% {opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1);}
+}
+@keyframes ani_chat {
+	0% {opacity: 0; -webkit-transform: scale(0.7); -ms-transform: scale(0.7); transform: scale(0.7);}
+	100% {opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1);}
+}
+
+/* load spinner */
+#chat_load {
+    position:absolute; width:5px; height:35px; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); -ms-transform:translate(-50%, -50%); transform:translate(-50%, -50%);
+    border-radius:3px; display: block; margin:0; background:#84b7d0; color:#84b7d0; box-sizing: border-box;
+    animation: chat_load 0.4s 0.25s linear infinite alternate;
+}
+#chat_load::after, #chat_load::before {
+  position:absolute; top:50%; content:''; width:5px; height:35px; border-radius:3px; background:#ccc; 
+  transform:translateY(-50%); left:12px; box-sizing:border-box; animation:chat_load 0.4s  0.5s  linear infinite alternate;
+}
+#chat_load::before {left:-12px; animation-delay:0s;}
+@keyframes chat_load {
+  0%   {height:35px} 
+  100% {height:5px}
+}

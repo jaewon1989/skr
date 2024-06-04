@@ -1,0 +1,105 @@
+#rb-body {
+	background: #fff;
+}
+#rb-body .rb-table-user > tbody > tr:first-child td {
+    border-top: none;
+}
+.manager-list .panel {
+	border: none;
+} 
+.manager-list .panel-heading label {
+	line-height: 35px
+}
+.manager-list .panel-heading,
+.manager-list .panel-footer {
+	background-color: transparent;
+	padding: 10px 0
+}
+.manager-list .panel-footer .row [class*="col-"] {
+    margin-top: 10px
+}
+@media (min-width: 768px) { 
+	.manager-list .panel-footer .row {
+	    margin-left: -.5%;
+	    margin-right: -.5%;
+	}
+	.manager-list .panel-footer .row [class*="col-"] {
+	    min-height: 1px;
+	    padding-left: .5%;
+	    padding-right: .5%;
+	    padding-top: 10px;
+	    margin-top: 0;
+	}
+}
+.manager-list .table th {
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+	color: #777;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.manager-list .table td {
+	text-align: center;
+	font-size: 12px;
+}
+.manager-list .panel-body .pagination {
+	margin-bottom: 0
+}
+.manager-list .table .rb-url {
+	width: 50px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+}
+.manager-list .rb-message {
+	width: 60%;
+}
+.manager-list .rb-message span {
+	display: block;
+	text-align: left;
+}
+.manager-list .rb-not-confirm {
+	font-size: 11px;
+}
+.manager-list .rb-table-tbody td {
+	color: #666;
+}
+.manager-list .rb-none {
+	text-align: center;
+	color: #999;
+	border-bottom: #dfdfdf solid 1px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+@media (min-width: 768px) { 
+	.manager-list .panel-heading .row {
+	    margin-left: -.5%;
+	    margin-right: -.5%;
+	}
+	.manager-list .panel-heading .row [class*="col-"] {
+	    min-height: 1px;
+	    padding-left: .5%;
+	    padding-right: .5%;
+	    margin-top: 0;
+
+	}
+	.manager-list .panel-heading .row .rb-year {
+		width: 100px
+	}
+	.manager-list .panel-heading .row .rb-month {
+		width: 90px
+	}
+	.manager-list .panel-heading .row .rb-day {
+		width: 100px
+	}
+}
+
+@media (max-width: 767px) {
+	.manager-list .panel-heading .row [class*="col-"] {
+	    padding-top: 10px;
+	}
+}
+.manager-list td.rb-sbj {text-align: left;max-width: 40%}

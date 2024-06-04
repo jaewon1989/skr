@@ -1,0 +1,205 @@
+<input type="hidden" name="mod" value="month" />
+<input type="hidden" name="d_start" value="{$startDate}" />
+<input type="hidden" name="d_end" value="{$endDate}" />
+
+<div class="container-fluid">
+    <div class="overview">
+        <div class="page-title">{$name}</div>
+        <div class="sub-frame">
+            <div class="sub-title">SK telecom AICC / {$title}</div>
+            <div>
+                <h3 class="box-title"><i class="fa fa-calendar"></i> 기간 ({$startDate} ~ {$endDate})</h3>
+            </div>
+        </div>
+    </div>
+    <div class="overview-frame">
+        <div>
+            <div class="frame-title">월간 접속 수</div>
+            <div>
+                <div class="data">
+                    <div id="userMonthlyAccessCount" class="counter">{$userMonthlyAccessCount}</div>
+                </div>
+                <div id="userPreviousMonthlyAccessRate" class="data_info">
+                    <span class="{$userPreviousMonthlyAccessRateClass}">{$userPreviousMonthlyAccessRate} %</span> 이전 달 기준 증감률
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">월간 재방문률</div>
+            <div>
+                <div class="data">
+                    <div id="userMonthlyRevisitAccessRate" class="counter">{$userMonthlyRevisitAccessRate} %</div>
+                </div>
+                <div id="userPreviousMonthlyRevisitRate" class="data_info">
+                    <span class="{$userPreviousMonthlyRevisitRateClass}">{$userPreviousMonthlyRevisitRate} %</span> 이전 달 기준 증감률
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">월간 미응답 수</div>
+            <div>
+                <div class="data">
+                    <div id="monthlyUnAnsweredCount" class="counter">{$monthlyUnAnsweredCount}</div>
+                </div>
+                <div id="previousMonthlyUnAnsweredRate" class="data_info">
+                    <span class="{$previousMonthlyUnAnsweredRateClass}">{$previousMonthlyUnAnsweredRate} %</span> 이전 달 기준 증감률
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">월간 응답률</div>
+            <div>
+                <div class="data">
+                    <div id="monthlyAnsweredRate" class="counter">{$monthlyAnsweredRate} %</div>
+                </div>
+                <div id="previousMonthlyAnsweredRate" class="data_info">
+                    <span class="{$previousMonthlyAnsweredRateClass}">{$previousMonthlyAnsweredRate} %</span> 이전 달 기준 증감률
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">누적 접속 수</div>
+            <div>
+                <div class="data">
+                    <div id="userTotalAccessCount" class="counter">{$userTotalAccessCount}</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">누적 재방문률</div>
+            <div>
+                <div class="data">
+                    <div id="userTotalRevisitAccessRate" class="counter">{$userTotalRevisitAccessRate} %</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">누적 미응답 수</div>
+            <div>
+                <div class="data">
+                    <div id="totalUnAnsweredCount" class="counter">{$totalUnAnsweredCount}</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="frame-title">누적 응답률</div>
+            <div>
+                <div class="data">
+                    <div id="totalAnsweredRate" class="counter">{$totalAnsweredRate} %</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chart_status_board">
+        <div class="chart_graph" style="display: flex;">
+
+            <div id="total-wrap" style="height: 280px !important;">
+                <!-- load 접속통계 차트 -->
+            </div>
+
+            <div id="conversation-wrap" style="height: 280px !important;">
+                <!-- load 접속통계 차트 -->
+            </div>
+
+        </div>
+    </div>
+
+    <div class="chart_status_board">
+        <div class="chart_board">
+            <div>
+                <div class="chart_board_header">
+                    <h3 class="box-title">대화상자 순위</h3>
+                    <div id="nodeBtn"></div>
+                </div>
+                <div>
+                    <input type="hidden" value="1" data-role="nodePage-input"/>
+                    <div class="table-responsive table-container table-aicc-skin">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th style="text-align: center;">대화상자</th>
+                                <th style="text-align: center;">횟수</th>
+                            </tr>
+                            </thead>
+                            <tbody id="nodeHtml"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="chart_board_header">
+                    <h3 class="box-title">많이 한 질문</h3>
+                    <div id="questionBtn"></div>
+                </div>
+                <div>
+                    <input type="hidden" value="1" data-role="questionPage-input"/>
+                    <div class="table-responsive table-container table-aicc-skin">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th style="text-align: center;">질문내용</th>
+                                <th style="text-align: center;">횟수</th>
+                            </tr>
+                            </thead>
+                            <tbody id="questionHtml"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="chart_board_header">
+                    <h3 class="box-title">많이 사용한 단어</h3>
+                    <div id="wordBtn"></div>
+                </div>
+                <div>
+                    <input type="hidden" value="1" data-role="wordPage-input"/>
+                    <div class="table-responsive table-container table-aicc-skin">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th style="text-align: center;">단어</th>
+                                <th style="text-align: center;">횟수</th>
+                            </tr>
+                            </thead>
+                            <tbody id="wordHtml"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chart_status_board">
+        <div class="board_click">
+            <div>
+                <div class="chart_board_header">
+                    <h3 class="box-title">많이 클릭한 버튼</h3>
+                </div>
+                <div class="table-box">
+                    <div class="table-responsive table-container table-aicc-skin">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>버튼명</th>
+                                <th>횟수</th>
+                            </tr>
+                            </thead>
+                            <tbody id="btnLogHtml1"></tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>버튼명</th>
+                                <th>횟수</th>
+                            </tr>
+                            </thead>
+                            <tbody id="btnLogHtml2"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--row -->
+</div>

@@ -1,0 +1,63 @@
+<section id="cb-chatzone{$lang}" >
+    <div class="cb-chatzone-wrapper{$modal_class}" id="chatbox{$chatbox_mod}">
+        <div id="cb-navigator" class="cb-box-shadow">
+            <div class=" cb-navigator-wrapper">
+                <div class="cb-cell-layout">
+                    <div class="cb-cell cb-cell-left">
+                        <!-- <span class="cb-icon cb-icon-backward{$back_button_hidden}" data-history="back"></span> -->
+                    </div>
+                    <div class="cb-cell cb-cell-center">
+                        <h3>{$bot_service}</h3>
+                    </div>
+                    <div class="cb-cell cb-cell-right">
+                        <a href="{$topRightLink}" data-role="btn-chatBoxTopRight">
+                           <span class="cb-icon cb-icon-{$topRightIcon}"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cb-chatting-body">
+            <div class="cb-chatting-scroll" data-role="chatting-logContainer">
+               {$chat_rows}
+            </div>
+        </div>
+        <div id="cb-chatting-input" {$inputBox_style}>
+            <div class="emoticon-wrapper" data-role="emoticon-box">
+                {$emoticon_list}
+            </div>
+            <div class="cb-layout" style="position:relative;">
+                <div class="cb-right">
+                    <ul class="cb-chatting-icon" {$default_inputStyle}>
+                        <li>
+                            <span class="cb-icon cb-icon-smile" data-role="btn-showEmoticon"></span>
+                        </li>
+                        <li>
+                            <span class="cb-icon cb-icon-recom" data-id="{$bot_id}" data-role="btn-forSquare" id="show-firstKwd"></span>
+                            <span class="cb-chatting-send" style="display:none;" data-id="{$bot_id}" data-role="btn-send">전송</span>
+                        </li>
+                    </ul>
+                    <ul class="cb-chatting-icon" {$monitering_inputStyle}>
+                        <li class="botSwitch-off"> 
+                            <div class="chatSwitch-label">채팅</div>
+                            <div class="cb-switch chatBox-switch" data-role="chat-active" data-token="{$roomToken}" id="chatBox-switch" >
+                                <span class="cb-switch-button"></span>
+                                <span class="switch-label" data-role="chatActive-label-{$roomToken}">off</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+         <!--        <div class="cb-left">
+                    <div class="cb-chatting-profile">
+                        <img src="{$user_avatar_src}" alt="Chatting Profile Image">
+                    </div>
+                </div> -->
+                <div class="cb-center">
+                    <input type="text" data-id="{$bot_id}" placeholder="메시지를 입력하세요." data-role="bot-talks">
+                </div>
+            </div>            
+        </div>
+      
+      </div>
+</section>

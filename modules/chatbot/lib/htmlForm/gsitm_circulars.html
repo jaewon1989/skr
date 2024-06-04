@@ -1,0 +1,104 @@
+<div class="cb-chatting-form cb-form-start">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        {$response}
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bot_form gsitm">
+        <div class="input_area no_label mb10">
+            <div class="selectwrap">
+                <select id="gsitm_listtype" name="gsitm_listtype">
+                    {$gsitm_listtype_select}
+                </select>
+            </div>
+        </div>
+        <div class="searchwrap cardbox mb20">
+            <button type="button" class="btn_search_open">상세 조건 검색 <i class="fa fa-chevron-down"></i></button>
+            <form id="frmSearch">
+                <div class="searchbox">
+                    <ul>
+                        <li>
+                            <div class="sitemtlt">요청 유형</div>
+                            <div class="siteminput">
+                                <div class="selectwrap">
+                                    <select name="gsitm_reqTySe">
+                                        <option value="">- 전체 -</option>
+                                        {$gsitm_reqTySe_codes}
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sitemtlt">진행상태</div>
+                            <div class="siteminput">
+                                <div class="selectwrap">
+                                    <select name="gsitm_searchAppStatusCod">
+                                        <option value="1" selected>- 전체 -</option>
+                                        <option value="2">진행중</option>
+                                        <option value="4">반려</option>
+                                        <option value="5">완료</option>
+                                        <option value="6">기각</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sitemtlt">검색기간</div>
+                            <div class="siteminput sdatewrap">
+                                <div class="input_wrap">
+                                    <input type="text" name="gsitm_fromDate" class="input_date" value="{$gsitm_fromDate}">
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" name="gsitm_toDate" class="input_date" value="{$gsitm_toDate}">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sitemtlt">검색대상</div>
+                            <div class="siteminput">
+                                <div class="selectwrap">
+                                    <select name="gsitm_searchType">
+                                        <option value="0" selected>요청자</option>
+                                        <option value="1">요청제목</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sitemtlt">검색어</div>
+                            <div class="siteminput">
+                                <div class="input_wrap">
+                                    <input type="text" name="gsitm_searchword">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn_wrap">
+                        <button type="button" class="btn_search" data-listtype="{$gsitm_listtype}">조회</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <ul class="ul_list_card">
+            {$gsitm_req_list}
+        </ul>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item more submit_more {$gsitm_more_class}" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-listtype="{$gsitm_listtype}" data-page="{$gsitm_page}" data-pageall="{$gsitm_pageall}">더보기</button>
+        </div>
+    </div>
+</div>

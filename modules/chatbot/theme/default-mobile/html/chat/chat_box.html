@@ -1,0 +1,47 @@
+<div class="page center">
+    <header id="cb-navigator" class="bar bar-nav cb-box-shadow">
+        <div class=" cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <!--<span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>-->
+                </div>
+                <div class="cb-cell cb-cell-center">
+                    <h3>{$bot_service}</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                    <span class="cb-icon cb-icon-exit {$theme}_top_exit" data-role="chat-exit"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cb-chatting-body" class="cb-chatting-scroll" data-role="chatting-ScrollContainer">
+        <div class="cb-chatting-rows" data-role="chatting-logContainer">
+           {$chat_rows}
+        </div>
+    </section>
+
+    <section id="cb-chatting-input{$position}">
+        <div class="emoticon-wrapper" data-role="emoticon-box">
+            {$emoticon_list}
+        </div>
+        <div class="cb-layout">
+            <div class="cb-left">
+                <span class="cb-icon cb-icon-recom" data-id="{$bot_id}" data-role="btn-forSquare" id="show-firstKwd"></span>
+            </div>
+            <div class="cb-center">
+                <input type="text" name="user_input" data-id="{$bot_id}" placeholder="메시지를 입력하세요." data-role="bot-talks"/>
+            </div>
+            <div class="cb-right">
+                <ul class="cb-chatting-icon">
+                    <li>
+                        <span class="cb-icon cb-icon-smile" data-role="btn-showEmoticon"></span>
+                    </li>
+                    <li>
+                        <span class="cb-chatting-send" style="display:none;" data-id="{$bot_id}" data-role="btn-send">전송</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,798 @@
+@charset "utf-8";
+/*!
+ * Bootstrap blog template (default)
+ * Version: 1.0
+ * Author: gitaeks
+ * Homepage: http://gitaeks.github.io/
+ * Licensed under MIT
+ * Based on Bootstrap v3.3.5
+*/
+
+/**
+ * 목차:
+ *
+ * 1 - Common 공통
+ * 2 - list 목록
+ * 3 - View 보기
+ * 4 - Write 쓰기
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1 - Common 공통
+ * ----------------------------------------------------------------------------
+ */
+
+.rb-blog-heading:before {
+    display: table;
+    content: " ";
+}
+.rb-blog-heading:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.rb-blog-aside .rb-avatar img {
+    width: 120px;
+}
+
+
+
+/**
+ * 2 - list 목록
+ * ----------------------------------------------------------------------------
+ */
+
+.rb-blog-list,
+.rb-blog-list a {
+    color: #666
+}
+
+/********** blog-heading **********/
+
+.rb-blog-list .rb-blog-heading {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.rb-blog-list .rb-blog-heading .rb-title {
+    margin: 0
+}
+
+.rb-blog-list .rb-blog-heading .page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 20px;
+}
+
+.rb-blog-list .rb-blog-heading .rb-title .breadcrumb {
+    margin: 0;
+    background-color: transparent;
+}
+
+@media (min-width: 480px) {
+    .rb-blog-list .rb-blog-heading .rb-title,
+    .rb-blog-list .rb-blog-heading .rb-sort {
+        float: left;
+        display: inline-block;
+    }
+
+    .rb-blog-list .rb-blog-heading .rb-viewtype,
+    .rb-blog-list .rb-blog-heading .rb-actions {
+        float: right;
+        display: inline-block;
+    }
+}
+
+/********** blog-body **********/
+
+
+.rb-blog-list .rb-blog-item .rb-title {
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 1.4
+}
+
+.rb-blog-list .rb-blog-item .rb-meta {
+  margin: 0 0 15px;
+  color: #999;
+  font-size: 12px
+}
+
+.rb-blog-list .rb-blog-item .rb-meta a {
+    color: #999
+}
+
+.rb-blog-list .rb-blog-item .rb-tags {
+  margin-top: 30px;
+  margin-bottom: 15px
+}
+
+.rb-blog-list .rb-blog-item .rb-author {
+  margin-top: 50px
+}
+
+.rb-blog-list .rb-blog-item .rb-meta {
+  margin: 0;
+  color: #999;
+  font-size: 12px
+}
+
+/*label*/
+.rb-blog-list .rb-blog-body .label-default {
+    padding: .2em .4em .3em;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    color: #777;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+/*category*/
+.rb-blog-list .rb-blog-body .rb-category {
+    color: #999;
+    letter-spacing: -1px
+}
+.rb-blog-list .rb-blog-body .rb-category:before {
+    content: '['
+}
+.rb-blog-list .rb-blog-body .rb-category:after {
+    content: ']'
+}
+
+/*new*/
+.rb-blog-list .rb-blog-body .rb-new {
+    padding-left: 2px;
+    font: normal 11px arial;
+    color: #ff0000;
+}
+.rb-blog-list .rb-blog-body .rb-new:before {
+    content: 'new'
+}
+
+/*comments num*/
+.rb-blog-list .rb-blog-body .badge {
+    padding: 3px 3px;
+    background-color: transparent;
+    color: #FC6138;
+    font: normal 11px arial;
+}
+.rb-blog-list .rb-blog-body .badge:before {
+    content: '['
+}
+.rb-blog-list .rb-blog-body .badge:after {
+    content: ']'
+}
+
+/*no-post*/
+.rb-nopost {
+    text-align: center;
+    padding: 50px;
+    color: #999
+}
+.rb-nopost h2 {
+    margin: 0;
+    color: #ddd
+}
+
+/*tab*/
+.rb-blog-list .tab-content {
+    padding: 30px 0
+}
+
+
+/*viewtype-review*/
+.rb-blog-list .rb-viewtype-review {
+    padding: 30px 0 20px;
+    border-top: 1px solid #ddd;
+}
+.rb-blog-list .rb-viewtype-review ul {
+    margin-bottom: 0
+}
+
+
+/*viewtype-box*/
+.rb-blog-list .rb-viewtype-box {
+    padding: 30px 0 20px;
+    border-top: 1px solid #ddd;
+}
+.rb-blog-list .rb-viewtype-box .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.rb-blog-list .rb-viewtype-box .row [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.rb-blog-list .rb-viewtype-review .rb-blog-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #EEEEEE
+}
+.rb-blog-list .rb-viewtype-review .rb-blog-item:last-child {
+    border-bottom: none;
+}
+.rb-blog-list .rb-viewtype-review .rb-blog-item .media-object {
+    width: 180px
+}
+.rb-blog-list .rb-viewtype-box .rb-title {
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+     letter-spacing: -1px;
+}
+.rb-blog-list .rb-viewtype-box .rb-description {
+    height: 60px;
+    overflow: hidden;
+}
+
+
+/*viewtype-list*/
+.rb-blog-list .rb-viewtype-list {
+    padding: 30px 0 0;
+    border-top: 1px solid #ddd;
+}
+
+.rb-blog-list .table {
+    margin-bottom: 0
+}
+.rb-blog-list .table th,
+.rb-blog-list .table td {
+    text-align: center
+}
+.rb-blog-list .table td.rb-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    max-width: 0
+}
+.rb-blog-list .table th {
+    font-weight: normal;
+}
+.rb-blog-list .table .rb-num,
+.rb-blog-list .table .rb-hit {
+    font-family: arial; 
+}
+
+.rb-blog-list .table .btn {
+    padding: 0;
+    font-size: inherit;
+}
+
+.rb-blog-list .table thead {
+    border: solid 1px #ddd
+}
+.rb-blog-list .table > thead > tr > th {
+     border-bottom: none;
+}
+.rb-blog-list .table thead th {
+    color: #999;
+    font-size: 11px;
+    background-color: #F5F5F5
+}
+
+/* viewtype-gallery */
+
+.rb-blog-list .rb-viewtype-gallery {
+    padding: 30px 0 20px;
+    border-top: 1px solid #ddd;
+}
+.rb-blog-list .rb-viewtype-gallery .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.rb-blog-list .rb-viewtype-gallery .row [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item {
+    margin-bottom: 0;
+    padding: 0;
+    background: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height:0;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-sticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 63px;
+    height: 63px;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-sticker-new {
+    background: url(../_images/new.png) no-repeat;
+    left: auto;
+    right: 0;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-img-wrapper {
+    position: relative;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-img-wrapper .rb-overlay {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item:hover>.rb-img-wrapper> .rb-overlay {
+    display: block;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-img-wrapper .rb-overlay .btn {
+    padding: 3px 10px;
+    color: #fff;
+    border: 1px #fff solid;
+    margin: -13px 5px 0;
+    background: transparent;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    line-height: 1.4;
+    font-size: 12px;    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item .btn:hover {
+    background: #e84d1c;
+    border-color: #c8c8c8;
+}
+
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item .rb-title {
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item .rb-time {
+    color: #a8aeb3;
+    font-size: 13px;
+    float: left;
+    padding-top: 1px;
+}
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item .rb-comment {
+    float: right;
+    color: #a8aeb3;
+    border: 1px #ededed solid;
+    padding: 3px 6px;
+    text-transform: uppercase;
+}
+
+.rb-blog-list .rb-viewtype-gallery .rb-blog-item .rb-comment:hover {
+    color: #fff;
+    background: #e84d1c;
+    border-color: #e84d1c;
+}
+
+
+/********** blog-footer **********/
+
+.rb-blog-list .rb-blog-footer {
+    margin-top: 0;
+    border-top: 1px solid #ddd;
+    text-align: center
+}
+.rb-blog-list .rb-blog-footer .rb-pagination {
+    padding: 25px 0;
+    text-align: center
+}
+
+.rb-blog-list .rb-blog-footer .rb-buttons {
+    text-align: left;
+    padding: 25px 0;
+}
+
+
+/*media query*/
+@media (max-width: 480px) {
+    .rb-blog-list .rb-viewtype-review .rb-blog-item .media-object {
+        width: 100px;
+    }
+    .rb-blog-list .rb-user ,
+    .rb-blog-list .rb-hit,
+    .rb-blog-list .rb-time { 
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .rb-blog .rb-blog-heading .rb-search-result {
+        font-size: 11px
+    }
+}
+
+
+/* blog-footer */
+
+.rb-list-gallery .rb-blog-list .rb-blog-footer {
+    margin-top: 30px;
+}
+
+
+
+
+
+/**
+ * 2 - View 보기
+ * ----------------------------------------------------------------------------
+ */
+
+
+/********** blog-heading **********/
+
+.rb-blog-view .rb-blog-heading {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rb-blog-view .rb-blog-heading .rb-title {
+    margin: 0 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rb-blog-view .rb-blog-heading .rb-meta ul {
+    margin-bottom: 0
+}
+
+
+.rb-blog-view .rb-blog-heading .rb-meta {
+    margin-bottom: 15px;
+    color: #999;
+    line-height: 1.7
+}
+.rb-blog-view .rb-blog-heading .rb-meta a {
+    color: inherit;
+}
+.rb-blog-view .rb-blog-heading .rb-meta ul {
+    margin-left: 0
+}
+.rb-blog-view .rb-blog-heading .rb-meta li {
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+@media (min-width: 480px) {
+    .rb-blog-view .rb-blog-heading .rb-meta {
+        float: left;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+
+    .rb-blog-view .rb-blog-heading .rb-actions {
+        float: right;
+        display: inline-block;
+    }
+}
+
+/*font-resizer*/
+.rb-blog-view .rb-blog-heading .rb-resizer a {
+    margin-left: -1px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    border-radius: 1px;
+}
+.rb-blog-view .rb-blog-heading .rb-resizer a.btn-default {
+    background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 );
+}
+.rb-blog-view .rb-blog-heading .rb-resizer .rb-font-xs a {font-size: 70%}
+.rb-blog-view .rb-blog-heading .rb-resizer .rb-font-sm a {font-size: 100%}
+.rb-blog-view .rb-blog-heading .rb-resizer .rb-font-md a {font-size: 115%}
+.rb-blog-view .rb-blog-heading .rb-resizer .rb-font-lg a {font-size: 130%}
+.rb-blog-view.rb-font-xs .rb-resizer .rb-font-xs a,
+.rb-blog-view.rb-font-sm .rb-resizer .rb-font-sm a,
+.rb-blog-view.rb-font-md .rb-resizer .rb-font-md a,
+.rb-blog-view.rb-font-lg .rb-resizer .rb-font-lg a {
+    background: none;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+
+/********** blog-body **********/
+
+.rb-blog-view .rb-blog-body {
+    padding: 15px 0 15px 0;
+    line-height: 1.5
+}
+
+.rb-blog-view .rb-blog-body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*font-size*/
+
+.rb-blog-view.rb-font-xs .rb-blog-body {
+    font-size: 11px;
+}
+.rb-blog-view.rb-font-sm .rb-blog-body {
+    font-size: 12px;
+}
+.rb-blog-view.rb-font-md .rb-blog-body {
+    font-size: 14px;
+}
+.rb-blog-view.rb-font-lg .rb-blog-body {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .rb-blog-view .rb-image {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+}
+
+
+/********** blog-footer **********/
+
+.rb-blog-footer {
+    padding: 15px 0;
+    border-top: 1px solid #eee
+}
+.rb-blog-footer .rb-toolbar {
+    margin: 30px 0
+}
+.rb-blog-footer .rb-toolbar .rb-share .widget {
+    padding:0;
+}
+@media (min-width: 768px) {
+    .rb-blog-footer .rb-toolbar .rb-share {
+        float: left;
+    }
+    .rb-blog-footer .rb-toolbar .rb-buttons {
+        float: right;
+    }
+}
+
+/*pager*/
+.rb-blog-footer .pager {
+    margin-bottom: 30px
+}
+
+/*Description lists*/
+.rb-blog-view .rb-blog-footer .dl-horizontal {
+    margin-bottom: 15px;
+}
+.rb-blog-view .rb-blog-footer .dl-horizontal dt,
+.rb-blog-view .rb-blog-footer .dl-horizontal dd {
+    line-height: 2
+}
+.rb-blog-view .rb-blog-footer .dl-horizontal a {
+    color: #444;
+    font-size: 12px;
+    font-family: dotum;
+    letter-spacing: -1px
+}
+.rb-blog-view .rb-blog-footer .dl-horizontal a:hover {
+    text-decoration: underline;
+}
+.rb-blog-view .rb-blog-footer .dl-horizontal ul {
+    margin-left: 0; 
+    margin-bottom: 0;
+    color: #999
+}
+
+/*tag*/
+.rb-blog-view .rb-blog-footer .rb-tag {
+    margin-bottom: 15px
+}
+.rb-blog-view .rb-blog-footer .rb-tag li {
+    padding-left: 0;
+    padding-right: 7px;
+    line-height: 1.5
+}
+.rb-blog-view .rb-blog-footer .rb-tags li:after {
+    content: ','
+}
+
+/*attach*/
+.rb-blog-view .rb-blog-footer .rb-attach {
+    margin-bottom: 15px
+}
+.rb-blog-view .rb-blog-footer .rb-attach ul {
+    margin-left: 0; 
+    margin-bottom: 0
+}
+.rb-blog-view .rb-blog-footer .rb-attach li {
+    line-height: 1.8
+}
+.rb-blog-view .rb-blog-footer .rb-attach a {
+    color: #666;
+}
+.rb-blog-view .rb-blog-footer .rb-attach span {
+    padding: 2px 5px;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1;
+    color: #999;
+    background-color: #eee;
+    border-radius: 20px;
+    text-shadow: 0 1px 0 #fff;
+    font-family: Helvetica, arial
+}
+
+/*tabs*/
+.rb-tabs .tab-content {
+    padding: 15px 0
+}
+
+/*comments*/
+.rb-blog-view .rb-blog-footer .rb-comments {
+    margin: 40px 0
+}
+
+
+@media (max-width: 639px) {
+
+
+    .rb-blog-view .rb-blog-heading .rb-buttons {
+        float: left;
+        margin-left: -60px;
+        margin-top: -5px
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    /*font-size*/
+    .rb-blog-view .rb-blog-body {
+        font-size: 14px;
+    }
+    .rb-blog-view.rb-font-xs .rb-blog-body {
+        font-size: 12px;
+    }
+    .rb-blog-view.rb-font-sm .rb-blog-body {
+        font-size: 14px;
+    }
+    .rb-blog-view.rb-font-md .rb-blog-body {
+        font-size: 16px;
+    }
+    .rb-blog-view.rb-font-lg .rb-blog-body {
+        font-size: 18px;
+    }
+
+    .rb-blog-view .rb-blog-body p {
+        margin-bottom: 2em;
+    }
+
+    .rb-blog-view .rb-blog-footer .dl-horizontal a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .rb-blog-view .rb-blog-footer .dl-horizontal dt {
+        width: 50px;
+    }
+    .rb-blog-view .rb-blog-footer .dl-horizontal dd {
+        margin-left: 70px;
+    }
+}
+
+/**
+ * 3 - Write 쓰기
+ * ----------------------------------------------------------------------------
+ */
+
+.rb-blog-write .rb-category .btn-default {
+    background-color: #fff
+}
+.rb-blog-write .rb-category i {
+    color: #999
+}
+
+/*editor*/
+.rb-blog-write .rb-editor-toolbar {
+    padding: 5px;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f5f5f5));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 );
+}
+.rb-blog-write .rb-editor-body textarea {
+    border: none;
+}
+
+
+/*attach*/
+.rb-blog-write .rb-attach .list-group-item {
+    background-color: #FAFAFA
+}
+.rb-blog-write .rb-attach .list-group-item .rb-size {
+    padding: 2px 5px;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1;
+    color: #999;
+    background-color: #eee;
+    border-radius: 20px;
+    text-shadow: 0 1px 0 #fff;
+    font-family: Helvetica, arial;
+}
+.rb-blog-write .rb-attach .list-group-item a {
+    color: #666
+}
+.rb-blog-write .rb-attach .list-group-item.rb-hidden,
+.rb-blog-write .rb-attach .list-group-item.rb-hidden a {
+    color: #B7B7B7;
+}
+.rb-blog-write .rb-attach .list-group-item.rb-hidden .btn {
+    color: #666;
+}
+
+.rb-blog-write .rb-attach-photo {
+    margin-bottom: 0
+}
+.rb-blog-write .rb-attach-photo .list-group-item {
+    line-height: 48px
+}
+.rb-blog-write .rb-attach-photo .list-group-item .media {
+    margin-top: 0;
+}
+.rb-blog-write .rb-attach-file {
+    margin-top: -1px
+}
+
+@media (min-width: 768px) {
+
+    .rb-blog-write .col-sm-2 {
+        width: 11%;
+        padding-right: 0;
+    }
+    .rb-blog-write .col-sm-offset-2 {
+        margin-left: 11%;
+    }
+    .rb-blog-write .col-sm-offset-2.col-sm-10,
+    .rb-blog-write .col-sm-10 {
+        width: 89%;
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+
+    .rb-blog-write .control-label {
+        font-weight: bold;
+        color: #444444;
+        letter-spacing: -1px;
+        text-align: left;
+    }
+
+ }
+ 

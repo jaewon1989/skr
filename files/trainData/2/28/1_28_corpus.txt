@@ -1,0 +1,19 @@
+__label__476 결제|NNG 정보|NNG 변경|NNG
+__label__475 결제|NNG 정보|NNG 확인|NNG
+__label__475 계약|NNG 정보|NNG 확인|NNG
+__label__476 결제|NNG 정보|NNG 변경|NNG 이|VCP 요|EC
+__label__475 보험|NNG 조건|NNG 조회|NNG
+__label__476 보험|NNG 조건|NNG 변경|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__475 확인|NNG 필요|NNG 해|XSV+EC
+__label__475 조회|NNG 원해|VV+EC
+__label__475 결제|NNG 정보|NNG 확인|NNG 원해요|VV+EC
+__label__477 상담원|NNG 연결|NNG
+__label__475 조회|NNG 해|VV+EC 주|VX 세요|EP+EF
+__label__475 확인|NNG 해|XSV+EC 줘|VX+EC
+__label__476 결제|NNG 정보|NNG 변경|NNG 하|XSV 려고요|EC
+__label__476 보험|NNG 조건|NNG 변경|NNG
+__label__477 상담원|NNG 연결|NNG 해|XSV+EC 주|VX 세요|EP+EF
+__label__475 계약|NNG 정보|NNG 조회|NNG
+__label__475 확인|NNG 안|MAG 돼|VV+EC
+__label__475 결정|NNG 정보|NNG 확인|NNG 부탁|NNG 드려요|VV+EC
+__label__475 보험|NNG 조건|NNG 확인|NNG 이|VCP 요|EC

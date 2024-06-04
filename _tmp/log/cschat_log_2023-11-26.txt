@@ -1,0 +1,12 @@
+[2023-11-26 17:22:22] 59.16.163.234 req_mode: userinfo mode=userinfo&botid=f005de3944c9a69
+[2023-11-26 17:22:30] 59.16.163.234 req_mode: chat_open botid=f005de3944c9a69&roomToken=2501hg5bhp41vb1kbj53&tenant=&mode=chat_open&user_name=%ED%85%8C%EC%8A%A4%ED%8A%B84&user_phone=01029115543&user_id=
+[2023-11-26 17:22:30] request 59.16.163.234 url: https://biztalk.nexuscommunity.kr/persona/reference data: {"mode":"chat_open","botid":"f005de3944c9a69","roomToken":"2501hg5bhp41vb1kbj53","secretKey":"sz6LPMD72aKEiTzRXhCRILDl4RSc1bmfc8T1rPk1CbpOvFTHqVhUQf","messages":[{"speaker":"user","data":{"type":"text","msg":"Welcome"},"time":"2023-11-26 17:22:18"},{"speaker":"bot","data":[{"type":"text","msg":"안녕하세요"}],"time":"2023-11-26 17:22:19"}],"tenant":"1","userInfo":{"name":"테스트4","phone":"01029115543","userid":""}}
+[2023-11-26 17:22:30] response 59.16.163.234 url: https://biztalk.nexuscommunity.kr/persona/reference code: 200 data: { "code": "200", "message": "OK" }
+[2023-11-26 17:22:34] 61.97.146.54 req_mode: cs_connect { "roomToken": "2501hg5bhp41vb1kbj53", "tenant": "1", "botid": "f005de3944c9a69" }
+[2023-11-26 17:23:34] 61.97.146.54 req_mode: cs_end { "roomToken": "2501hg5bhp41vb1kbj53", "tenant": "1", "botid": "f005de3944c9a69" }
+[2023-11-26 17:40:14] 59.16.163.234 req_mode: userinfo mode=userinfo&botid=f005de3944c9a69
+[2023-11-26 17:40:24] 59.16.163.234 req_mode: chat_open botid=f005de3944c9a69&roomToken=4571hg5bk6e6r2rudt7e&tenant=&mode=chat_open&user_name=tst&user_phone=01029115543&user_id=
+[2023-11-26 17:40:24] request 59.16.163.234 url: https://biztalk.nexuscommunity.kr/persona/reference data: {"mode":"chat_open","botid":"f005de3944c9a69","roomToken":"4571hg5bk6e6r2rudt7e","secretKey":"sz6LPMD72aKEiTzRXhCRILDl4RSc1bmfc8T1rPk1CbpOvFTHqVhUQf","messages":[{"speaker":"user","data":{"type":"text","msg":"Welcome"},"time":"2023-11-26 17:23:38"},{"speaker":"bot","data":[{"type":"text","msg":"안녕하세요"}],"time":"2023-11-26 17:23:39"}],"tenant":"1","userInfo":{"name":"tst","phone":"01029115543","userid":""}}
+[2023-11-26 17:40:24] response 59.16.163.234 url: https://biztalk.nexuscommunity.kr/persona/reference code: 200 data: { "code": "200", "message": "OK" }
+[2023-11-26 17:40:27] 61.97.146.54 req_mode: cs_connect { "roomToken": "4571hg5bk6e6r2rudt7e", "tenant": "1", "botid": "f005de3944c9a69" }
+[2023-11-26 17:41:09] 61.97.146.54 req_mode: cs_end { "roomToken": "4571hg5bk6e6r2rudt7e", "tenant": "1", "botid": "f005de3944c9a69" }

@@ -1,0 +1,26 @@
+<tr data-role="{$param_type}-paramRow">
+	<td  class="param-check"> <!-- dialog 모드에서는 hidden 처리 -->
+		<div class="checkbox checkbox-info">                     
+		    <input type="checkbox" data-role="chkBox-paramPilsu" data-uid="{$param_uid}" {$TD_checked}>
+		    <label class="task-done">
+		    </label>             
+		</div>  
+	</td>
+	<td>
+		<span class="paramList-span">
+		    <input type="text" class="form-control input-param" name="{$param_type}_paramName[]" value="{$param_name}">
+	    </span>
+	</td>
+	<td>
+		<span class="paramList-split">{$param_split}</span>
+	</td>
+	<td>
+		<input type="text" class="form-control input-param" name="{$param_type}_paramVal[]" value="{$param_val}">
+    </td>
+	<td class="param-del"> <!-- dialog 모드에서는 hidden 처리 -->
+		<input type="hidden" name="{$param_type}_paramUid[]" value="{$param_uid}"/>
+		<a href="#" data-role="btn-delParam" data-uid="{$param_uid}" class="btn-delParam" data-type="{$param_type}">
+		    <i class="fa fa-times" aria-hidden="true"></i>
+	    </a>
+	</td>
+</tr>

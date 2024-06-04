@@ -1,0 +1,83 @@
+__label__1 일|NNG 바꿀|VV+ETM 께|NNB 요|VCP+EC
+__label__1 다른|MM 날|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__1 날짜|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__472 어떤|MM 요금제|NNP 있|VA 지|EC
+__label__1 시간|NNG 변경|NNG 할|XSV+ETM 수|NNB 있|VV 을까요|EC
+__label__1 날짜|NNG 변경|NNG 할|XSV+ETM 수|NNB 있|VV 을까요|EC
+__label__1 시|NNG 바꿀|VV+ETM 수|NNB 있|VV 을까요|EC
+__label__4 오후|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 나요|EC
+__label__4 오후|NNG +JX 없|VA 어요|EF
+__label__3 괜찮|VA 습니다|EF
+__label__3 괜찮|VA 아요|EC
+__label__2 다시|MAG 이야기|NNG 해|XSV+EC 줘|VX+EC
+__label__1 시|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__4 오후|NNG 안|MAG 돼요|VV+EC
+__label__1 시간|NNG 바꿀|VV+ETM 수|NNB 있|VV 나요|EC
+__label__1 시|NNG 가능|NNG 한가요|XSA+EC
+__label__1 다른|MM 날|NNG 안|MAG 되|VV 나요|EC
+__label__4 오후|NNG 몇|MM 시|NNBC 가능|NNG 해요|XSA+EC
+__label__4 몇|MM 시|NNBC 가능|NNG 한가요|XSA+EC
+__label__2 잘|MAG 안|MAG 들려|VV+EC 다시|MAG 말|NNG 해|XSV+EC 줘|VX+EC
+__label__2 무슨|MM 말|NNG 인지|VCP+EC 모르|VV 겠|EP 어요|EF
+__label__4 이후|NNG 안|MAG 될까요|VV+EC
+__label__1 시|NNG 바꿀|VV+ETM 께|NNB 요|VCP+EC
+__label__2 다시|MAG 말|NNG 해|XSV+EC 줘|VX+EC
+__label__3 안|MAG 해도|VV+EC 됩니다|VX+EC
+__label__2 한번|MAG 더|MAG 말|NNG 해|XSV+EC 주|VX 세요|EP+EF
+__label__3 없|VA 어|EC
+__label__3 알|VV 겠|EP 어요|EF
+__label__1 다른|MM 시간|NNG 없|VA 나요|EC
+__label__2 뭐|NP 라구요|VCP+EC
+__label__4 후|NNG 안|MAG 되|VV 나요|EC
+__label__2 다시|MAG 해|VV+EC 줘|VX+EC
+__label__1 다른|MM 요일|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__1 날짜|NNG 바꿀|VV+ETM 수|NNB 있|VV 나요|EC
+__label__4 오전|NNG 없|VA 어요|EF
+__label__3 그만|MAG 하|VV 겠|EP 습니다|EF
+__label__3 그만|MAG 할께요|VV+EF
+__label__1 시간|NNG 바꾸|VV 고|EC 싶|VX 은데|EC 가능|NNG 할까요|XSA+EC
+__label__3 써요|VV+EC
+__label__2 뭐|NP 라구|VCP+EC
+__label__3 알|VV 겠|EP 습니다|EF
+__label__2 잘|MAG 안|MAG 들려|VV+EC
+__label__1 다른|MM 요일|NNG 안|MAG 될까요|VV+EC
+__label__3 없|VA 어요|EF
+__label__1 시|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__472 요금제|NNP 알려줘|VV+EC+VX+EC
+__label__2 뭐|NP 라고|VCP+EC
+__label__4 이후|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 을까요|EC
+__label__4 오전|NNG 안|MAG 돼요|VV+EC
+__label__1 일|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__1 다른|MM 시간|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__1 다른|MM 날|NNG 안|MAG 될까요|VV+EC
+__label__1 일|NNG 바꿀|VV+ETM 수|NNB 있|VV 을까요|EC
+__label__4 오후|NNG 안|MAG 되|VV 나요|EC
+__label__3 됐|VV+EP 어요|EF
+__label__2 다시|MAG 말|NNG 해|XSV+EC 주|VX 세요|EP+EF
+__label__2 안|MAG 들려|VV+EC
+__label__4 몇|MM 시|NNBC 쯤|XSN 가능|NNG 할까요|XSA+EC
+__label__4 오후|NNG 없|VA 어요|EF
+__label__3 끊|VV 을께요|EC
+__label__2 뭐|NP 라는|VCP+ETM 거|NNB 야|VCP+EF
+__label__4 오전|NNG 몇|MM 시|NNBC 가능|NNG 해요|XSA+EC
+__label__1 날짜|NNG 바꾸|VV 고|EC 싶|VX 은데|EC 가능|NNG 할까요|XSA+EC
+__label__1 다른|MM 시간|NNG 안|MAG 될까요|VV+EC
+__label__2 못|MAG 알아들|VV 었|EP 어요|EF
+__label__4 오전|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 나요|EC
+__label__1 다른|MM 날짜|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__1 다른|MM 날짜|NNG 없|VA 나요|EC
+__label__2 한번|MAG 더|MAG 말|NNG 해|XSV+EC 줘|VX+EC
+__label__4 후|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 을까요|EC
+__label__3 끊|VV 어|EC
+__label__2 뭐|NP 라고|VCP+EC 했|VX+EP 지|EC
+__label__1 다른|MM 날짜|NNG 안|MAG 될까요|VV+EC
+__label__4 오전|NNG +JX 없|VA 어요|EF
+__label__1 다른|MM 시간|NNG 안|MAG 되|VV 나요|EC
+__label__2 못|MAG 들|VV 었|EP 어요|EF
+__label__3 됐|VV+EP 어|EC
+__label__1 일|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__4 오전|NNG 안|MAG 되|VV 나요|EC
+__label__1 일|NNG 가능|NNG 한가요|XSA+EC
+__label__1 시간|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__3 끊|VV 을께|EC
+__label__3 끊|VV 어도|EC 됩니다|VX+EC

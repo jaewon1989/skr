@@ -1,0 +1,43 @@
+#pages-signup .rb-tel-num-1 {
+    float: left;
+    width: 50px;
+}
+#pages-signup .rb-tel-num-2 {
+    float: left;
+    width: 60px;
+}
+#pages-signup .rb-tel-num-3 {
+    float: left;
+    width: 60px;
+}
+#pages-signup .rb-comp-num-1 {
+    float: left;
+    width: 50px;
+}
+#pages-signup .rb-comp-num-2 {
+    float: left;
+    width: 40px;
+}
+#pages-signup .rb-comp-num-3 {
+    float: left;
+    width: 60px;
+}
+#pages-signup .rb-comp-type {
+    float: left;
+    margin-left: 15px;
+}
+#pages-signup .rb-divider {
+    color: #999;
+    float: left;
+    padding: 5px;
+}
+
+#pages-signup .rb-divider:before {
+    content: "-";
+}
+#pages-signup .rb-zipsearch {
+    margin-left: 10px;
+}
+#pages-signup .well {
+    color: #777;
+}

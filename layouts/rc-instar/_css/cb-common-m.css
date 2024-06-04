@@ -1,0 +1,340 @@
+﻿/*@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-Thin.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-Light.otf") format('opentype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-DemiLight.otf") format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-Regular.otf") format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-Medium.otf") format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-Bold.otf") format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../fonts/NotoSansCJKkr-Black.otf") format('opentype');
+    font-weight: 900;
+}*/
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.cb-body {
+    font-family: "Nanum Gothic", sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url("../_images/bg.PNG") no-repeat center center;
+}
+
+.cb-body header,
+.cb-body ul, 
+.cb-body p,
+.cb-body header h1, .cb-body h2, .cb-body h3, .cb-body h4, .cb-body h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.cb-body a, 
+.cb-body a:visited, 
+.cb-body a:hover, 
+.cb-body a:link, 
+.cb-body a:active {
+	display: inline-block;
+	text-decoration: none;
+    vertical-align: middle;
+}
+
+.cb-body input[type=text],
+.cb-body input[type=submit],
+.cb-body select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    border-radius: 0;
+}
+
+.cb-body img {
+    width: 100%;
+    height: 100%;
+}
+
+.cb-body ul {
+    list-style: none;
+}
+
+.cb-body ul > li {
+    float: left;
+}
+
+.cb-icon {    
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.cb-icon, .cb-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cb-layout {
+    overflow: hidden;
+}
+
+.cb-cell-layout {
+    width: 100%;
+    display: table;
+}
+
+.cb-cell {
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.cb-circle {
+    border-radius: 100%;
+}
+
+.cb-layout .cb-left {
+    float: left;
+}
+
+.cb-row {             
+    display: block;
+    min-height: 1px;
+    margin-left: -3px;
+    margin-right: -3px;
+    box-sizing: border-box;
+    clear: both;
+    overflow: hidden;
+}
+
+.cb-row::after {
+    display: table;
+    content: " ";
+}
+
+.cb-row::before {
+    display: table;
+    content: " ";
+}
+
+.cb-row-2d {
+    width: 50%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+.cb-row-3d {
+    width: 33.3333%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+.cb-row-4d {
+    width: 25%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+.cb-row-5d {
+    width: 20%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+.cb-box-shadow-actualelement {
+	height: 80px;
+}
+
+.cb-box-dim {
+	background-color: rgba(255, 255, 255, .28);
+}
+
+.cb-box-shadow {
+	width: 100%;
+	height: 80px;
+	position: fixed!important;
+	top: 0px;
+	left: 0px;
+	z-index: 8;
+	box-shadow: rgba(0,0,0,.6) 0px 0px 4px 0px;
+
+	background:#90a7d0;
+    /*url("../_images/bg_bar.png") no-repeat center center;*/	
+}
+/* Icons */
+
+.cb-icon-menu {
+    width: 36px;
+    height: 31px;
+    background: url("../svg/menu.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-option {
+    width: 36px;
+    height: 31px;
+    background: url("../svg/option.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-search {
+    width: 36px;
+    height: 31px;
+    background: url("../svg/search.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-mbot {
+    width: 65px;
+    height: 65px;
+    background: url("../svg/m_bot.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-prev {
+    width: 28px;
+    height: 28px;
+    background: url("../svg/pre.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-facebook {
+    width: 16px;
+    height: 34px;
+    background: url("../svg/fabok.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-naver {
+    width: 27px;
+    height: 26px;
+    background: url("../svg/naver.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-kakaotalk {
+    width: 40px;
+    height: 37px;
+    background: url("../svg/katok.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-user {
+    width: 60px;
+    height: 66px;
+    background: url("../svg/user.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-camera {
+    width: 56px;
+    height: 49px;
+    background: url("../svg/cam.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-robot {
+    width: 52px;
+    height: 51px;
+    background: url("../svg/l_menu1.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-tool {
+    width: 52px;
+    height: 51px;
+    background: url("../svg/l_menu2.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-msg {
+    width: 52px;
+    height: 51px;
+    background: url("../svg/l_menu3.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-shopper {
+    width: 52px;
+    height: 51px;
+    background: url("../svg/l_menu4.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-agent {
+    width: 52px;
+    height: 51px;
+    background: url("../svg/l_menu5.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-house {
+    width: 66px;
+    height: 66px;
+    background: url("../_images/bot_avatar_blank.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-smile {
+    width: 35px;
+    height: 35px;
+    background: url("../svg/imo.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-recom {
+    width: 35px;
+    height: 35px;
+    background: url("../svg/recom.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-go {
+    width: 10px;
+    height: 12px;
+    background: url("../svg/go.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+

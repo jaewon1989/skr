@@ -1,0 +1,1553 @@
+/*
+z-index list
+#graphContainer : 10
+#control-box : 15
+#setNodePanel : 20
+
+*/
+
+body {
+    overflow: hidden !important;
+}
+
+#dialog-workspace {
+	position: relative;
+    height: 100%;
+}
+
+#dialog-workspace #header {
+    position: relative;
+
+}
+.graph-workspace #header{
+    background: #fff;
+    padding: 20px 10px 35px 10px;
+}
+
+.graph-workspace #header h4 {
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+    padding-left: 10px;
+}
+#dialog-workspace #headerTitle {
+    overflow: hidden;
+}
+
+#dialog-workspace #headerBtnBox {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    overflow: hidden;
+}
+
+#dialog-workspace #headerBtnBox li {
+    margin-right: 20px;
+    float: left;
+}
+
+#dialog-workspace button, #dialog-workspace .btn{
+   border-radius: 2px !important;
+}
+
+
+#dialog-workspace #graphContainer-wrapper {
+    height: 1000px;
+}
+
+#dialog-workspace #headerBtnBox .header-btn {
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    cursor: pointer;
+    color: #c6c6c6;
+
+}
+
+#dialog-workspace #headerBtnBox .icon-comment {
+    background: url('../images/icon_comment.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#dialog-workspace #headerBtnBox .icon-comment.active {
+    background: url('../images/icon_comment_active.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#dialog-workspace #headerBtnBox .header-btn img {
+    width: 100%;
+}
+#dialog-workspace #headerBtnBox .header-btn .fa {
+    text-align: center;
+    font-size: 3.5rem;
+    vertical-align: middle;
+}
+
+#dialog-workspace #dataSetPanel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    border-right: none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    z-index: 28;
+    top: 77px;
+    right: 0;
+    margin: 0 -100% 0 0;
+}
+
+/*#dialog-workspace .graph-box {
+    position: relative;
+    margin-top: 15px;
+    overflow: auto;
+    overflow-anchor: none;
+    height: calc(100vh - (2 * 64px));
+}*/
+#dialog-workspace #chatbotPanel {
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    border-right: none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    z-index: 28;
+    top: 137px;
+    right: 0;
+    margin: 0 -30% 0 0;
+}
+
+#dialog-workspace #chatbotPanel iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#dialog-workspace #chatbotPanel .refreshChatBox {
+    color: #d9d9d9;
+    font-size: 1.8rem;
+}
+
+
+/* 그래프 출력 */
+#dialog-workspace #graphContainer {
+   position:relative;
+   padding-top: 50px;
+   padding-left: 20px;
+   height:100%;
+   background:url('/modules/chatbot/lib/mxDraw/src/images/grid.png');
+   cursor:default;
+}
+
+
+
+/* 툴바 */
+#dialog-workspace #control-box {
+	width: 200px;
+	position:absolute;
+	top: 10px;
+	left: 20%;
+	z-index:15;
+}
+#dialog-workspace #control-box .control-item {
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+#dialog-workspace #control-box .control-item .fa{
+    font-weight: 100;
+    color: #d9d9d9;
+    font-size: 1.2em;
+}
+h1 {
+	font-size: 22pt;
+}
+
+#dialog-workspace #setNodePanel{
+	position: absolute;
+    height: 100%;
+    width: 48%;
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    border-right:none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    z-index: 20;
+    top: 77px;
+    right: 0;
+    margin: 0 -48% 0 0;
+
+}
+#dialog-workspace #setNodePanel .card-body .card-text {
+    padding:0;
+}
+
+#dialog-workspace #testLogPanel{
+    position: fixed;
+    height: auto;
+    width: 70%;
+    background: transparent;
+    border: none;
+    border-right:none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    z-index: 25;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 -200px 0px;
+    padding-left: 0px;
+}
+
+
+#dialog-workspace #testLogPanel .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#dialog-workspace #testLogPanel .panel-default {
+    box-shadow: none;
+    border: solid 1px #d8d8d8;
+    margin-bottom: 0;
+}
+
+#dialog-workspace #testLogPanel .panel-body{
+    height: 149px;
+    padding: 0 !important;
+}
+
+#dialog-workspace #testLogPanel .testLog-value {
+    color: #009efb;
+}
+
+#dialog-workspace #testLogPanel .panel-heading .col-md-3,
+#dialog-workspace #testLogPanel .panel-body .col-md-3 {
+    border-right: solid 1px #d8d8d8;
+    overflow: auto;
+    padding: 10px;
+}
+
+#dialog-workspace #testLogPanel .panel-heading .col-md-3:last-child,
+#dialog-workspace #testLogPanel .panel-body .col-md-3:last-child {
+    border-right: none;
+}
+
+
+#dialog-workspace #testLogPanel .panel-body .col-md-3 {
+    height: 149px;
+}
+
+#dialog-workspace #testLogPanel table th,
+#dialog-workspace #testLogPanel table td {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+#dialog-workspace #testLogPanel #show-intentAnal table th {
+    width: 31%;
+}
+
+#dialog-workspace #testLogPanel #show-nodeAnal table th {
+    width: 40%;
+}
+
+#dialog-workspace #testLogPanel table th,
+#dialog-workspace #testLogPanel .form-group label{
+     font-weight: 600;
+}
+
+#dialog-workspace #testLogPanel .panel-heading {
+   padding: 0px !important;
+   font-weight: bold;
+}
+
+#dialog-workspace #testLogPanel table th,
+#dialog-workspace #testLogPanel table td {
+    border:none !important;
+}
+
+#dialog-workspace #testLogPanel .panel-heading #btn-closeTestLogPanel {
+   position:absolute;
+   top: 9px;
+   right:10px;
+   color: inherit;
+   opacity: 0.5;
+
+}
+
+#dialog-workspace #testLogPanel .mop-table th {
+    width: 40%;
+    color: #009efb;
+}
+
+#dialog-workspace #testLogPanel .mop-table th,
+#dialog-workspace #testLogPanel .mop-table td{
+    border: solid 1px #e3e3e3 !important;
+    padding: 7px !important;
+}
+
+
+#dialog-workspace #setNodePanel #nodeSetting-inner {
+    position: relative;
+}
+
+
+/* 노드 세팅패널 */
+#dialog-workspace #setNodePanel label{
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+#dialog-workspace #setNodePanel input[type="text"]{
+    font-weight: 400;
+	color: #777677;
+}
+
+#dialog-workspace #setNodePanel label{
+    font-weight: 600;
+	color: #333;
+}
+
+#dialog-workspace #setNodePanel .inputFilter-wrapper input[type="text"] {
+    width: 95%;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: .3em .8em .2em 0;
+    box-shadow: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+#dialog-workspace #setNodePanel #node_name input[type="text"] {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #d0dada;
+    padding: .3em .8em .2em 0;
+    box-shadow: none;
+    outline: none;
+    font-size: 1.3em;
+}
+
+.panelScroll {
+   position: relative;
+   width: 100%;
+   padding: 32px;
+   padding-right: 16px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   overflow-anchor: none;
+   clear: both;
+}
+
+.intentPanel .panelScroll {
+    padding-top: 16px;
+}
+
+.panelScroll .list-group .active {
+    background: #009efb;
+}
+
+
+#dialog-workspace .form-group {
+	margin-bottom: 40px;
+}
+
+#dialog-workspace #setNodePanel #nodeSetting {
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#dialog-workspace #setNodePanel #nodeName {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#dialog-workspace #setNodePanel #node_name {
+   position: relative;
+   padding: 32px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+#dialog-workspace #setNodePanel .form-group .text-mute {
+    margin-top: 7px;
+    color: #999;
+}
+
+#dialog-workspace #setNodePanel #filterBox {
+    position: relative;
+    display: none;
+    background-color: #fff;
+}
+
+#dialog-workspace #setNodePanel #filter-wrapper {
+    width: 100%;
+    position: absolute;
+    margin-top: 10px;
+    background-color: #fdfdfd;
+    color: #343334;
+    background-clip: padding-box;
+    border: 1px solid #c0bfc0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    z-index: 25;
+}
+
+#dialog-workspace #setNodePanel #filter-wrapper #filter-list{
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+    top: 100%;
+    left: 0;
+    z-index: 1060;
+    margin-top: -1px;
+    font-size: 14px;
+    text-align: left;
+}
+#dialog-workspace #setNodePanel #filter-wrapper .close{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#dialog-workspace #setNodePanel #filter-wrapper #filter-guide {
+    padding: 15px 0 15px 15px;
+}
+
+#dialog-workspace #setNodePanel #filter-wrapper #filter-list .list-group-item {
+    width: 100%;
+    border:none;
+    background-color: inherit;
+}
+#dialog-workspace #setNodePanel #filter-wrapper #filter-list .list-group-item:hover{
+   background-color: #c2dbf4;
+}
+
+/* 인풋 가이드 tooltip */
+.guide-input + .tooltip > .tooltip-inner {
+    background-color: #009efb;
+    height: 90px;
+    padding-left: 15px;
+    max-width: 250px !important;
+    text-align: left;
+}
+
+.guide-input + .tooltip > .tooltip-inner .guide-ul{
+    list-style: inside;
+    list-style-type: disc;
+}
+
+.guide-input + .tooltip > .tooltip-inner .guide-ul li {
+    line-height: 160%;
+}
+
+.guide-input + .tooltip > .tooltip-arrow {
+    border-right-color: #009efb;
+}
+
+.guide-question {
+    color: #009efb;
+}
+.inputFilter-wrapper {
+    border-bottom: 2px solid #d0dada;
+}
+.inputFilter-wrapper .inputFilter-group {
+    display: inline-block;
+}
+
+.inputFilter-wrapper .input-item {
+    position: relative;
+    display: inline-block;
+    width: 44%;
+}
+.inputFilter-wrapper .input-item .inputFilter-group {
+    display: inline-block;
+}
+
+.inputFilter-wrapper .input-item .query-span{
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 2px;
+    font-size: 1.7rem;
+}
+
+.inputFilter-wrapper .input-item .and-or{
+    position: relative;
+    top: 0;
+}
+
+.inputFilter-wrapper .and-or select {
+    border: none !important;
+    display: inline-block;
+    font-size: 13px;
+    padding: .3em .8em .2em 0;
+    -webkit-appearance: none;
+}
+
+.inputFilter-wrapper .input-item .del-inputFilter{
+    right: 25px;
+}
+.inputFilter-wrapper .input-item .add-inputFilter{
+    right: 2px;
+}
+
+
+
+.fa-minus-circle {
+    color : #e3e3e3;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.fa-plus-circle {
+    color : #009efb;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+#dialog-workspace #setNodePanel .form-control {
+    height: auto !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+#dialog-workspace #setNodePanel textarea {
+    border: solid 1px #f1f1f1;
+    padding: 10px;
+}
+
+#dialog-workspace #setNodePanel textarea:focus {
+     border: solid 1px #d0dada !important;
+
+}
+
+/* 답변그룹 탭메뉴 sortable */
+#dialog-workspace #setNodePanel .sotable-placeholder {
+    opacity: .5;
+    background: yellow;
+    z-index: 100;
+}
+
+.fff-bg {
+    background: #fff !important;
+}
+.no-bg {
+    background: none !important;
+}
+
+.no-rb {
+    border-right: none !important;
+}
+
+#dialog-workspace #setNodePanel #btn-addRespond {
+    position: absolute;
+    top: -25px;
+    left: 53px ;
+}
+
+#respondGroup-tab .ready .dragging{
+    z-index:3;
+    -webkit-transition:none;
+    -moz-transition:none;
+    transition:none;
+}
+#respondGroup-tab .placeholder{
+    z-index:1;
+    -webkit-transition:top 0.3s,left 0.3s;
+    -moz-transition:top 0.3s,left 0.3s;
+    transition:top 0.3s,left 0.3s;
+    background: #f2fbff;
+    border: 1px dashed #009efb;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#respondGroup-tab {
+    position:relative;
+    width: 100% !important;
+    padding:10px 10px 0 0;
+}
+
+#respondGroup-tab .item{
+    position:absolute;
+    z-index:2;
+    cursor: move;
+    -webkit-transition:top 0.3s,left 0.3s;
+    -moz-transition:top 0.3s,left 0.3s;
+    transition:top 0.3s,
+    left 0.3s;
+}
+
+#respondGroup-tab a .fa {
+    margin-right: 3px;
+}
+
+#respondGroup-tab a .fa-info {
+    margin-right: 0;
+}
+
+#respondGroup-tab .item.active {
+    top: 11px !important;
+}
+
+
+#respondGroup-tab #btn-addRespondGroup{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    z-index:2;
+}
+
+#btn-addRespond .dropdown-menu {
+    background: #f3f3f3;
+
+}
+#btn-addRespond .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .7rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+#btn-addRespond .dropdown-item:hover {
+    background: #d0dada;
+}
+#btn-addRespond .dropdown-item .fa {
+   display: inline-block;
+   margin-right: 8px;
+}
+
+#btn-addRespond .dropdown-item .fa-info {
+   margin-right: 0;
+}
+
+
+
+/* 답변 그룹 */
+.panel {
+    padding: 0 !important;
+    border-radius: 2px !important;
+}
+
+.panel-heading span {
+    display: inline-block;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.move-handle {
+    width: 5%;
+}
+.respondGroup-title {
+    width: 88%;
+    text-align: left !important;
+}
+.delete-handle {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 4%;
+}
+
+.panel-heading {
+    padding: 2px 0 !important;
+    background-color:#f9f7f9 !important;
+    border-bottom: 1px solid #ddd;
+
+}
+.panel-body {
+    padding: 10px !important;
+}
+
+.respondGroup .tab-content {
+    padding-top: 20px;
+    height: auto;
+    min-height: 340px;
+}
+
+.nav-tabs > li {
+    margin-right: 7px;
+}
+
+.nav-tabs > li.active > a:hover {
+    border: solid 1px #d0dada !important;
+    border-bottom: solid 1px #fff !important;
+}
+
+.nav-tabs {
+    border-bottom:solid 1px #d0dada;
+}
+
+.nav-tabs > li > a {
+   color: #d9d9d9 !important;
+   padding-right: 30px;
+}
+
+.nav-tabs > li > a:hover {
+    background: none !important;
+    border: dashed 1px #ddd !important;
+    color: #555 !important;
+}
+
+.nav-tabs > li.active > a {
+    color: #333 !important;
+}
+.rgMenu-wrapper {
+    position: absolute;
+    top:11px;
+    right: 10px;
+    color : #d9d9d9;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.rgMenu-wrapper .dropdown-toggle {
+    color: #d9d9d9;
+}
+
+.rgMenu-wrapper .dropdown-toggle:hover {
+    color: #555;
+}
+.rgMenu-list {
+    width: 90px !important;
+    min-width: 90px !important;
+    background: #f3f3f3;
+}
+.rgMenu-list .dropdown-item {
+    display: block;
+    width: 100%;
+    font-size: 0.8em;
+    padding: .7rem 1.5rem;
+    clear: both;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.rgMenu-list .dropdown-item .fa {
+    margin-right: 7px !important;
+}
+
+.rgMenu-list .dropdown-item:hover {
+    background: #d0dada;
+}
+
+.panelScroll .form-group .fgContent-wrapper {
+    position: relative;
+    width: 3000px;
+}
+
+.panelScroll .form-group .fgContent-wrapper .hMenu-entitySelect {
+    display: block;
+    margin-bottom: 10px;
+    border: none !important;
+    display: inline-block;
+    font-size: 13px;
+    padding: .3em .8em .2em 0;
+    -webkit-appearance: none;
+}
+
+.panelScroll #form-group-submit {
+    /*position: absolute;*/
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.panelScroll #form-group-submit button {
+    width: 30%;
+}
+.btn-primary, .btn-primary:active {
+    background: #009efb !important;
+}
+
+.panelScroll .tab-content > .active {
+    overflow-x: auto;
+}
+
+.panelScroll .tab-hidden, .panelScroll .tab-hidden:hover {
+    background: #e7e7e7 !important;
+    color: #999 !important;
+}
+
+
+/* notify */
+
+#chatting-container {
+    position: relative;
+}
+
+#kiere-notify {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+}
+
+#kiere-notify-msg {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#kiere-notify.active {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 1s;
+    animation: fadein 0.5s, fadeout 0.5s 1s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/* notify */
+
+.card-img-wrapper {
+   background-repeat:"no-repeat";
+   background-position:"center center";
+   background-size:"cover";
+}
+
+/* 가로메뉴 내부 tab content*/
+
+.hMenu-resGroup .nav-tabs > li {
+   margin-right: 0px !important;
+   padding-right: 0px !important;
+   margin-left: 7px;
+}
+
+.hMenu-resGroup .nav-tabs > li > a {
+   margin-right: 0px !important;
+   padding: 7px 11px !important;
+}
+
+.hMenu-resGroup .tab-content {
+    height: 150px;
+    min-height: 150px;
+    padding: 10px;
+    padding-top: 13px;
+}
+
+.hMenu-resGroup .menu-title {
+    border-bottom: solid 1px #e9e9e9;
+}
+
+.hMenu-resGroup .hMenu-tabs {
+    padding-top: 20px;
+    width: 350px;
+    height: 70px ;
+}
+
+.hMenu-resGroup .hMenuResGroup-guide {
+   padding-top: 13px;
+   padding-left: 10px;
+   font-size: 0.9em;
+   color: #c2c2c2;
+}
+
+.hMenu-resGroup .card-img-wrapper {
+    height: 125px;
+    border: dashed 1px #ddd;
+}
+#dialog-workspace #setNodePanel .hMenu-resGroup textarea.form-control {
+    height: 125px !important;
+}
+.hMenu-resGroup input[type=text], .hMenu-resGroup select {
+    border: solid 1px #e1e1e1;
+}
+
+.hMenu-resGroup input[type=text], .hMenu-resGroup select, .hMenu-resGroup textarea {
+    font-size: 1em !important;
+    color: #999 !important;
+}
+
+.menu-title input[type="text"] {
+    color: #454545 !important;
+}
+
+
+::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+   color: #ccc !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+   color: #ccc !important;
+}
+:-ms-input-placeholder  { /* IE 10+ */
+   color: #ccc !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #ccc !important;
+}
+
+.resItem-hMenu-wrapper .img-more {
+    height: 294px;
+}
+
+/* intent, entity 박스 */
+#dialog-workspace .intentPanel, #dialog-workspace .entityPanel {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    border-right: none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    z-index: 35;
+    top: 77px;
+    right: 0;
+    margin: 0 -30% 0 0;
+}
+
+#dialog-workspace .recommendPanel {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    border-right: none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    z-index: 40;
+    top: 77px;
+    right: 0;
+    margin: 0 -30% 0 0;
+}
+
+/*#dialog-workspace .recommendPanel #textAni-loader {
+    display: none;
+}*/
+
+#dialog-workspace .panel-menu {
+    padding: 32px;
+}
+
+#dialog-workspace .panel-search {
+    padding: 0 32px 0 32px;
+}
+
+#dialog-workspace .itemName-wrapper {
+    padding: 32px 32px 0 32px;
+}
+
+#dialog-workspace .itemName-wrapper .input-group {
+    width: 100%;
+}
+
+#dialog-workspace .itemName-wrapper .input-group-btn .btn{
+    border: solid 1px #fff !important;
+    opacity: 0.3;
+}
+
+#dialog-workspace .itemName-wrapper .input-group-btn .btn:hover, #dialog-workspace .itemName-wrapper .input-group-btn .btn:focus  {
+    background: none;
+    border: solid 1px #fff;
+    opacity: 0.8;
+    box-shadow: none;
+}
+
+#dialog-workspace .itemName-wrapper .panelIntentName-wrapper,
+#dialog-workspace .itemName-wrapper .panelEntityName-wrapper{
+    border-bottom: solid 1px #d0dada;
+}
+
+#dialog-workspace .itemName-wrapper .itemName {
+    padding-left: 0;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#dialog-workspace .itemName-wrapper .itemName:focus {
+    box-shadow: none;
+}
+
+#dialog-workspace .middle-wrapper{
+     padding: 0px 32px 0 32px;
+}
+
+#dialog-workspace .middle-wrapper .btn {
+    color: #777 !important;
+}
+
+#dialog-workspace .panelTop-title {
+    float: left;
+    padding-top: 7px;
+    width: 20%;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+#dialog-workspace .panelTop-menuWrapper {
+    float: right;
+    text-align: right;
+}
+
+#dialog-workspace .panelTop-menuWrapper li {
+    margin-left: 7px;
+    text-align: right;
+    float: left;
+}
+
+#dialog-workspace .panelTop-menuWrapper li button {
+    font-size: 1.2rem;
+}
+
+#dialog-workspace .intentEx-item, #dialog-workspace .entityEx-item  {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#dialog-workspace .intentEx-item, #dialog-workspace .entityEx-item textarea,
+#dialog-workspace .intentEx-item, #dialog-workspace .entityEx-item textarea:focus {
+    border-radius: 0px;
+    border-top: none;
+    box-shadow: none;
+
+}
+
+#dialog-workspace .intentEx-input{
+    width: 90%;
+}
+
+#dialog-workspace .intentEx-item .fa, #dialog-workspace .entityEx-item .fa{
+    opacity: 0.3;
+}
+#dialog-workspace .intentEx-item .fa, #dialog-workspace .entityEx-item .fa:hover{
+    opacity: 0.7;
+}
+
+#dialog-workspace .entityEx-item .input-group .btn,
+#dialog-workspace .entityEx-item .input-group .btn:hover,
+#dialog-workspace .entityEx-item .input-group .btn:focus{
+    border: 1px solid #ccc;
+    border-left: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px dotted #ddd;
+}
+
+#dialog-workspace .entityEx-item .input-group .eX-name,
+#dialog-workspace .entityEx-item .input-group .eX-name:focus {
+    border: 1px solid #ccc;
+    border-right: none !important;
+    box-shadow: none;
+    border-bottom: 1px dotted #ddd;
+    font-weight: bold;
+}
+
+
+#dialog-workspace .btnSave-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 25%;
+}
+
+#dialog-workspace #setNodePanel .btnSave-wrapper {
+    position: absolute;
+    width: auto;
+    height: 40px;
+    top: 10px;
+    right: 45px;
+}
+
+.no-data {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding-top: 40%;
+    color: #999;
+}
+
+#dialog-workspace #dataTable-wrapper .panelScroll {
+    overflow-x:auto;
+}
+
+/* 조건타입 */
+.ifMenu-inputWrapper {
+    width: 100%;
+    padding: 0 10px !important;
+    height: 86px;
+    overflow-y: auto;
+}
+
+.ifMenu-resGroup .tab-content {
+    height: 110px;
+    min-height: 110px;
+    padding: 10px;
+    padding-top: 13px;
+}
+
+.ifMenu-resGroup .card-img-wrapper {
+    height: 85px;
+    border: dashed 1px #ddd;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper {
+   border-bottom: none !important;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup textarea.form-control {
+    height: 85px !important;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .multiMenuFormName textarea.form-control {
+    height: 100px !important;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .multiMenuFormName .form-ques {
+    margin: 5px 0;
+}
+
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper .input-item {
+    display: block !important;
+    width: 100% !important;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper .input-item.active {
+    border-bottom: 1px solid #009efb;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper input[type="text"]{
+    height: 35px;
+    font-size: 12px !important;
+    color: #555 !important;
+    font-weight: 600;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper .input-item .query-span{
+    top: 7px;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper .input-item .and-or {
+    font-size: 0.9em !important;
+
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .inputFilter-wrapper .input-item .and-or select {
+    height: auto !important;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filterBox {
+   display: none;
+   position: static;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filterBox .filter-wrapper {
+    width: 90%;
+    position: absolute;
+    margin-top: 10px;
+    background-color: #fdfdfd;
+    color: #343334;
+    background-clip: padding-box;
+    border: 1px solid #c0bfc0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    z-index: 25;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filter-wrapper #filter-list{
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+    top: 100%;
+    left: 0;
+    z-index: 1060;
+    margin-top: -1px;
+    font-size: 12px;
+    text-align: left;
+}
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filter-wrapper .close{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filter-wrapper #filter-guide {
+    font-size: 12px !important;
+    padding: 15px 0 15px 15px;
+}
+
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filter-wrapper #filter-list .list-group-item {
+    width: 100%;
+    border:none;
+    background-color: inherit;
+}
+#dialog-workspace #setNodePanel .ifMenu-resGroup .filter-wrapper #filter-list .list-group-item:hover{
+   background-color: #c2dbf4;
+}
+
+.del-resItem {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0.5;
+}
+
+.del-resItem:hover {
+    opacity: 1;
+}
+
+#setNodePanel #output-formGroup {
+    position: relative;
+}
+
+#setNodePanel #btn-outputMenu {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #d0dada;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#setNodePanel #btn-outputMenu .dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+    background: #f3f3f3;
+}
+#setNodePanel #btn-outputMenu .dropdown-menu .dropdown-item{
+    display: block;
+    width: 100%;
+    padding: .7rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#setNodePanel #btn-outputMenu:hover {
+    color: #333;
+}
+
+#setNodePanel .context-input
+{
+    width: 95%;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px #d0dada;
+    padding: .3em .8em .2em 0;
+    box-shadow: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+/* 컨텍스트 */
+#setNodePanel .context-input:focus {
+    border-bottom: solid 2px #1caafc;
+}
+#setNodePanel .context-wrapper .contextName {
+    width: 45%;
+}
+
+
+#setNodePanel .context-wrapper .contextValue {
+    width: 45%;
+}
+
+#setNodePanel .context-wrapper .contextAction {
+    width: 10%;
+}
+
+#setNodePanel .context-wrapper td {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+
+#setNodePanel .contextAction span {
+    display: block;
+    font-size: 1.7rem;
+    float: left;
+    cursor: pointer;
+}
+
+#setNodePanel .contextAction .context-delBtn {
+    margin-right: 10px;
+}
+
+/* multiMenu 컨텍스트 */
+#setNodePanel .multiMenuContext-wrapper td {
+    padding: 5px;
+}
+#setNodePanel .multiMenuContext-wrapper .multiMenuContextName {
+    width: 98%;
+}
+#setNodePanel .multiMenuContext-wrapper .contextAction {
+    width: 2%;
+}
+
+#setNodePanel .multiMenuContext-wrapper input {
+    width: 93%;
+    float: right;
+}
+
+#setNodePanel .multiMenuContext-wrapper .form-rec input {
+    width: 100% !important;
+}
+
+
+#setNodePanel .multiMenuContext-wrapper .multiMenuContext-mark {
+    display: inline-block;
+    float: left;
+    padding: .5em 0 .2em 0;
+}
+#setNodePanel .multiMenuContext-wrapper .contextAction .context-delBtn {
+    margin-right: 0;
+}
+
+#setNodePanel .multiMenuContext-wrapper .contextAction {
+    padding-top: 25px;
+}
+
+#setNodePanel .multiMenuContext-container, #setNodePanel .resItem-hMenu-wrapper .multiMenuLink-container {
+    height: 125px;
+    overflow-y: auto;
+}
+
+#setNodePanel .ifMenu-resGroup .multiMenuContext-container, #setNodePanel .ifMenu-resGroup .multiMenuLink-container {
+    height: 90px;
+    overflow-y: auto;
+}
+
+
+/* apiReq res 컨텍스트 */
+.apiRes-wrapper .context-input
+{
+    width: 95%;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px #d0dada;
+    padding: .3em .8em .2em 0;
+    box-shadow: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+/* 컨텍스트 */
+.apiRes-wrapper .context-input:focus {
+    border-bottom: solid 2px #1caafc;
+}
+.apiRes-wrapper .context-wrapper .contextName {
+    width: 45%;
+}
+
+
+.apiRes-wrapper .context-wrapper .contextValue {
+    width: 45%;
+}
+
+.apiRes-wrapper .context-wrapper .contextAction {
+    width: 10%;
+}
+
+.apiRes-wrapper .context-wrapper td {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+
+.apiRes-wrapper .contextAction span {
+    display: block;
+    font-size: 1.7rem;
+    float: left;
+    cursor: pointer;
+}
+
+.apiRes-wrapper .contextAction .context-delBtn {
+    margin-right: 10px;
+}
+.apiRes-wrapper .multiMenuContext-wrapper td {
+    padding: 5px;
+}
+.apiRes-wrapper .multiMenuContext-wrapper .multiMenuContextName {
+    width: 98%;
+}
+.apiRes-wrapper .multiMenuContext-wrapper .contextAction {
+    width: 2%;
+}
+
+.apiRes-wrapper .multiMenuContext-wrapper input {
+    width: 93%;
+    float: right;
+}
+.apiRes-wrapper .multiMenuContext-wrapper .multiMenuContext-mark {
+    display: inline-block;
+    float: left;
+    padding: .5em 0 .2em 0;
+}
+.apiRes-wrapper .multiMenuContext-wrapper .contextAction .context-delBtn {
+    margin-right: 0;
+}
+
+.apiRes-wrapper .multiMenuContext-wrapper .contextAction {
+    padding-top: 25px;
+}
+
+.apiRes-wrapper .multiMenuContext-container, .apiRes-wrapper .resItem-hMenu-wrapper .multiMenuLink-container {
+    height: 280px;
+    overflow-y: auto;
+}
+
+.apiRes-wrapper .ifMenu-resGroup .multiMenuContext-container, .apiRes-wrapper .ifMenu-resGroup .multiMenuLink-container {
+    height: 90px;
+    overflow-y: auto;
+}
+
+#testLogPanel .eLog-left {
+    width: 50% !important;
+}
+
+#testLogPanel .eLog-right {
+    width: 50% !important;
+    word-break: break-all;
+}
+
+#setNodePanel .multiMenuItem-inputWrapper {
+    margin-bottom: 7px;
+}
+
+#setNodePanel .multiMenuItem-inputWrapper label {
+    font-weight: normal !important;
+    font-size: 1.2rem !important;
+}
+
+#setNodePanel .navTabs-wrapper{
+    overflow-x: auto;
+    height: 73px;
+    scrollbar-face-color: #f9f9f9;
+    scrollbar-shadow-color: #fff;
+    scrollbar-highlight-color: #fff;
+    scrollbar-3dlight-color: #fff;
+    scrollbar-darkshadow-color: #fff;
+    scrollbar-track-color: #fff;
+    scrollbar-arrow-color: #fff;
+
+}
+/* 아이템 순서변경 이벤트 적용 */
+#setNodePanel .navTabs-wrapper.stop-scrolling{
+    overflow-x: hidden;
+}
+
+#setNodePanel .navTabs-wrapper::-webkit-scrollbar-track {
+      background-color: #fff;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+#setNodePanel .navTabs-wrapper::-webkit-scrollbar-thumb {
+      background-color: #f9f9f9;
+} /* this will style the thumb, ignoring the track */
+
+#setNodePanel .navTabs-wrapper::-webkit-scrollbar-button {
+      background-color: #fff;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+#setNodePanel .navTabs-wrapper::-webkit-scrollbar-corner {
+      background-color: #f9f9f9;
+}
+#setNodePanel .navTabs-wrapper::-webkit-scrollbar {
+    width: 5px;
+}
+
+#setNodePanel .apiSelect-wrapper {
+    position: relative;
+}
+
+#setNodePanel .apiSelect-wrapper .api-select {
+    width: 85%;
+}
+
+#setNodePanel .apiSelect-wrapper .apiConfig-wrapper {
+    position: absolute;
+    right: 1%;
+    top: 7px;
+}
+
+#setNodePanel .apiSelect-wrapper .apiConfig-wrapper .fa-configAPI {
+    font-size: 1.7rem;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#setNodePanel .apiSelect-wrapper .apiConfig-wrapper .fa-configAPI:hover{
+    opacity: 1;
+}
+
+/* api setPanel*/
+#dialog-workspace #setApiPanel{
+    position: absolute;
+    height: 100%;
+    width: 52%; /* 100-setNodePanel width(48)*/
+    background: #fff;
+    border: solid 1px #d8d8d8;
+    border-right:none;
+    -moz-transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    z-index: 18;
+    top: 77px;
+    right: 0;
+    margin: 0 -100% 0 0;
+
+}

@@ -1,0 +1,17 @@
+<tr data-role="apiResContextList-row" data-order="{$contextOrder}">
+	<td class="multiMenuContextName">
+		<div>
+			<span class="multiMenuContext-mark">$</span>
+			<input name="apiResContextName[]" class="context-input" placeholder="{$callContext} 변수명" value="{$contextName}" data-role="input-nodeContextName"/>
+	    </div>
+	    <div>
+	    	<input name="apiResContextValue[]" class="context-input" placeholder="{$callContext} 값" value="{$contextValue}"/>
+	    </div>
+	</td>
+	<td class="contextAction" data-role="apiResContext-action">
+		<span class="context-delBtn" data-role="act-apiResContextRow" data-type="del" data-order="{$contextOrder}">
+            <i class="fa fa-minus-circle" aria-hidden="true"></i> 
+        </span>	
+        {$addBtn}	
+	</td>
+</tr>

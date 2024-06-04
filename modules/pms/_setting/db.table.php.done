@@ -1,0 +1,6 @@
+<?php
+$table[$module.'category'] = $DB['head'].'_'.$module.'_category'; //카테고리
+$table[$module.'product'] = $DB['head'].'_'.$module.'_product'; //상품데이터
+$table[$module.'qna'] = $DB['head'].'_'.$module.'_qna'; //상품문의
+
+?>

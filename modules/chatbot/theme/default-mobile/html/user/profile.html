@@ -1,0 +1,170 @@
+<section id="cb-navigator" class="cb-box-dim bar bar-nav">
+    <div class="cb-navigator-wrapper">
+        <div class="cb-cell-layout">
+            <div class="cb-cell cb-cell-left">
+                <span class="cb-icon cb-icon-prev" data-history="back"></span>
+            </div>
+            <div class="cb-cell cb-cell-center">
+                
+            </div>
+            <div class="cb-cell cb-cell-right">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="cb-lost-found">
+    <div class="cb-lost-found-wrapper" id="photo-container" style="position:relative;">
+         <div class="cb-lost-found-profileholder" id="photo-setting">
+            <div id="photo-preview" {$avatar_bg}>
+                 <span style="display:none"><input type="file" name="setting_photo"  id="setting-inputPhoto"/></span>
+                 <span class="cb-icon {$cb_icon_user}" id="change_photo"></span>
+            </div>
+        </div>
+
+        <div class="cb-lost-found-tab">
+            <div class="cb-cell-layout mTab-group">
+                <div class="cb-cell cb-tab-item cb-userinfo-change cb-selected" data-toggle="mTab" data-target="#settings-info">회원정보 변경</div>
+                <div class="cb-cell cb-tab-item cb-password-change" data-toggle="mTab" data-target="#settings-pw">비밀번호 변경</div>
+            </div>
+         </div>
+    </div>
+    
+    <div class="tab-content" id="profile-mTab">
+        <div class="tab-pane fade active in" id="settings-info">
+            <form name="procForm" role="form" action="{$g_s}/" enctype="multipart/form-data"method="post" onsubmit="return infoChangeCheck(this);">
+            <input type="hidden" name="m" value="member" />
+            <input type="hidden" name="a" value="info_update" />
+            <input type="hidden" name="sex" value="{$sex}" />
+            <input type="hidden" name="age" value="{$age}" />
+                {$form_inputs} <!-- 입력폼들 -->
+                <input type="submit" value="변경 하기">
+            </form> 
+        </div>
+        <div class="tab-pane fade" id="settings-pw"> 
+            <form name="procForm" class="form-horizontal" role="form" action="{$g_s}/" method="post" onsubmit="return pwChangeCheck(this);">
+            <input type="hidden" name="m" value="member" />
+            <input type="hidden" name="a" value="pw_update" />
+                <div class="cb-inputnaked">
+                    <input type="password" placeholder="현재 비밀번호" name="pw" id="pw">
+                </div>
+                <div class="cb-inputnaked">
+                    <input type="password" placeholder="새 비밀번호" name="pw1" id="pw1">
+                </div>
+                <div class="cb-inputnaked">
+                    <input type="password" placeholder="새 비번 확인" name="pw2" id="pw2">
+                </div>
+
+                <input type="submit" value="변경 하기">
+            </form>
+        </div>
+      
+     </div>  
+</section>
+<script type="text/javascript">
+//<![CDATA[
+
+//멀티탭 
+$(document).on('tap','[data-toggle="mTab"]',function(){
+    $('.mTab-group div').removeClass('cb-selected');
+    $(this).addClass('cb-selected');
+    
+    var target =$(this).data('target');
+
+    $('#profile-mTab').find('.tab-pane').removeClass('active in');
+    $('#profile-mTab').find(target).addClass('active in');
+
+})
+
+
+// 사진 업데이트 - ios / desktop 
+$(document).on("click","#change_photo", function() {
+     $('#setting-inputPhoto').click();
+});
+$(document).on('change','#setting-inputPhoto',function(e){
+     var files=e.target.files;
+     var file=files[0];
+     var reader = new FileReader();
+     reader.readAsDataURL(file);
+      //로드 한 후
+     reader.onload = function  () {
+            //로컬 이미지를 보여주기
+           
+             $("#photo-preview").css({"background":"url('"+reader.result+"')", "background-repeat":"no-repeat", "background-position":"center center","background-size":"170px 170px"});
+   
+            // 사진 폼  ajax 전송 
+             data = new FormData();
+             data.append("setting_photo",file); // 가상의 "file" 이라는 오브젝트를 만들어서 전송한다.
+             data.append("agent","desktop"); //  
+             $.ajax({
+                 type: "POST",
+                 url : rooturl+'/?r='+raccount+'&m=member&a=updateUserPic',
+                 data:data,
+                 cache: false,
+                 contentType: false,
+                 processData: false,
+                 success:function(response) {
+                      var result=$.parseJSON(response);
+                      setTimeout(function(){
+                         show__Notify('#photo-container',result.message); 
+                      },200);
+                         
+                 }
+            }); // ajax
+    } 
+});
+
+// 일반정보 변경
+function infoChangeCheck(f)
+{
+   getIframeForAction(f);
+   f.submit();
+}
+
+// 패스워드 변경 
+function pwChangeCheck(f)
+{
+    if (f.pw.value == '')
+    {
+        alert('현재 패스워드를 입력해 주세요.');
+        f.pw.focus();
+        return false;
+    }
+
+    if (f.pw1.value == '')
+    {
+        alert('변경할 패스워드를 입력해 주세요.');
+        f.pw1.focus();
+        return false;
+    }
+    if (f.pw2.value == '')
+    {
+        alert('변경할 패스워드를 한번더 입력해 주세요.');
+        f.pw2.focus();
+        return false;
+    }
+    if (f.pw1.value != f.pw2.value)
+    {
+        alert('변경할 패스워드가 일치하지 않습니다.');
+        f.pw1.focus();
+        return false;
+    }
+
+    if (f.pw.value == f.pw1.value)
+    {
+        alert('현재 패스워드와 변경할 패스워드가 같습니다.');
+        f.pw1.value = '';
+        f.pw2.value = '';
+        f.pw1.focus();
+        return false;
+    }
+
+    if(('정말로 수정하시겠습니까?       ')){
+        getIframeForAction(f);
+        f.submit();
+    }else{
+        return false;
+    }
+}
+//]]>
+</script>

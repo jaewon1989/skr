@@ -1,0 +1,45 @@
+<canvas id="chart-total" style="height:100%;width:100%;"></canvas>
+<script>
+// 기간별 유입수 
+var ctx1 = document.getElementById("chart-total");
+ctx1.height = 80;
+var gigan_data = {
+    labels: [{$page_date}],
+    datasets: [
+        {
+            label: "총 접속",
+            backgroundColor: "#218eff",
+            borderColor: "#218eff",
+            data: [{$page_all}],
+            fill: false,
+        },
+        {
+            label: "순방문",
+            backgroundColor: "#a5a3a3",
+            borderColor: "#a5a3a3",
+            data: [{$page_f}],
+            fill: false,
+        },
+        {
+            label: "재방문",
+            backgroundColor: "#ec7208",
+            borderColor: "#ec7208",
+            data: [{$page_s}],
+            fill: false,
+        }
+    ]
+};
+var myChart = new Chart(ctx1, {
+    type: 'line',
+    data: gigan_data,
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>

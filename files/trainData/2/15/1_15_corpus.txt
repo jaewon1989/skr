@@ -1,0 +1,162 @@
+__label__1 날짜|NNG 바꿀|VV+ETM 수|NNB 있|VV 나요|EC
+__label__2 뭐|NP 라고|VCP+EC 했|VX+EP 지|EC
+__label__391 구매|NNG 하|XSV 겠|EP 습니다|EF
+__label__388 다시|MAG 고를|VV+ETM 래|NNP
+__label__388 블랙|NNG 백|NR 오|NR 바꿀|VV+ETM 게요|NNB+VCP+EC
+__label__1 날짜|NNG 바꾸|VV 고|EC 싶|VX 은데|EC 가능|NNG 할까요|XSA+EC
+__label__1 다른|MM 시간|NNG 안|MAG 될까요|VV+EC
+__label__385 답답|XR 하|XSA 네|EF 이거|NP
+__label__4 후|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 을까요|EC
+__label__2 뭐|NP 라구|VCP+EC
+__label__385 좋|VA 냐|EC
+__label__2 다시|MAG 이야기|NNG 해|XSV+EC 줘|VX+EC
+__label__386 안녕|NNG 하|XSV 세요|EP+EF
+__label__1 다른|MM 날짜|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__387 구매|NNG 한|XSV+ETM 거|NNB 취소|NNG
+__label__4 오전|NNG +JX 없|VA 어요|EF
+__label__1 시|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__391 주문|NNG
+__label__391 파란색|NNG 105|SN 주문|NNG 해|XSV+EC 줘|VX+EC
+__label__3 괜찮|VA 아요|EC
+__label__388 검정|NNG 색|NNG 105|SN 변경|NNG 요청|NNG
+__label__385 막막|XR 하|XSA 다|EF 어떻게|MAG 해야|VV+EC 되|VV 냐|EC
+__label__1 다른|MM 요일|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__4 오전|NNG 안|MAG 되|VV 나요|EC
+__label__385 말귀|NNG 못|MAG 알|VV 아|EC 듣|VV 네|EC
+__label__385 ㅋㅋ|IC
+__label__385 ㅎㅎㅎ|IC
+__label__2 뭐|NP 라는|VCP+ETM 거|NNB 야|VCP+EF
+__label__391 지금|MAG 그거|NP 주문|NNG 할게요|XSV+EC
+__label__4 몇|MM 시|NNBC 쯤|XSN 가능|NNG 할까요|XSA+EC
+__label__1 일|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__389 상|NNG 담사|NNG 연결|NNG
+__label__387 아까|MAG 주문|NNG 했|XSV+EP 는데|EC 취소|NNG 처리|NNG 해|XSV+EC 줘|VX+EC
+__label__4 오전|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 나요|EC
+__label__2 뭐|NP 라고|VCP+EC
+__label__386 방가|NNG 방가|NNG
+__label__386 반갑|VA 습니다|EF
+__label__386 헬로우|IC
+__label__1 다른|MM 시간|NNG 안|MAG 되|VV 나요|EC
+__label__4 오전|NNG 안|MAG 돼요|VV+EC
+__label__387 주문|NNG 한|XSA+ETM 거|NNB 취소|NNG 할|XSV+ETM 게|NNB+JKS
+__label__3 알|VV 겠|EP 어요|EF
+__label__385 슬퍼|VA+EC
+__label__389 상담원|NNG
+__label__385 너|NP 누구|NP 니|VCP+EC
+__label__388 사이즈|NNG 바꿀|VV+ETM 게요|NNB+VCP+EC
+__label__386 hi|SL
+__label__386 할|VV+ETM 룽|NNG
+__label__1 다른|MM 날|NNG 안|MAG 될까요|VV+EC
+__label__391 주문|NNG 할게요|XSV+EC
+__label__4 이후|NNG 안|MAG 될까요|VV+EC
+__label__386 하이|NNG
+__label__3 괜찮|VA 습니다|EF
+__label__1 일|NNG 가능|NNG 한가요|XSA+EC
+__label__1 시간|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__391 그거|NP 구입|NNG 할게요|XSV+EC
+__label__3 없|VA 어요|EF
+__label__390 운송장|NNG
+__label__3 끊|VV 어|EC
+__label__385 아니|IC
+__label__387 아까|MAG 주문|NNG 한|XSA+ETM 거|NNB 취소|NNG 시켜|XSV+EC 줘|VX+EC
+__label__391 살|VV 게요|EC
+__label__385 ㅜㅜ|UNKNOWN
+__label__1 일|NNG 바꿀|VV+ETM 께|NNB 요|VCP+EC
+__label__1 시|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__386 ㅎ|IC ㅇ|UNKNOWN
+__label__388 사이즈|NNG 변경|NNG
+__label__1 시간|NNG 변경|NNG 할|XSV+ETM 수|NNB 있|VV 을까요|EC
+__label__387 상품|NNG 취소|NNG 할|XSV+ETM 게|NNB+JKS
+__label__4 오후|NNG 안|MAG 되|VV 나요|EC
+__label__389 상담원|NNG 연결|NNG 해|XSV+EC 줘|VX+EC
+__label__386 반가워|VA+EC
+__label__1 시간|NNG 바꾸|VV 고|EC 싶|VX 은데|EC 가능|NNG 할까요|XSA+EC
+__label__1 다른|MM 날|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__387 주문|NNG 취소|NNG
+__label__1 다른|MM 요일|NNG 안|MAG 될까요|VV+EC
+__label__388 옵션|NNG 다시|MAG 선택|NNG 할래|XSV+EC
+__label__4 오전|NNG 없|VA 어요|EF
+__label__391 그거|NP
+__label__387 구매|NNG 한|XSV+ETM 거|NNB 취소|NNG 할|XSV+ETM 게|NNB+JKS
+__label__2 다시|MAG 해|VV+EC 줘|VX+EC
+__label__389 상|NNG 담사|NNG
+__label__2 한번|MAG 더|MAG 말|NNG 해|XSV+EC 줘|VX+EC
+__label__1 시간|NNG 바꿀|VV+ETM 수|NNB 있|VV 나요|EC
+__label__2 다시|MAG 말|NNG 해|XSV+EC 주|VX 세요|EP+EF
+__label__386 하이|NNG
+__label__391 지금|MAG 방송|NNG 중|NNB 인|VCP+ETM 거|NNB 빨간색|NNG 105|SN 사이즈|NNG 주문|NNG 해|XSV+EC 줘|VX+EC
+__label__390 배송|NNG 확인|NNG 해|XSV+EC 줘|VX+EC
+__label__3 써요|VV+EC
+__label__386 안|NNG 냐|VCP+EC 세여|NNG
+__label__1 일|NNG 바꿀|VV+ETM 수|NNB 있|VV 을까요|EC
+__label__4 몇|MM 시|NNBC 가능|NNG 한가요|XSA+EC
+__label__2 무슨|MM 말|NNG 인지|VCP+EC 모르|VV 겠|EP 어요|EF
+__label__4 오전|NNG 몇|MM 시|NNBC 가능|NNG 해요|XSA+EC
+__label__386 헬로|NNP
+__label__1 다른|MM 시간|NNG 하|VV 고|EC 싶|VX 어요|EF
+__label__385 뭐|IC 해|VV+EC
+__label__4 오후|NNG +JX 없|VA 어요|EF
+__label__2 안|MAG 들려|VV+EC
+__label__3 그만|MAG 할께요|VV+EF
+__label__389 상담원|NNG 통화|NNG
+__label__4 오후|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 나요|EC
+__label__2 잘|MAG 안|MAG 들려|VV+EC 다시|MAG 말|NNG 해|XSV+EC 줘|VX+EC
+__label__385 야|IC
+__label__1 다른|MM 시간|NNG 없|VA 나요|EC
+__label__389 그냥|MAG 상담|NNG 사랑|NNG 통화|NNG 할게요|XSV+EC
+__label__388 아니|IC
+__label__385 뭐|IC 하|VV 냐|EC
+__label__1 다른|MM 날|NNG 안|MAG 되|VV 나요|EC
+__label__2 다시|MAG 말|NNG 해|XSV+EC 줘|VX+EC
+__label__388 색상|NNG 변경|NNG
+__label__3 없|VA 어|EC
+__label__388 다시|MAG
+__label__1 다른|MM 날짜|NNG 없|VA 나요|EC
+__label__391 네|IC 그렇게|MAG 할게요|VV+EC
+__label__1 날짜|NNG 변경|NNG 할|XSV+ETM 수|NNB 있|VV 을까요|EC
+__label__3 안|MAG 해도|VV+EC 됩니다|VX+EC
+__label__3 끊|VV 어도|EC 됩니다|VX+EC
+__label__2 못|MAG 알아들|VV 었|EP 어요|EF
+__label__1 날짜|NNG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__391 블루|NNP 색상|NNG 100|SN 사이즈|NNG 주문|NNG 할|XSV+ETM 게|NNB+JKS
+__label__1 일|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__1 다른|MM 날짜|NNG 안|MAG 될까요|VV+EC
+__label__386 안녕|NNG 하|XSV 십니까|EP+EC
+__label__4 오후|NNG 몇|MM 시|NNBC 가능|NNG 해요|XSA+EC
+__label__3 됐|VV+EP 어요|EF
+__label__389 상담|NNG 사랑|NNG 통화|NNG 하|XSV 게|EC 해줘|VX+EC+VX+EC
+__label__388 다시|MAG 고를|VV+ETM 게|NNB+JKS
+__label__1 시|NNG 가능|NNG 한가요|XSA+EC
+__label__390 택배|NNG
+__label__4 후|NNG 안|MAG 되|VV 나요|EC
+__label__390 배송|NNG 조회|NNG
+__label__388 다시|MAG 선택|NNG 할래|XSV+EC
+__label__4 이후|NNG 가능|NNG 한|XSA+ETM 시간|NNG 없|VA 을까요|EC
+__label__385 코로나|NNP
+__label__2 뭐|NP 라구요|VCP+EC
+__label__387 산거|NNG 취소|NNG 하|XSV 려고|EC
+__label__388 컬러|NNG 바꿀|VV+ETM 래요|VCP+EC
+__label__391 구매|NNG 하|XSV 려고|EC
+__label__390 배송|NNG
+__label__390 배송|NNG 확인|NNG
+__label__391 블랙|NNG 색상|NNG 95|SN 주문|NNG
+__label__1 시|NNG 바꿀|VV+ETM 수|NNB 있|VV 을까요|EC
+__label__390 배송|NNG 확인|NNG 해|XSV+EC 줘|VX+EC
+__label__3 그만|MAG 하|VV 겠|EP 습니다|EF
+__label__2 잘|MAG 안|MAG 들려|VV+EC
+__label__3 됐|VV+EP 어|EC
+__label__3 끊|VV 을께요|EC
+__label__1 시|NNG 바꿀|VV+ETM 께|NNB 요|VCP+EC
+__label__4 오후|NNG 안|MAG 돼요|VV+EC
+__label__386 안녕|IC
+__label__391 네|IC 그렇게|MAG 해|VV+EC 주|VX 세요|EP+EF
+__label__391 주문|NNG 하|XSV 려고|EC 합니다|VX+EC
+__label__3 끊|VV 을께|EC
+__label__4 오후|NNG 없|VA 어요|EF
+__label__2 못|MAG 들|VV 었|EP 어요|EF
+__label__2 한번|MAG 더|MAG 말|NNG 해|XSV+EC 주|VX 세요|EP+EF
+__label__388 레드|NNP 100|SN 바꿔|VV+EC 줘|VX+EC
+__label__389 상담|NNG 사|NR 통화|NNBC 시켜|VV+EC 줘|VX+EC
+__label__388 다른|MM 컬러|NNG 다시|MAG 고를|VV+ETM 게요|NNB+VCP+EC
+__label__3 알|VV 겠|EP 습니다|EF
+__label__386 안|MAG 뇽|UNKNOWN

@@ -1,0 +1,86 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="Hello," vertex="1" parent="1">
+      <mxGeometry y="90" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="World!" vertex="1" parent="1">
+      <mxGeometry x="180" y="30" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="2" target="3">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="92" y="95"/>
+          <mxPoint x="168" y="45"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="5" value="World!" vertex="1" parent="1">
+      <mxGeometry x="360" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="3" target="5">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="272" y="45"/>
+          <mxPoint x="348" y="15"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="7" value="World!" vertex="1" parent="1">
+      <mxGeometry x="180" y="90" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="2" target="7">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="94" y="105"/>
+          <mxPoint x="168" y="105"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="9" value="World!" vertex="1" parent="1">
+      <mxGeometry x="180" y="150" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="2" target="9">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="92" y="115"/>
+          <mxPoint x="168" y="165"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="11" value="World!" vertex="1" parent="1">
+      <mxGeometry x="360" y="60" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="7" target="11">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="272" y="95"/>
+          <mxPoint x="348" y="75"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="13" value="World!" vertex="1" parent="1">
+      <mxGeometry x="360" y="120" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="14" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="7" target="13">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="274" y="105"/>
+          <mxPoint x="348" y="135"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="15" value="World!" vertex="1" parent="1">
+      <mxGeometry x="360" y="180" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="16" value="" style="noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" source="7" target="15">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="272" y="115"/>
+          <mxPoint x="348" y="195"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>

@@ -1,0 +1,54 @@
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+Header always unset X-Powered-By
+Header unset X-Powered-By
+
+RewriteEngine On
+#RewriteCond %{HTTPS}  !=on
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+#챗봇 연결
+RewriteRule ^R2([a-zA-Z0-9_\-]+) ./index.php?r=home&m=chatbot&page=chat&botid=$1 [PT,QSA]
+RewriteRule ^(adm)/([a-zA-Z0-9_\-]+) ./index.php?m=chatbot&page=adm/$2 [PT,QSA]
+RewriteRule ^(adm)/?$ ./index.php?m=chatbot&page=adm/main [PT,QSA]
+
+#interface 연결
+RewriteRule ^(interface)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+) ./index.php?i=$2&a=$3 [PT,QSA]
+
+# nexus sso api
+RewriteRule ^(chatapi_auth) ./index.php?m=chatbot&a=chatapi_auth [PT,QSA]
+
+# nexus cs chatting api
+RewriteRule ^(chatapi_cs)/([a-z_]+) ./index.php?m=chatbot&a=chatapi_cs&mode=$2 [PT,QSA]
+
+# SNS 챗봇 연결 - 카카오 플러스 친구
+RewriteRule ^(chatapi_kakao)/([a-zA-Z0-9_\-]+) ./index.php?m=chatbot&a=chatapi_kakao [PT,QSA]
+#RewriteRule ^(chatapi_kakao) ./index.php?m=chatbot&a=chatapi_kakao [PT,QSA]
+
+# SNS 챗봇 연결 - 라인
+#RewriteRule ^(chatapi_line)/([a-zA-Z0-9_\-]+) ./index.php?m=chatbot&a=chatapi_line&set=message&bot=$2 [PT,QSA]
+RewriteRule ^(chatapi_line) ./index.php?m=chatbot&a=chatapi_line&set=message [PT,QSA]
+
+# SNS 챗봇 연결 - 네이버 톡톡
+#RewriteRule ^(chatapi_navertalk)/([a-zA-Z0-9_\-]+) ./index.php?m=chatbot&a=chatapi_navertalk&bot=$2 [PT,QSA]
+RewriteRule ^(chatapi_navertalk) ./index.php?m=chatbot&a=chatapi_navertalk [PT,QSA]
+
+# SNS 챗봇 연결 - 페북
+#RewriteRule ^(chatapi_facebook)/([a-zA-Z0-9_\-]+) ./index.php?m=chatbot&a=chatapi_facebook&bot=$2 [PT,QSA]
+RewriteRule ^(chatapi_facebook) ./index.php?m=chatbot&a=chatapi_facebook [PT,QSA]
+
+# voice api - voice
+RewriteRule ^(chatapi_voicenew) ./index.php?m=chatbot&a=chatapi_voicenew [PT,QSA]
+RewriteRule ^(chatapi_voice) ./index.php?m=chatbot&a=chatapi_voice [PT,QSA]
+
+# bottalks pay 테스트
+RewriteRule ^(botpay) ./index.php?m=chatbot&page=botpay [PT,QSA]
+
+# embed plugin auth
+RewriteRule ^(pluginauth)/([a-zA-Z0-9_\-]+) ./index.php?m=chatbot&a=plugin_auth&bot=$2 [PT,QSA]
+
+#기본사이트 ([R=404,L])
+RewriteRule ^(admin)/?$ ./index.php?m=$1&pickmodule=dashboard [L]
+RewriteRule ^([a-zA-Z0-9_\-]+)/(admin)/?$ ./index.php?r=$1&m=$2&mdule=$2 [L]

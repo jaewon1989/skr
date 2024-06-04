@@ -1,0 +1,30 @@
+<div class="card if-card" data-role="resItem" data-groupid="{$group_id}" data-itemid="{$item_id}" data-uid="{$item_uid}" data-type="if">
+    <div class="card_ctx">
+    	<input type="checkbox" id="ctx_init_{$item_uid}" data-role="ctx_init" value="true" {$ctx_init_check}>
+    	<label for="ctx_init_{$item_uid}">컨텍스트 초기화</label>
+    </div>
+    <div class="cwrap" style="height:482px;">
+        <div class="card-body hMenu-resGroup ifMenu-resGroup">
+            <div class="card-text ifMenu-inputWrapper" style="border-top:none;">
+                <div class="inputFilter-wrapper" data-role="ifInputFilter-wrapper">
+                   {$inputFilterBox}
+                </div>
+                <div class="filterBox" data-role="if-selectFilterBox">
+                    <div class="filter-wrapper">
+                        <button type="button" class="close" data-role="hide-ifFilterBox" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 id="filter-guide" data-role="ifFilterBox-title">
+                            검색대상을 선택해주세요
+                        </h5>
+                        <div class="list-group" id="filter-list" data-role="ifFilterListBox">
+                            <a href="#" class="list-group-item list-group-item-action" data-role="ifFilter-item" data-filter="#">#{$callIntent}</a>
+                            <a href="#" class="list-group-item list-group-item-action" data-role="ifFilter-item" data-filter="@">@{$callEntity}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	{$menuItem_resGroup}
+        </div>
+    </div>
+</div>

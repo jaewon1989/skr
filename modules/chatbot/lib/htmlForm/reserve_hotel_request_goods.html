@@ -1,0 +1,26 @@
+<div class="cb-chatting-form onda">
+    <div class="bot_form onda">
+        <h1>추가 상품 선택</h1>
+        <fieldset class="form_field">
+            <ul class="ul_button one">
+                {$data_row}
+            </ul>
+            <div class="total_wrap">
+                <div class="total_price">
+                    <span>총 결제금액</span>
+                    <span>&#8361; <em class="total_all_price">{$total_room_price_text}</em></span>
+                </div>
+                <div class="total_item">
+                    <span>객실 &#8361; <em>{$total_room_price_text}</em></span> + <span>상품 &#8361; <em class="total_goods_price">0</em></span>
+                </div>
+                <input type="hidden" class="total_room_price" name="total_room_price" value="{$total_room_price}">
+                <input type="hidden" class="total_goods_price" name="total_goods_price" value="0">
+                <input type="hidden" class="total_all_price" name="total_all_price" value="{$total_room_price}">
+            </div>
+        </fieldset>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item cancel cancel_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+            <button type="button" class="kwd-item submit_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="hotel_goods">확인</button>
+        </div>
+    </div>
+</div>

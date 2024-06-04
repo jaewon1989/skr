@@ -1,0 +1,40 @@
+__label__470 알려|VV+EC 줘요|VX+EC
+__label__463 주문|NNG 할게요|XSV+EC
+__label__465 목록|NNG 좀|MAG 보여줘|VV+EC+VX+EC
+__label__471 알|VV 겠|EP 어요|EF
+__label__465 메뉴|NNG 어떻게|MAG 돼|VV+EC
+__label__470 그래요|VA+EC
+__label__463 주문|NNG 하|XSV 면|EC 되|VV 나요|EC
+__label__467 응|IC 안녕|IC
+__label__471 으응|IC
+__label__471 응응|MAG
+__label__465 메뉴|NNG 보여|VV+EC 줘야|VX+EC 고르|VV 지|EC
+__label__463 아메리카노|NNP 한잔|NNG 이|VCP 요|EC
+__label__463 주문|NNG 이|VCP 요|EC
+__label__470 오래|MAG
+__label__470 가|VV 래요|EC
+__label__463 커피|NNG 주문|NNG 이|VCP 요|EC
+__label__467 안녕|NNG 하|XSV 세요|EP+EF
+__label__471 응|IC
+__label__470 수식|NNG 이|VCP 요|EC
+__label__469 찾아가|VV 는|ETM 방법|NNG 알려|VV+EC 주|VX 세요|EP+EF
+__label__470 수정|NNG 이|VCP 요|EC
+__label__470 선택|NNG 이|VCP 요|EC
+__label__465 메뉴판|NNG 보여줘|VV+EC+VX+EC
+__label__470 도와줘요|VV+EC
+__label__463 커피|NNG 주문|NNG 이|VCP 요|EC
+__label__467 안녕|NNG 하|XSV 지|EC 못해|VX+EC
+__label__470 원|NNG 하|XSV 시|EP 나요|EC
+__label__463 아메리카노|NNP
+__label__470 아니|VCN 요|EC
+__label__469 버스|NNG 어떻|VA 게|EC 가|VX 나요|EC
+__label__467 안녕|IC
+__label__471 앙|NNG
+__label__470 확인|NNG 해줘요|XSV+EC+VX+EC
+__label__467 안녕|IC 못|MAG 한다니까|VV+EC
+__label__465 메뉴|NNG 줘|VV+EC
+__label__470 데이터|NNG 요|VCP+EC
+__label__467 하이|NNG
+__label__467 안녕|IC 못|MAG 해|VV+EC
+__label__463 커피|NNG 주문|NNG 할게요|XSV+EC
+__label__471 ㅇㅇ|UNKNOWN

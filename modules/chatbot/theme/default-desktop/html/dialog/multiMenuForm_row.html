@@ -1,0 +1,25 @@
+<tr data-role="multiMenuFormList-row" data-order="{$formOrder}">
+    <td class="multiMenuFormName">
+        <div class="form-ques">
+            <textarea name="multiMenuFormQues" rows="2" class="form-control" placeholder="질문내용" data-role="ele-nodeFormQues">{$form_ques}</textarea>
+        </div>
+        <div>
+            <select name="multiMenuFormRecMark" data-role="res-formRecMark">
+                <option value="@" data-desc="인식대상(키워드명)" {$formRecTarget_@_selected}>@ 키워드</option>
+                <option value="%" data-desc="인식대상(사용자 발화)" {$formRecTarget_%_selected}>% 사용자 발화</option>
+                <!--<option value="&" data-desc="인식대상(API 메서드명)" {$formRecTarget_&_selected}>& API 컨텍스트</option>-->
+            </select>
+        </div>
+        <div class="multiMenuFormDiv formRecWrap">
+            <span class="multiMenuContext-mark formRecMark">{$form_rec_mark}</span>
+            {$form_rec_input}
+        </div>
+        <div class="multiMenuFormDiv">
+            <span class="multiMenuContext-mark">$</span>
+            <input name="multiMenuFormCtxName" class="context-input" placeholder="{$callContext}명" value="{$form_contextName}" data-role="ele-nodeFormCtxName"/>
+        </div>
+        <div class="multiMenuFormDiv {$form_value_view}">
+            <input name="multiMenuFormCtxValue" class="context-input" placeholder="{$callContext} 값" value="{$form_contextValue}" data-role="ele-nodeFormCtxValue"/>
+        </div>
+    </td>
+</tr>

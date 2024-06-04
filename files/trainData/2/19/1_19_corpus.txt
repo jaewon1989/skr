@@ -1,0 +1,6 @@
+__label__446 메뉴|NNG 어떻게|MAG 되|VV 나요|EC
+__label__446 아이스|NNP 아메리카노|NNP 요|VCP+EC
+__label__446 커피|NNG 주문|NNG 할게요|XSV+EC
+__label__446 주문|NNG 할게요|XSV+EC
+__label__446 주문|NNG
+__label__446 테이크아웃|NNP 하|VV 려구요|EC

@@ -1,0 +1,69 @@
+
+<header id="cb-header" class="bar bar-nav cb-box-shadow" >
+    <section id="cb-navigator" class="cb-box-shadow">
+        <div class="cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <span class="cb-icon cb-icon-prev" data-history="back"></span>
+                </div>
+                <div class="cb-cell cb-cell-center" style="text-align:left;width:auto;">
+                    <h3 data-role="page-title">검색</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+<div class="content-padded modal-search">
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="td-input"> 
+                         <input class="cb-viewchat-search-datebox" placeholder="검색어 입력" type="text" name="nowkeyword" value="" data-role="input-searchBot">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div data-role="searchBot-resultWrap">
+    </div>
+</div>
+<script>
+// 엔터티 저장 hidden input >>>>> search_UTV.html 페이지에서도 사용한다 .
+var input_keyword = $('input[name="nowKeyowrd"]');
+
+// feed 검색 함수 
+var do__searchFeed = function(keyword){   
+    var old_keyword = $(input_keyword).val();
+    var keyword = keyword!=''?keyword:old_keyword;
+    var act = 'search-bot';
+    var result_wrapper = $('#modal-search').find('[data-role="searchBot-resultWrap"]');
+    // 엔터티 저장
+    $(input_keyword).val(keyword);
+ 
+    if(keyword!=''){
+        $.get(rooturl+'/?r='+raccount+'&m='+module+'&a=do_UserAction',{
+            act : act,
+            keyword : keyword
+        },function(response){
+               var result = $.parseJSON(response);
+               var content=result.content;
+               if(content) $(result_wrapper).html(content);
+               else $(result_wrapper).html('');
+        }); 
+    }else{
+        return;
+    }  
+
+}
+
+// 검색창에 입력했을 경우 검색 
+$(document).on('keyup','[data-role="input-searchBot"]',function(){
+    var keyword = $(this).val();
+    if(keyword!='') do__searchFeed(keyword);
+});
+</script>

@@ -1,0 +1,7 @@
+Header always unset X-Powered-By
+Header unset X-Powered-By
+
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]
+

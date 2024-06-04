@@ -1,0 +1,2 @@
+{"event":"open","user":"zNAbXyiPLCCreV9z8EnmeQ","options":{"inflow":"none","friend":true,"under14":false,"under19":false,"mobile":false}}
+{"event":"send","user":"zNAbXyiPLCCreV9z8EnmeQ","textContent":{"text":"dddd","inputType":"typing"},"options":{"mobile":false}}

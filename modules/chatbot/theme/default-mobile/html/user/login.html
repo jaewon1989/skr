@@ -1,0 +1,57 @@
+<section id="cb-navigator" class="bar bar-nav">
+    <div class="cb-navigator-wrapper">
+       <div class="cb-cell-layout">
+           <div class="cb-cell cb-cell-left">
+               <span class="cb-icon cb-icon-prev" data-history="back"></span>
+           </div>
+           <div class="cb-cell cb-cell-center">
+               
+           </div>
+           <div class="cb-cell cb-cell-right">
+               
+           </div>
+       </div>
+    </div>
+</section> 
+<section id="cb-login">
+    <h1>LOGIN</h1>
+   
+     <form name="loginform" action="{$g_s}/" method="post" onsubmit="return loginCheck(this);">
+            <input type="hidden" name="r" value="{$r}" />
+            <input type="hidden" name="a" value="login" />
+
+        <div class="cb-inputnaked">
+            <input name="id" type="text" placeholder="이메일" />
+        </div>
+        <div class="cb-inputnaked">
+            <input name="pw" type="password" placeholder="비밀번호" />
+        </div>
+        <input type="submit" value="로그인 하기" />
+        {$slogin_widget} 
+    
+    </form>
+
+    <div class="cb-login-signup">
+        <a href="#" data-toggle="modal" data-target="#modal-idpwsearch" data-role="getComponent" data-markup="mIdpwsearch" id="go-idpwsearch">비밀번호 찾기</a>
+        <a href="#" data-toggle="modal" data-target="#modal-join" data-role="getComponent" data-markup="mJoin" id="go-join">회원가입 하기</a>
+    </div>        
+</section>
+<script>
+function loginCheck(f)
+{
+    if (f.id.value == '')
+    {
+        alert('이메일을 입력해 주세요.');
+        f.id.focus();
+        return false;
+    }
+    if (f.pw.value == '')
+    {
+        alert('비밀번호를 입력해 주세요.');
+        f.pw.focus();
+        return false;
+    }
+    getIframeForAction(f);
+    f.submit();
+}
+</script>

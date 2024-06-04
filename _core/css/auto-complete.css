@@ -1,0 +1,10 @@
+.autocomplete-suggestions {
+    text-align:left; cursor:default; border:1px solid #000; border-bottom:0; background:#fff;
+
+    /* core styles should not be changed */
+    position:absolute; display:none; z-index:999999; max-height:254px; overflow:hidden; overflow-y:auto; box-sizing:border-box;
+}
+.autocomplete-suggestion {position:relative; padding:0 .7em; line-height:37px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:1.05em; color:#333; border-bottom:1px solid #ccc;}
+.autocomplete-suggestion b {font-weight:normal; color:#1f8dd6; }
+.autocomplete-suggestion.selected {background:#f0f0f0; }
+.autocomplete-mask {position:absolute; left:0; top:0; right:0; bottom:49px; background-color:rgba(0,0,0,0.6); display:none;}

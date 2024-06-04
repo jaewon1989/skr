@@ -1,0 +1,33 @@
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" data-id="{$uid}">
+        <a href="{$link}">
+        <div class="white-box bot-itemBox default-box">
+            <div class="col-in row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="dash-botName">{$name} {$state_mark}</h3>
+                    {$call_no}
+                    <div class="botMenu-wrapper">
+                        <div class="dropdown">
+		                    <span class="dropdown-toggle" id="botMenu-{$uid}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		                    	<i class="fa fa-ellipsis-v"></i>
+		                    </span>
+		                    <ul class="dropdown-menu" aria-labelledby="botMenu-{$uid}">
+							    <li class="dropdown-item" data-role="botMenu" data-action="dialog" data-bot="{$uid}" data-vendor="{$vendor}">
+							    	대화 관리
+							    </li>
+							    <li class="dropdown-item" data-role="botMenu" data-action="copy" data-bot="{$uid}" data-vendor="{$vendor}">
+							    	복사
+							    </li>
+							    <li class="dropdown-item" data-role="botMenu" data-action="delete" data-bot="{$uid}" data-vendor="{$vendor}">
+							       삭제
+							    </li>
+							</ul>
+		                </div>
+	                </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                     <p class="dash-botService">{$service}</p>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>

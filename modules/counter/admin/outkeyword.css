@@ -1,0 +1,5 @@
+table {width:100%;border-spacing:0px;border-collapse:collapse; border-top:#D2D2D2 solid 2px; border-bottom:#D2D2D2 solid 1px; margin-top:5px;}
+
+table thead th {border-top:#D2D2D2 solid 1px; text-align:center;}
+table tbody td { text-align:center;font-size:13px;}
+table .sbj {text-align:left;}

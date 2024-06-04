@@ -1,0 +1,15 @@
+<div class="cb-chatting-form">
+    <div class="bot_form">
+        <h1>예약 접수 확인</h1>
+        <h2 class="msg">아래의 정보로 예약이 접수되어 있습니다.</h2>
+        <fieldset class="form_field">
+            <ul class="ul_confirm">
+                {$data_row}
+            </ul>
+        </fieldset>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item w30 submit_reserve" data-hform="{$hform_type}" data-action="modify" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="start">예약변경</button>
+            <button type="button" class="kwd-item cancel w30 cancel_reserve" data-hform="{$hform_type}" data-action="cancel" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">예약취소</button>
+        </div>
+    </div>
+</div>

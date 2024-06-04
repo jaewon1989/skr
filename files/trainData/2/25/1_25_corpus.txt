@@ -1,0 +1,89 @@
+__label__447 주우|NNG 문|NNG
+__label__453 여름|NNG 핸드폰|NNG 어떻게|MAG 관리|NNG 해|XSV+EC
+__label__455 바로|MAG 요금제|NNP 가격|NNG 안내|NNG
+__label__453 여름|NNG 휴대폰|NNG 어떻게|MAG 관리|NNG 해|XSV+EC
+__label__455 바로|MAG 요금제|NNP 가격|NNG 정보|NNG
+__label__450 일본|NNP 놀|VV 러|EC 가|VX 는데|EC 로밍|NNG 되|VV 나요|EC
+__label__456 삼|NR gb|SL 지금|MAG 바로|MAG 신청|NNG 할|XSV+ETM 게|NNB+JKS
+__label__450 로밍|NNG 어떻게|MAG 해야|VV+EC 하|VV 나요|EC
+__label__449 에이에스|NNG 문의|NNG
+__label__455 바로|MAG 요금제|NNP 어떤|MM 가격|NNG 데이터|NNG 얼마|NNG 씩|XSN 주|VV 나요|EC
+__label__451 상|NNG 담사|NNG 연결|NNG
+__label__455 바로|MAG 요금제|NNP 문의|NNG
+__label__450 해외|NNG 로밍|NNG 요금제|NNP 좀|MAG 알려|VV+EC 주|VX 세요|EP+EF
+__label__449 파손|NNG 수리|NNG 보험|NNG as|SL 매장|NNG 추천|NNG 좀|MAG 해|VV+EC 주|VX 세요|EP+EF
+__label__451 상담|NNG 직원|NNG 연결|NNG
+__label__455 요금제|NNP 가장|MAG 저렴|XR 한|XSA+ETM 것|NNB 얼마|NNG 인가요|VCP+EC
+__label__450 로밍|NNG
+__label__452 로밍|NNG 서비스|NNG 뭐|NP
+__label__450 로맹|NNP 이|VCP 요|EC
+__label__448 이번|NNG 달|NNG 요금|NNG 문의|NNG
+__label__456 3|SN gb|SL 지금|MAG 바로|MAG 신청|NNG
+__label__447 주|MM 무운|NNG
+__label__448 요금|NNG 어떻게|MAG 하|VV 면|EC 줄|NNG 일까|VCP+EC
+__label__448 티|NNG 우주|NNG 함께|MAG 하|VV 는데|EC 어떻게|MAG 하|VV 면|EC 싸|VX 게|EC 쓸까요|VV+EF
+__label__450 로밍|NNG 되|VV 나요|EC
+__label__450 녹음|NNG 어떻|VA 게|EC 해요|VX+EC
+__label__449 명의|NNG 변경|NNG 문의|NNG
+__label__453 스마트폰|NNP 여름|NNG 어떻|VA 게|EC 관리|NNG 하|XSV 는지|EC
+__label__450 일본|NNP 여행|NNG 가|VV 려는데|EC 로밍|NNG 좀|MAG 알아보|VV 려구요|EC
+__label__455 바로|MAG 요금제|NNP 어떤|MM 가격|NNG 데이터|NNG 몇|MM 기|NNG 줘요|VV+EC
+__label__453 스마트폰|NNP 여름|NNG 어떻|VA 게|EC 관리|NNG 해|XSV+EC
+__label__454 장애|NNG 어린이|NNG 혜택|NNG 알려줘|VV+EC+VX+EC
+__label__456 바로|MAG 요금제|NNP 3|SN gb|SL 기가|NNG 면|VCP+EC 되|VV 겠|EP 네요|EF 지금|MAG 신청|NNG 가능|NNG 한|XSA+ETM 지요|NNG
+__label__448 가족|NNG 결합|NNG 쓰|VV 고|EC 있|VX 는데|EC 너무|MAG 비싸|VA 요|EC
+__label__452 로밍|NNG 서비스|NNG 뭐|NP
+__label__450 놈|NNB 문의|NNG 합니다|XSV+EC
+__label__450 로밍|NNG 문의|NNG
+__label__449 잘|MAG 안|MAG 돼|VV+EC
+__label__449 as|SL 문의|NNG
+__label__451 상담원|NNG 연결|NNG 해|XSV+EC 줘|VX+EC
+__label__453 더운|VA+ETM 여름|NNG 휴대폰|NNG 관리|NNG 어떻|VA 게|EC 해요|VX+EC
+__label__449 갑자기|MAG 끊기|VV 고|EC 렉|NNP 생겨요|VV+EF
+__label__449 갑자기|MAG 끊겨|VV+EC
+__label__455 요금제|NNP 제일|MAG 싼|VA+ETM 것|NNB 얼마|NNG 야|VCP+EF
+__label__451 상담원|NNG 통화|NNG 할|XSV+ETM 게|NNB+JKS
+__label__456 바로|MAG 요금제|NNP 3|SN gb|SL 지금|MAG 바로|MAG 신청|NNG 할|XSV+ETM 게|NNB+JKS
+__label__452 로밍|NNG 서비스|NNG
+__label__449 수리|NNG 센터|NNG 매장|NNG 추천|NNG
+__label__450 로밍|NNG 요금제|NNP 좀|MAG 알려|VV+EC 주|VX 세요|EP+EF
+__label__450 요금제|NNP 알려|VV+EC 주|VX 세요|EP+EF
+__label__455 바로|MAG 요금제|NNP 가격|NNG 데이터|NNG 제|MM 공량|NNG
+__label__450 사이판|NNG 가|VV 야|EC 하|VV 는데|EC 어떻게|MAG 해야|VV+EC 해요|VX+EC
+__label__448 저렴|XR 한|XSA+ETM 상품|NNG 변경|NNG
+__label__449 as|SL 매장|NNG 추천|NNG
+__label__455 바로|MAG 요금제|NNP 가격|NNG 문의|NNG
+__label__448 요금제|NNP 변경|NNG
+__label__450 해외여행|NNG 가|VV 는데|EC 휴대폰|NNG 어쩌구|MAG+XSV+EC 갈까요|VV+EC
+__label__449 에이에스|NNG 수리|NNG 매장|MAG 안|MAG 내|VV+EC
+__label__449 핸드폰|NNG 자꾸|MAG wifi|SL 못|MAG 찾|VV 아요|EC
+__label__451 상담|NNG 사랑|NNG 통화|NNG
+__label__447 결정|NNG 했|XSV+EP 습니다|EF
+__label__451 상담원|NNG 대화|NNG 하|XSV 게|EC 해줘|VX+EC+VX+EC
+__label__456 삼기|NNG 지금|MAG 신청|NNG
+__label__449 인터넷|NNG 느려|VA+EC
+__label__449 오류|NNG 났|VV+EP 어요|EF
+__label__448 요금제|NNP 바꾸|VV 고|EC 싶|VX 어요|EF
+__label__450 해외|NNG 출국|NNG 시|NNB 내|MM 폰|NNG 그대로|MAG 쓰|VV 고|EC 싶|VX 어|EC
+__label__449 인터넷|NNG 잘|MAG 안|MAG 되|VV 요|EC
+__label__447 주문|NNG 하|XSV 면|EC 되|VV 나요|EC
+__label__450 로밍|NNG 하|XSV 기|ETN
+__label__447 주문|NNG 가능|NNG
+__label__450 해외|NNG 여행|NNG 시|NNB 휴대폰|NNG 로밍|NNG 하|XSV 는|ETM 방법|NNG
+__label__450 노|NNP 밍|NNG 이|VCP 요|EC
+__label__452 서비스|NNG 문의|NNG
+__label__447 선택|NNG 할게요|XSV+EC
+__label__453 여름|NNG 스마트폰|NNP 관리|NNG 하|VV 는|ETM 법|NNG
+__label__455 바로|MAG 요금제|NNP 데이터|NNG 얼마나|MAG 줘요|VV+EC
+__label__455 바로|MAG 요금제|NNP 데이터|NNG 제|MM 공량|NNG
+__label__449 집|NNG 인터넷|NNG 자꾸|MAG 끊겨|VV+EC
+__label__447 주문|NNG 할게요|XSV+EC
+__label__450 로밍|NNG 관련|NNG 문의|NNG
+__label__451 상|NNG 담사|NNG 연결|NNG
+__label__456 3|SN 기|NNG 신청|NNG
+__label__451 상담|NNG 하|XSV 는|ETM 분과|NNG 이야기|NNG 할|XSV+ETM 게|NNB+JKS
+__label__455 바로|MAG 요금제|NNP 저렴|XR 한|XSA+ETM 가격|NNG
+__label__451 상담원|NNG 연결|NNG
+__label__449 에이에스|NNG 매장|NNG 추천|NNG
+__label__453 여름철|NNG 휴대폰|NNG 관리|NNG 방법|NNG
+__label__454 장애|NNG 혜택|NNG 알려줘|VV+EC+VX+EC

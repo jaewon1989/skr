@@ -1,0 +1,29 @@
+<div class="cb-chatting-form cb-form-start">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        {$response}
+                    </p>  
+                </div>
+                <input type="hidden" name="sys_date" value="{$sys_date}" />
+                <input type="hidden" name="sys_week" value="{$sys_week}" />
+                <input type="hidden" name="sys_time" value="{$sys_time}" />
+                <input type="hidden" name="sys_use" value="{$sys_use}" />
+                <input type="hidden" name="sys_nights" value="{$sys_nights}" />
+                <div class="btn_wrap mt10" style="display:{$sys_disp}">
+                    <button type="button" class="kwd-item w30 submit_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="start">예약하기</button>
+                    <button type="button" class="kwd-item cancel w30 cancel_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

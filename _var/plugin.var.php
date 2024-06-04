@@ -1,0 +1,37 @@
+<?php
+$d['ov']['summernote'] = '0.5.9';
+$d['ov']['rc'] = '1.0.0-alpha.4';
+$d['ov']['handsontable'] = '0.30.1';
+$d['ov']['photoswipe'] = '4.0.6';
+$d['ov']['bootstrap-validator'] = '0.5.0';
+$d['ov']['snap'] = '1.9.3';
+$d['ov']['bootstrap-timepicker'] = '0.5.1';
+$d['ov']['ratchet'] = '2.0.1';
+$d['ov']['bootstrap-colorpicker'] = '2.0.0-beta3';
+$d['ov']['clipboard'] = '1.5.5';
+$d['ov']['bootstrap-select'] = '1.5.2';
+$d['ov']['lazy-load-xt'] = '1.0.5';
+$d['ov']['codemirror'] = '4.6';
+$d['ov']['nestable'] = '1.0';
+$d['ov']['bootstrap'] = '3.3.2';
+$d['ov']['smooth-scroll'] = '3.3';
+$d['ov']['font-awesome'] = '4.7.0';
+$d['ov']['lightbox'] = '3.1.5';
+$d['ov']['font-kimsq'] = '1.0.0';
+$d['ov']['morris'] = '0.5.1';
+$d['ov']['zero-clipboard'] = '2.1.6';
+$d['ov']['bootbox'] = '4.2.0';
+$d['ov']['bootstrap-switch'] = '3.0.2';
+$d['ov']['jquery-ui'] = '1.11.2';
+$d['ov']['jquery-timeago'] = '1.4.1';
+$d['ov']['jquery-shorten'] = '1.0.0';
+$d['ov']['autosize'] = '3.0.14';
+$d['ov']['socket.io-client'] = '1.7.2';
+$d['ov']['raphael'] = '2.1.2';
+$d['ov']['datatables'] = '1.10.2';
+$d['ov']['swiper'] = '3.2.7';
+$d['ov']['sharrre'] = '1.3.5';
+$d['ov']['bootstrap-maxlength'] = '1.5.5';
+$d['ov']['bootstrap-datepicker'] = '1.3.0';
+$d['ov']['jquery'] = '1.11.2';
+?>

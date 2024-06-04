@@ -1,0 +1,74 @@
+<div id="page-view" class="page center">
+    {$default_header}
+    <div class="content">
+        <section id="cb-service">
+            <div class="cb-service-wrapper">
+                <div class="cb-service-banner" id="botUrl-wrapper">
+                    <div class="cb-service-overlay" >
+                        <div class="cb-service-urlcopy{$copyUrlBox_hidden}" id="botUrl-wrapper2">
+                            <h5>{$chat_url}</h5>
+                            <span class="cb-urlcopy-button" data-role="clipboard-copy" data-clipboard-text="{$chat_url}" data-container="#botUrl-wrapper2" data-feedback="챗봇 URL 이 복사되었습니다.">URL복사</span>
+                        </div>
+                    </div>
+                    <img src="{$view_banner}" alt="Service Banner Image" />
+                    {$view_logo}
+                </div>
+
+                <div class="cb-service-description">
+                    <div class="cb-layout">
+                        <div class="cb-left cb-service-description-image">
+                            <img src="{$bot_avatar}" alt="Service Short Image" />
+                        </div>
+                        <div class="cb-right cb-service-description-text">
+                            <h3>{$bot_service}{$registed_mark}</h3>
+                            <h5>{$bot_service}</h5>
+                            <div>
+                                <span class="cb-service-button cb-service-add" data-act="add" data-uid="{$bot_uid}" data-vendor="{$vendor}" data-container="#botUrl-wrapper">+ ADD</span>
+                                <a href="#" data-toggle="page" data-start="#page-view" data-target="#page-chat" data-role="open-chatbox" data-id="{$bot_id}" data-url="{$chat_url}" class="chat-link{$btn_chat_hidden}"><span class="cb-service-button cb-service-chat">채팅하기</span>
+                                </a>
+                                <a href="{$chat_url}" target="_blank" class="chat-link{$btn_excute_hidden}">
+                                    <span class="cb-service-button cb-service-chat">실행하기</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="cb-service-introduction">
+                    <h3>소개</h3>
+                    <p>
+                        {$bot_intro}
+                    </p>
+                </div>
+                <div class="cb-service-introduction">
+                    <h3>웹사이트</h3>
+                    <p>
+                        {$website}
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-list-staticlane">
+            <div class="cb-list-staticlane-wrapper">
+                <div class="cb-list-staticlane-header cb-cell-layout">
+                    <div class="cb-cell cb-cell-left">
+                        <h3 class="cb-list-staticlane-category">추천 챗봇</h3>
+                    </div>
+                    <div class="cb-cell cb-cell-right">
+                        
+                    </div>
+                </div>
+                <div class="cb-list-staticlane-limiter">
+                    <div class="cb-list-staticlane-limitless">
+                        <ul>
+                           {$recommendedList}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div id="page-chat" class="page right">
+    {$chat_box}
+</div>    

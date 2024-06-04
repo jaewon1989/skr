@@ -1,0 +1,12 @@
+<?php
+$table[$module.'induCat'] = $DB['head'].'_'.$module.'_induCat'; // 업종 카테고리
+$table[$module.'category'] = $DB['head'].'_'.$module.'_category'; // 질문 카테고리
+$table[$module.'vendor'] = $DB['head'].'_'.$module.'_vendor'; // 업체  
+$table[$module.'rule'] = $DB['head'].'_'.$module.'_rule'; // 답변 룰 
+$table[$module.'question'] = $DB['head'].'_'.$module.'_question'; // 예상 질문
+$table[$module.'reply'] = $DB['head'].'_'.$module.'_reply'; // 답변 
+$table[$module.'chat'] = $DB['head'].'_'.$module.'_chat'; // 채팅 로그 
+$table[$module.'bot'] = $DB['head'].'_'.$module.'_bot'; // 챗봇 
+$table[$module.'goods'] = $DB['head'].'_'.$module.'_goods'; // 추천상품
+$table[$module.'upload'] = $DB['head'].'_'.$module.'_upload'; // 업로드
+?>

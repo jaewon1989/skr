@@ -1,0 +1,93 @@
+<h5 class="hMenuResGroup-guide">{$guideText}</h5>  
+<div class="navTabs-wrapper" data-role="NTW-{$group_id}-{$item_id}">      
+	<ul class="nav nav-tabs hMenu-tabs" id="{$group_id}-{$item_id}" data-role="itemResHeaderUl" {$nav_style}>
+		<input type="hidden" name="itemResHeaderActive[]" data-groupid="{$group_id}" data-itemid="{$item_id}"/>
+	    {$resGroup_header}
+	</ul>
+</div>
+
+<div class="tab-content">
+	<div class="tab-pane{$text_active}" id="{$group_id}-{$item_id}-text">
+		<textarea class="form-control" rows="5" placeholder="입력된 메세지가 출력됩니다." data-role="res-text" data-uid="{$resText_uid}">{$res_text}</textarea> 
+		<div class="checkbox checkbox-info fcolumn">
+    		{$text_checkbox_dlabel}
+    		{$text_checkbox_bargein}
+			{$text_checkbox_ttsSpeed}
+			{$text_checkbox_ctiaction}
+    	</div>
+	</div>
+	<div class="tab-pane{$link_active}" id="{$group_id}-{$item_id}-link">
+	    <textarea class="form-control" rows="5" placeholder="입력된 URL로 이동합니다." data-role="res-link" data-uid="{$resLink_uid}">{$res_link}</textarea>
+   	    <div class="checkbox checkbox-info fcolumn">
+   	        {$link_checkbox_dlabel}
+   	    </div>
+		{$link_checkbox_wlabel}
+	</div>
+	<div class="tab-pane{$tel_active}" id="{$group_id}-{$item_id}-tel">
+		<input type="text" class="form-control" style="margin-bottom:107px;" placeholder ="입력된 전화번로로 전화를 겁니다." data-role="res-tel" data-uid="{$resTel_uid}" value="{$res_tel}"/> 
+		<div class="checkbox checkbox-info fcolumn">
+		    {$tel_checkbox_dlabel}
+		</div>
+	</div>
+	<div class="tab-pane{$context_active}" id="{$group_id}-{$item_id}-context">
+		<div class="context-wrapper multiMenuContext-container" data-role="res-context" data-uid="{$resContext_uid}">
+		    <table class="table">
+		        <tbody data-role="multiMenuContextList-wrapper" class="multiMenuContext-wrapper">
+		            {$res_context}   
+		        </tbody>
+		    </table>
+		</div>
+	</div>
+	<div class="tab-pane{$img_active}" id="{$group_id}-{$item_id}-img">
+	    <span class="del-resItem" data-role="btn-delResItem" data-uid="{$resImg_uid}" data-tooltip="tooltip" title="" data-original-title="삭제">
+           <i class="fa fa-minus-circle" aria-hidden="true"></i>
+        </span>
+		<input type="hidden" data-role="res-img" data-uid="{$resImg_uid}" value="{$res_imgUrl}" />		
+        <div class="card-img-wrapper" data-role="btn-uploadImg" {$resItem_backImg}></div>        
+        <div class="checkbox checkbox-info fcolumn">
+            {$img_checkbox_dlabel}
+        </div>
+	</div>
+	<div class="tab-pane{$node_active}" id="{$group_id}-{$item_id}-node">
+		<div class="inputFilter-group">
+		    <select class="form-control" data-role="res-node" data-uid="{$resNode_uid}">
+		        <option value="" > 선택된 대화상자로 이동합니다.</option>
+		        {$res_nodeSelect} 
+		    </select>
+		</div>
+	</div>
+	<div class="tab-pane{$api_active}" id="{$group_id}-{$item_id}-api">
+		<div class="inputFilter-group apiSelect-wrapper">
+		    <select class="form-control api-select " data-role="res-api" data-uid="{$resApi_uid}">
+		        <option value="" > 아래에서 API를 선택해주세요.</option>
+			    {$res_apiSelect} 
+		    </select>
+		    <span class="apiConfig-wrapper" data-role="config-api" data-api="{$api_uid}" data-req="{$req_uid}" data-itemOC="{$resApi_uid}"> <!-- req uid-->
+                 <i class="fa fa-gear fa-fw fa-configAPI" aria-hidden="true"></i>
+		    </span>
+		</div>
+	</div>
+	<div class="tab-pane{$form_active}" id="{$group_id}-{$item_id}-form">
+		<div class="context-wrapper multiMenuContext-container" data-role="res-form" data-uid="{$resForm_uid}">
+		    <table class="table">
+		        <tbody data-role="multiMenuFormList-wrapper" class="multiMenuContext-wrapper">
+		            {$res_form}   
+		        </tbody>
+		    </table>
+		</div>
+		<div class="checkbox-info fcolumn">
+		    {$form_checkbox_bargein}
+			{$form_checkbox_ttsSpeed}
+			{$form_checkbox_ctiaction}
+		</div>
+	</div>
+	<div class="tab-pane{$hform_active}" id="{$group_id}-{$item_id}-hform">
+		<div class="inputFilter-group">
+		    <select class="form-control" data-role="res-hform" data-uid="{$resHForm_uid}">
+		        <option value="" > 선택된 양식으로 출력합니다.</option>
+		        {$res_hformSelect} 
+		    </select>
+		</div>
+	</div>
+
+</div>

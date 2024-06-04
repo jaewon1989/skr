@@ -1,0 +1,43 @@
+<div class="cb-chatting-form cb-form-start onda">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        예약번호와 예약자명을 입력해주세요.
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 개인 정보 입력 -->
+    <div class="bot_form onda mt30">
+        <h1>예약자 정보 입력</h1>
+        <fieldset class="form_field">
+            <div class="input_area">
+                <label for="reserve_idx" class="input_label">예약번호</label>
+                <div>
+                    <input type="tel" id="reserve_idx" name="reserve_idx" maxlength="20" placeholder="예약번호" />
+                </div>
+            </div>
+            <div class="input_area mt5">
+                <label for="reserve_uname" class="input_label">예약자명</label>
+                <div>
+                    <input type="text" id="reserve_uname" name="reserve_uname" maxlength="20" placeholder="예약자명" />
+                </div>
+            </div>
+        </fieldset>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item w30 submit_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="auth">확인</button>
+            <button type="button" class="kwd-item cancel w30 cancel_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="search_cancel">취소</button>
+        </div>
+    </div>
+</div>

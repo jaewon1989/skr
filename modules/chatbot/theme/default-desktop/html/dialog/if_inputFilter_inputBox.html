@@ -1,0 +1,15 @@
+<div class="input-item" data-role="ifInputFilter-Box" data-order="{$input_order}">
+    <span class="inputFilter-group and-or">
+	    <select name="if_recQry[]" data-role="if-recQry">
+	        <option value="and" {$and_selected}>AND</option>
+	        <option value="or" {$or_selected}>OR</option>
+	    </select>
+	</span>
+    <input type="hidden" name="if_recCondition[]" value="{$filter_val}" data-role="if-recCondition"/>
+    <span class="inputFilter-group">
+        <input type="text" class="panel-input" name="if_recLabel[]" placeholder="인텐트 or 엔터티명" data-role="input-ifFilterData" value="{$filter_label}">
+    </span>
+    <span class="inputFilter-group query-span del-inputFilter" data-role="delete-ifInputFilter" data-order="{$input_order}" >
+       <i class="fa fa-minus-circle" aria-hidden="true"></i>
+    </span>
+</div>

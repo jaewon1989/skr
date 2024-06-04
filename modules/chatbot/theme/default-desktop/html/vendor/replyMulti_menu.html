@@ -1,0 +1,19 @@
+<div class="card" data-role="menu-item">
+    <div class="card-body">
+        <p class="card-text" style="border-top:none;">
+            <input type="hidden" name="menu_uid[]" value="{$rm_uid}">
+            <input type="text" name="menu_title[]" class="menu-title" placeholder="메뉴명을 입력해주세요." value="{$rm_title}" /> 
+        </p>
+        <p class="card-text">
+            <select name="menu_linkTarget[]" class="form-control">
+               <option value="">링크대상 선택</option> 
+               <option value="I"{$linkTarget_image}>링크대상 : 이미지</option>
+               <option value="W"{$linkTarget_web}>링크대상 : 웹페이지</option>
+            </select>
+        </p>
+        <p class="card-text">
+            <textarea name="menu_link[]" class="form-control" rows="2" placeholder="링크주소를 입력해주세요.">{$rm_linkUrl}</textarea> 
+        </p>
+     
+    </div>
+</div>

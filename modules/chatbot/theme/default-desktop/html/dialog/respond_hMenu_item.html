@@ -1,0 +1,17 @@
+<div class="card" data-role="resItem" data-groupid="{$group_id}" data-itemid="{$item_id}" data-uid="{$item_uid}" data-type="hMenu">
+    <div class="card_ctx">
+	    <input type="checkbox" id="ctx_init_{$item_uid}" data-role="ctx_init" value="true" {$ctx_init_check}>
+	    <label for="ctx_init_{$item_uid}">컨텍스트 초기화</label>
+	</div>
+	<div class="cwrap" style="height:482px;">
+    	<span class="del-resItem" data-role="btn-delResItem" data-uid="{$item_uid}" data-tooltip="tooltip" title="삭제">
+           <i class="fa fa-minus-circle" aria-hidden="true"></i>
+        </span>
+        <div class="card-body hMenu-resGroup">
+            <p class="card-text menu-title" style="border-top:none;">
+                <input type="text"  data-role="title"  placeholder="메뉴명 ( 노출내용 )" value="{$res_title}"/>
+            </p>
+        	{$menuItem_resGroup}
+        </div>
+    </div>
+</div>

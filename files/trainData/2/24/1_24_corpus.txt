@@ -1,0 +1,8 @@
+__label__459 주문|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__459 주문|NNG 할께요|XSV+EF
+__label__459 아아|IC 주세요|NNP
+__label__459 아이스|NNP 아메리카노|NNP 스몰|NNP 하나|NR 주|NNBC 세요|NNG
+__label__459 따뜻|XR 한|XSA+ETM 라떼|NNG 라지|NNG 하나|NR 주|NNBC 세요|NNG
+__label__459 아메리카노|NNP
+__label__459 주문|NNG 가능|NNG 한가요|XSA+EC
+__label__459 주문|NNG 빠라|VA+EC 삐리|NNG 뽕|NNG

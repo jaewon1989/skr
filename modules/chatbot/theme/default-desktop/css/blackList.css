@@ -1,0 +1,33 @@
+.blackListWrapper {
+    display: grid;
+    justify-content: flex-start;
+}
+
+.blackListDiv {
+    margin: 15px 25px;
+}
+
+.blackListSubmitBtn {
+    margin-top: 20px;
+    width: 50px;
+    color: whitesmoke;
+    background: #FF7549;
+    border-radius: 10px;
+}
+
+.blackListHeader {
+    margin: 20px 0 20px 0 !important;
+    font-weight: 500;
+}
+
+.blackListSpan {
+    color: coral;
+}
+
+.blackListTextArea {
+    display: block;
+    width: 500px;
+    height: 350px;
+    border: 1px solid dimgrey;
+    border-radius: 10px;
+}

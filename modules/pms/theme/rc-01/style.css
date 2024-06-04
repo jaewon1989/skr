@@ -1,0 +1,471 @@
+/**
+ * layout 레이아웃 영역
+ * ----------------------------------------------------------------------------
+ */
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Malgun Gothic','맑은 고딕',sans-serif;
+    color: #333;
+}
+
+/*bar-nav 영역 버튼 터치범위 확장*/
+.bar a.pull-left,
+.bar .btn-link.pull-left {
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bar a.pull-right,
+.bar .btn-link.pull-right {
+    margin-right: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*rb-menu*/
+
+.rb-menu {
+    height: 37px;
+}
+
+.rb-menu ~ .content {
+    padding-top: 80px;
+}
+
+.rb-menu .segmented-control {
+    top: 2px;
+    border: none;
+    border-radius: 0
+}
+
+.rb-menu .segmented-control .control-item {
+    position: relative;
+    background-color: transparent;
+    padding: 10px 3px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+    border: none;
+}
+
+.rb-menu .segmented-control .control-item.active {
+    color: #007AFF
+}
+
+.rb-menu .segmented-control .control-item.active:after {
+    position: absolute;
+    bottom: -1px;
+    left: 10px;
+    right: 10px;
+    vertical-align: middle;
+    content: " ";
+    border-bottom: 5px solid;
+    color: #007AFF;
+}
+
+
+
+/**
+ * 1 - global 공통
+ * ----------------------------------------------------------------------------
+ */
+
+.rb-nopost {
+    padding: 100px 0;
+    text-align: center;
+    color: #999;
+    font-size: 14px
+}
+
+.rb-nopost i {
+    display: block;
+    padding-bottom: 5px;
+    color: #ddd;
+    font-size: 5rem
+}
+
+/*animate.css*/
+/*https://github.com/daneden/animate.css*/
+
+/*base*/
+.animated {
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+/*fadeIn*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*fadeOut*/
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+
+
+
+/**
+ * 2 - list 목록
+ * ----------------------------------------------------------------------------
+ */
+
+ .rb-catalog-list .content {
+    background-color: #f3f2f3;
+    background-image: url('./image/content-bg.png');
+    background-position: bottom ;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+}
+
+.rb-catalog-list .content section {
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+
+.rb-catalog-list .content .btn-block.btn-primary {
+    padding: 7px 0
+}
+
+.rb-catalog-list .content .btn-primary {
+    background-color: #005DA3;
+    border: 1px solid #005DA3;
+}
+.rb-catalog-list .content .btn-positive {
+    background-color: #A89231;
+    border: 1px solid #A89231;
+}
+
+.rb-catalog-list .swiper-container {
+    padding-bottom: 30px
+}
+
+/*cover*/
+
+.rb-catalog-list .content .rb-cover {
+    margin-top: 0
+}
+.rb-catalog-list .rb-cover .card-full,
+.rb-catalog-list .rb-cover .card-full .card-img {
+    border-radius: 0;
+    border: none;
+}
+
+.rb-catalog-list .rb-cover .card-block {
+    padding: 30px 15px;
+}
+
+.rb-catalog-list .rb-cover .card-title {
+    font-size: 50px;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.rb-catalog-list .rb-cover .card-text {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.rb-catalog-list section h3 {
+    font-size: 16px
+}
+
+.rb-catalog-list .rb-cover .card-img-backdrop {
+    background-color: #453107;
+    display: block;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 19;
+    opacity: 0
+}
+
+/*price*/
+
+.rb-catalog-list .content .rb-price {
+    margin-top: 0
+}
+.rb-catalog-list .rb-price .input-group {
+    background-color: transparent;
+}
+.rb-catalog-list .rb-price .input-row {
+    height: auto;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+.rb-catalog-list .rb-price .input-row label {
+    text-align: left;
+}
+
+.rb-catalog-list .content .rb-price .rb-total {
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+/*buttons*/
+.rb-catalog-list .content .rb-buttons {
+    margin-top: 10px
+}
+
+.rb-catalog-list .rb-buttons .btn {
+    margin-bottom: 0
+}
+
+.rb-catalog-list .rb-buttons .row {
+     margin-right: -.2rem; 
+     margin-left: -.2rem; 
+}
+.rb-catalog-list .rb-buttons .col-xs-6{
+     padding-right: .2rem; 
+     padding-left: .2rem; 
+}
+
+/*related*/
+
+.rb-catalog-list .rb-related h3 {
+    margin-bottom: 0
+}
+.rb-catalog-list .rb-related .card {
+    padding-top: 10px;
+    background-color: transparent;
+    border: none;
+}
+.rb-catalog-list .rb-related .card-block {
+    padding: 5px;
+}
+
+.rb-catalog-list .swiper-button-prev, 
+.rb-catalog-list .swiper-button-next {
+    position: absolute;
+    top: 25%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    background-image: none;
+    color: #fff;
+}
+.rb-catalog-list .swiper-button-prev {
+    left: 15px
+}
+.rb-catalog-list .swiper-button-next {
+    right: 23px
+}
+.rb-catalog-list .swiper-button-prev .icon, 
+.rb-catalog-list .swiper-button-next .icon {
+    font-size: 40px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    z-index: 10
+}
+
+
+
+
+/**
+ * 3 - view 보기
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+
+.rb-catalog-view .content {
+    background-color: #f3f2f3;
+    background-image: url('./image/content-bg.png');
+    background-position: bottom;
+}
+
+.rb-catalog-view .content section {
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+/*cover*/
+
+.rb-catalog-view .content .rb-cover {
+    margin-top: 0
+}
+.rb-catalog-view .rb-cover .card-full,
+.rb-catalog-view .rb-cover .card-full .card-img {
+    border-radius: 0;
+    border: none;
+}
+
+.rb-catalog-view .rb-cover .card-block {
+    padding: 30px 15px;
+}
+
+.rb-catalog-view .rb-cover .card-title {
+    margin-top: 0;
+    font-size: 50px;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.rb-catalog-view .rb-cover .card-text {
+    margin-bottom: 0;
+    color: #fff;    
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    font-size: 18px !important;
+
+}
+
+.rb-catalog-view section h3 {
+    font-size: 16px
+}
+
+.rb-catalog-view .rb-cover .card-img-backdrop {
+    background-color: #453107;
+    display: block;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 19;
+    opacity: 0
+}
+
+/*price*/
+
+.rb-catalog-view .content .rb-price {
+    margin-top: 0
+}
+.rb-catalog-view .rb-price .input-group {
+    background-color: transparent;
+}
+.rb-catalog-view .rb-price .input-row {
+    height: auto;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+.rb-catalog-view .rb-price .input-row label {
+    text-align: left;
+}
+
+.rb-catalog-view .content .rb-price .rb-total {
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+/*buttons*/
+.rb-catalog-view .rb-buttons .row {
+     margin-right: -.2rem; 
+     margin-left: -.2rem; 
+}
+.rb-catalog-view .rb-buttons .col-xs-6{
+     padding-right: .2rem; 
+     padding-left: .2rem; 
+}
+
+/*related*/
+
+.rb-catalog-view .rb-related .card {
+    padding-top: 10px;
+    background-color: transparent;
+    /*border: none;*/
+}
+
+.rb-catalog-view .rb-related .card-block {
+    padding: 5px;
+}
+
+/*detail*/
+
+.rb-catalog-view .rb-detail .rb-article p {
+    font-size: 16px
+}
+
+.rb-catalog-view .rb-detail .segmented-control .control-item {
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.rb-catalog-view .rb-detail .segmented-control .control-item.active {
+    background-color: #a89231;
+    color: #fff
+}
+
+
+
+/**
+ * 4 - modal 
+ * ----------------------------------------------------------------------------
+ */
+
+.modal .rb-catalog-view .bar-nav {
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: none;
+    z-index: 11;
+}
+
+.modal .rb-catalog-view .bar-nav .title {
+    color: transparent;
+}
+
+.modal .rb-catalog-view .bar-nav .btn {
+    color: #fff;
+}
+
+.modal .rb-catalog-view  .bar-nav ~ .content {
+    padding-top: 0;
+}
+
+.modal .rb-catalog-view .bar-nav.rb-inverse {
+    background-color: #453107;
+}
+.modal .rb-catalog-view .bar-nav.rb-inverse .title {
+    color: #fff;
+}
+

@@ -1,0 +1,194 @@
+<div class="cb-chatting-form cb-form-start">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon" style="max-width:75%;">
+                    <p>
+                        고객정보 및 상담 내용을 입력해주세요.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bot_form kblife on">
+        <fieldset class="form_field">
+            <div class="input_area_label">1. 개인(신용)정보 수집&middot;이용 동의</div>
+            <div class="input_area_wrap">
+                <div class="agree_wrap mt15">
+                    <div class="agree_box">
+                        <p>금융위원회 혁신금융서비스 AI보험설계사 특례를 통하여 AI보험 신청 서비스를 위한 가입상담과 관련하여 귀사가 본인으로부터 취득한 개인(신용)정보를 수집&middot;이용하고자 하는 경우에는「개인정보보호법」제15조 및 제22조에 따라 동의를 얻어야 합니다. 이에 본인은 귀사가 아래와 같은 내용으로 본인의 개인(신용)정보를 수집&middot;이용하는데 동의합니다.</p>
+                        <p class="mt20">수집하는 개인정보 항목</p>
+                        <p class="txt_bul">성명, 생년월일, 연락처, 이메일 등 개인식별정보</p>
+                        <p class="mt10">개인정보의 수집 및 이용목적</p>
+                        <p class="txt_bul">보험가입 상담</p>
+                        <p class="mt10">수집한 개인정보의 보유 및 이용기간</p>
+                        <p class="txt_bul">동의일로부터 1개월</p>
+                        <p class="mt20">
+                            정보동의시 가입상담을 위해 최소한의 정보만 수집&middot;이용하게 됩니다.<br>귀하는 상기 동의를 거부하실 수 있습니다. 다만, 본 동의를 거부하시는 경우에는 가입상담의 정상적인 신청이 불가능할 수 있음을 알려 드립니다. 개인(신용)정보 수집&middot;이용에 동의한 이후에도 전화, 서면 등을 통해 가입상담 및 고객정보 관리 등에 대한 개인(신용)정보 처리 중지를 요청할 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="mt15">
+                        <input type="checkbox" class="ip_c" id="{$id_agree}" name="agree" value="true">
+                        <label for="{$id_agree}">개인(신용)정보 수집&middot;이용에 동의합니다.</label>
+                    </div>
+                </div>
+                <div class="btn_wrap mt10">
+                    <button type="button" class="kwd-item cancel cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+                    <button type="button" class="kwd-item submit_request next">다음</button>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="bot_form kblife mt15">
+        <fieldset class="form_field">
+            <div class="input_area_label">2. 고객정보</div>
+
+            <div class="input_area_wrap">
+                <div class="input_area no_label input_text mt15">
+                    <label class="input_label">이름</label>
+                    <div>
+                        <input type="text" name="uname" maxlength="20" title="이름" />
+                    </div>
+                </div>
+                <div class="input_area no_label input_text mt10">
+                    <label class="input_label">휴대폰 번호</label>
+                    <div>
+                        <input type="tel" class="input_number" name="umobile" maxlength="13" title="휴대폰 번호" placeholder="번호만 입력" />
+                    </div>
+                </div>
+                <div class="input_area no_label input_text mt10">
+                    <label class="input_label">이메일</label>
+                    <div>
+                        <input type="email" name="uemail" maxlength="50" title="이메일" placeholder="이메일 주소 입력" />
+                    </div>
+                </div>
+                <div class="input_area no_label input_text mt10">
+                    <label class="input_label">생년월일</label>
+                    <div style="width:45%;">
+                        <input type="tel" class="input_number" name="ujumin1" maxlength="6" title="주민등록번호 앞자리" placeholder="주민등록번호 앞자리" />
+                    </div>
+                    <div style="width:20%; margin-left:10px;">
+                        <input type="tel" class="input_number" name="ujumin2" maxlength="1" title="주민등록번호 뒷 첫자리" />
+                    </div>
+                    <div style="border:0; width:25%; line-height:2em; padding-left:5px;">
+                        ******
+                    </div>
+                </div>
+                <div class="h_msg">* 휴대폰 번호는 내역조회 시 인증에 사용되오니 정확한 정보를 입력해주시기 바랍니다.</div>
+
+                <div class="btn_wrap mt10">
+                    <button type="button" class="kwd-item cancel cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+                    <button type="button" class="kwd-item submit_request next">다음</button>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="bot_form kblife mt15">
+        <fieldset class="form_field">
+            <div class="input_area_label">3. 상담내용</div>
+
+            <div class="input_area_wrap">
+                <div class="agree_wrap mt15">
+                    <label class="input_label">상담내용</label>
+                    <ul class="ul_check_agree wd100">
+                        {$htmlExeRstCont}
+                    </ul>
+                </div>
+                <div class="agree_wrap mt10">
+                    <label class="input_label">관심상품</label>
+                    <ul class="ul_check_agree wd33">
+                        {$htmlInterestProd}
+                    </ul>
+                </div>
+                <div class="agree_wrap mt10">
+                    <label class="input_label">관심주제</label>
+                    <ul class="ul_check_agree wd33">
+                        {$htmlInterestTopic}
+                    </ul>
+                </div>
+                <div class="searchwrap mt10">
+                    <label class="input_label">지역</label>
+                    <div class="fwrap mt5">
+                        <div class="w48 fl">
+                            <div class="selectwrap">
+                                <select name="sido">
+                                   <option value="">시/도 선택</option>
+                                   {$htmlSido}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="w48 fr">
+                            <div class="selectwrap">
+                                <select name="sigugun">
+                                   <option value="">시/구/군 선택</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="agree_wrap mt20">
+                    <label class="input_label">상담방법</label>
+                    <ul class="ul_check_agree wd33">
+                        <li>
+                            <div class="check_wrap">
+                                <input type="radio" class="ip_r" id="umethod_1" name="exeRstCase" value="email" checked>
+                                <label for="umethod_1">이메일</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="check_wrap">
+                                <input type="radio" class="ip_r" id="umethod_2" name="exeRstCase" value="call">
+                                <label for="umethod_2">전화</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="phone_time searchwrap mt10 dispnone">
+                    <label class="input_label">상담시간</label>
+                    <div class="fwrap mt5">
+                        <div class="w48 fl">
+                            <div class="selectwrap">
+                                <select name="counselTime1">
+                                   <option value="">선택</option>
+                                   {$htmlCounselTime1}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="w48 fr">
+                            <div class="selectwrap">
+                                <select name="counselTime2">
+                                   <option value="">선택</option>
+                                   {$htmlCounselTime2}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input_area no_label input_text mt10">
+                    <label class="input_label">내용</label>
+                    <div>
+                        <textarea name="contentText" rows="8" textarealength="2000" placeholder="요청내용에 대해 2000자 이내로 적어주세요."></textarea>
+                    </div>
+                </div>
+                <div class="h_msg">* 계약 및 개인정보 등 민감한 내용에 대해서는 답변이 제공되지 않음을 양해 부탁드립니다.</div>
+
+                <div class="btn_wrap mt10">
+                    <button type="button" class="kwd-item cancel cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+                    <button type="button" class="kwd-item submit_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="confirm">등록</button>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+
+</div>

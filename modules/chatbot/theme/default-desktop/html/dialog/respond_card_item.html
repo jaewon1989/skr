@@ -1,0 +1,23 @@
+<div class="card" data-role="resItem" data-groupid="{$group_id}" data-itemid="{$item_id}" data-uid="{$item_uid}" data-type="card">
+    <div class="card_ctx">
+	    <input type="checkbox" id="ctx_init_{$item_uid}" data-role="ctx_init" value="true" {$ctx_init_check}>
+	    <label for="ctx_init_{$item_uid}">컨텍스트 초기화</label>
+	</div>
+	<div class="cwrap" style="height:520px;">
+        <span class="del-resItem" data-role="btn-delResItem" data-uid="{$item_uid}" data-tooltip="tooltip" title="삭제">
+           <i class="fa fa-minus-circle" aria-hidden="true"></i>
+        </span>
+        <input type="hidden" data-role="img_url" value="{$res_imgUrl}" />
+        <input type="hidden" data-role="link1" value="" />
+        <div class="card-img-wrapper" data-role="btn-uploadImg" {$res_backImg}><!-- 해당 이미지 배경으로 세팅--></div>
+        <div class="card-body hMenu-resGroup">
+            <p class="card-text">
+                <input type="text" data-role="title" placeholder="제목을 입력해주세요." value="{$res_title}" />
+            </p>
+            <p class="card-text">
+                <input type="text" data-role="summary" placeholder="부제목을 입력해주세요." value="{$res_summary}"/>
+            </p>
+            {$menuItem_resGroup}
+        </div>
+    </div>
+</div>

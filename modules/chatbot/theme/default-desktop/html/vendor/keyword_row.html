@@ -1,0 +1,44 @@
+<li class="dd-item" >
+	<input type="hidden" name="keyword_member[]" value="{$uid}" />
+	<span class="dd-handle">
+		<i class="fa fa-arrows fa-fw"></i> 
+	</span>
+	<span class="kwd-name" data-uid="{$uid}" data-depth="{$depth}" data-role="keyword-item">{$keyword}</span>
+	<span class="kwd-icon" data-tooltip="tooltip" title="삭제" data-role="delete-kwd" data-parent="{$parent}" data-uid="{$uid}" data-depth="{$depth}">
+		<i class="fa fa-trash" aria-hidden="true"></i>
+	</span>
+	<span 
+	class="kwd-icon" 
+	data-tooltip="tooltip" 
+	title="수정" 
+	data-role="edit-kwd" 
+	data-uid="{$uid}" 
+	data-depth="{$depth}"
+	data-parent="{$parent}"
+	data-keyword="{$keyword}"
+	data-summary ="{$summary}"
+	data-price1 ="{$price1}"
+	data-price2 ="{$price2}"
+	data-imgUrl ="{$img_url}"
+	data-link1 ="{$link1}"
+	data-link2 ="{$link2}"
+	data-showMenu ="{$showMenu}"
+	data-content ="{$content}"
+
+	>
+		<i class="fa fa-cog" aria-hidden="true"></i>
+	</span>
+	<span 
+	class="kwd-icon" 
+	data-tooltip="tooltip" 
+	title="{$showMenu_eye_tooltip}" 
+	data-role="change-showMenu" 
+	data-parent="{$parent}" 
+	data-uid="{$uid}" 
+	data-depth="{$depth}" 
+	data-showMenu="{$showMenu}"
+	>
+		<i class="fa fa-eye{$showMenu_eye_icon}" aria-hidden="true"></i>
+	</span>
+	
+</li> 

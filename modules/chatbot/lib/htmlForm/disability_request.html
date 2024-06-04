@@ -1,0 +1,24 @@
+<div class="cb-chatting-form cb-form-start">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        장애접수를 진행하시겠습니까?
+                    </p>
+                </div>
+                <div class="btn_wrap mt10" style="display:{$sys_disp}">
+                    <button type="button" class="kwd-item w30 submit_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="start">신청하기</button>
+                    <button type="button" class="kwd-item cancel w30 cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

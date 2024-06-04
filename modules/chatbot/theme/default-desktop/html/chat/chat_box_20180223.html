@@ -1,0 +1,55 @@
+<section id="cb-chatzone{$lang}" >
+    <div class="cb-chatzone-wrapper{$modal_class}" id="chatbox{$chatbox_mod}">
+        <div id="cb-navigator" class="cb-box-shadow">
+            <div class=" cb-navigator-wrapper">
+                <div class="cb-cell-layout">
+                    <div class="cb-cell cb-cell-left">
+                        <!-- <span class="cb-icon cb-icon-backward{$back_button_hidden}" data-history="back"></span> -->
+                    </div>
+                    <div class="cb-cell cb-cell-center">
+                   <!--      <h3>현대HCN 챗봇</h3> -->
+                        <!-- <h3>{$bot_service}</h3> -->
+                    </div>
+                    <div class="cb-cell cb-cell-right">
+                        <a href="#" data-dismiss="modal">
+                           <span class="cb-icon cb-icon-house"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cb-chatting-body">
+            <div class="cb-chatting-scroll" data-role="chatting-logContainer">
+               {$chat_rows}
+            </div>
+        </div>
+        <div id="cb-chatting-input" {$inputBox_style}>
+            <div class="emoticon-wrapper" data-role="emoticon-box">
+                {$emoticon_list}
+            </div>
+            <div class="cb-layout" style="position:relative;">
+                <div class="cb-right">
+                    <ul class="cb-chatting-icon">
+                        <li>
+                            <span class="cb-icon cb-icon-smile" data-role="btn-showEmoticon"></span>
+                        </li>
+                        <li>
+                            <span class="cb-icon cb-icon-recom" data-id="{$bot_id}" data-role="btn-showFstKwd" id="show-firstKwd"></span>
+                            <span class="cb-chatting-send" style="display:none;" data-id="{$bot_id}" data-role="btn-send">전송</span>
+                        </li>
+                    </ul>
+                </div>
+         <!--        <div class="cb-left">
+                    <div class="cb-chatting-profile">
+                        <img src="{$user_avatar_src}" alt="Chatting Profile Image">
+                    </div>
+                </div> -->
+                <div class="cb-center">
+                    <input type="text" data-id="{$bot_id}" placeholder="메시지를 입력하세요." data-role="bot-talks">
+                </div>
+            </div>            
+        </div>
+      
+      </div>
+</section>

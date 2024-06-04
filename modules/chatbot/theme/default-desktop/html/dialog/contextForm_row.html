@@ -1,0 +1,14 @@
+<tr data-role="contextList-row" data-order="{$contextOrder}">
+	<td class="contextName">
+		<span>$</span>
+		<input name="contextName[]" class="context-input" placeholder="{$callContext} 변수명" value="{$contextName}" data-role="input-nodeContextName"/>
+	</td>
+	<td class="contextValue">
+		<input name="contextValue[]" class="context-input" placeholder="{$callContext} 값" value="{$contextValue}"/>
+	</td>
+	<td class="contextAction" data-role="context-action">
+		<span class="context-delBtn" data-role="del-contextRow" data-order="{$contextOrder}">
+            <i class="fa fa-minus-circle" aria-hidden="true"></i> 
+        </span>		
+	</td>
+</tr>

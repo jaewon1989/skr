@@ -1,0 +1,138 @@
+.rb-system-site.rb-default {
+    background-color: #fff
+}
+.rb-system-site .rb-panel-top {
+    background-color: #DFDFDF;
+    /*background-color: #222;*/
+    border-bottom: 1px solid #A3A3A3;
+    /*border-bottom: 1px solid #000;*/
+    height: 25px;
+    padding: 0 10px;
+}
+.rb-system-site h1 {
+    color: #ccc;
+    font-size: 13px;
+    text-transform:capitalize;
+    padding-top: 30px;
+    margin: 0 0 13px
+}
+.rb-system-site .panel-title a {
+    display: block;
+    text-decoration: none;
+    text-shadow: none;
+}
+.rb-system-site .panel-title .collapsed {
+    font-weight: normal;
+    color: inherit;
+}
+/* rb-icon */
+.rb-system-site .panel-title i {
+    font-family: FontAwesome;
+    margin-left: -5px;
+    margin-right: 5px;
+    font-style: normal;
+}
+.rb-system-site .panel-title i:before {
+    float: right;
+    content: "\f0d7"
+}
+.rb-system-site .panel-title .collapsed i:before {
+    float: right;
+    content: "\f0da"
+}
+.rb-system-site .rb-icon-minify {
+    text-align: center;
+    padding: 0;
+    width: 36px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    left: -3px;
+    top: 5px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 19px;
+    transition: all .1s linear 0s;
+    z-index: 9999;
+}
+.rb-system-site .rb-hide-sidebar {
+    text-align: center;
+    padding: 0;
+    width: 36px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 19px;
+    z-index: 9999;
+    -webkit-transition: all .1s linear 0s;
+            transition: all .1s linear 0s
+}
+.rb-system-site .rb-device-buttons {
+    margin-bottom: 15px;
+}
+.rb-system-site .btn-group {
+    display: block
+}
+.rb-system-site .rb-device-buttons .btn-default {
+    color: #666
+}
+.rb-system-site .rb-device-buttons .btn {
+    width: 33.3%
+}
+.rb-system-site .rb-icon-hide {
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 24px;
+    z-index: 9999;
+    color: #676767;
+    -webkit-transition: all .1s linear 0s;
+            transition: all .1s linear 0s
+}
+.rb-system-site .rb-icon-hide .rb-icon:before {
+    content: "\f00d";
+}
+.rb-system-site .rb-icon-hide:hover .rb-icon:before {
+    content: "\f057";
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: -2px;
+    color: #222;
+}
+.rb-hidden-system-site .rb-system-site .rb-icon-hide .rb-icon:before {
+    content: "\f08d";
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: -2px;
+}
+.rb-hidden-system-site .rb-system-site .rb-icon-hide:hover .rb-icon:before {
+    color: #333;
+}
+/*테마*/
+.rb-system-site .btn-default.active {
+    background-color: #2d6ca2;
+    border-color: #2b669a;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+.rb-system-site fieldset[disabled] .btn-default,
+.rb-system-site fieldset[disabled] .btn-default.active {
+    background-color: #eee;
+    color: #999;
+    text-shadow: none;
+    background-image: -webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#e0e0e0));
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+ }

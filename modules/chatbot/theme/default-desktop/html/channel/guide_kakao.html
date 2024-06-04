@@ -1,0 +1,20 @@
+<h4 class="guide-title">카카오톡 플러스친구 연동을 위해서 아래의 항목을 체크해주세요 </h4>
+<ul class="sns-guide">
+    <li>1) 카카오톡 플러스친구 관리자센터(<a href="https://center-pf.kakao.com" target="_blank">https://center-pf.kakao.com</a>) 접속. </li>
+    <li>2) 좌측 메뉴중 <code>스마트채팅</code> > <code>챗봇</code> 메뉴 클릭. </li>
+    <li>3) <code>카카오 i 오픈빌더 바로가기</code> 클릭.(<a href="https://i.kakao.com/openbuilder" target="_blank">https://i.kakao.com/openbuilder</a>)</li>
+    <li>4) <code>카카오톡 챗봇</code> 신규 생성.</li>
+    <li>5) <code>스킬</code> 메뉴 클릭 후 <code>생성</code> 버튼 클릭.</li>
+    <li>6) <code>스킬명</code> 입력.</li>    
+    <li>7) <code><strong>URL</strong></code> 입력창에 아래 URL 입력.</li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;" id="webhookUrl-wrapper"> 
+            <div class="input-group">
+                <input type="text" class="form-control" value="{$return_url}" disabled />
+                <span class="input-group-addon">
+                    <button class="btn btn-default btn-copy" data-role="clipboard-copy" data-clipboard-text="{$return_url}" data-container="#webhookUrl-wrapper" data-feedback="URL 이 복사되었습니다.">복사</button>
+                </span>
+            </div>
+        </div>
+    </li>
+</ul>

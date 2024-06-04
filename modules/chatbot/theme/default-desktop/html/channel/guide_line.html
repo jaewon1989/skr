@@ -1,0 +1,47 @@
+<h4 class="guide-title">라인(LINE) 메시징API 연동을 위해서 아래의 항목을 체크해주세요 </h4>
+<ul class="sns-guide">
+    <li>1) 라인  모바일앱을 실행(없는 경우 다운로드). <li>
+    <li>2) 라인앱 우상단 설정메뉴를 클릭하고 <code>계정</code> 메뉴 클릭. <li>
+    <li>3) 계정설정 페이지 항목 중 <code>이메일</code> 과 <code>비밀번호</code> 항목 등록한 후 하단 <code>로그인 허용</code> 항목 활성화(체크).<li>
+    <li>4) 라인 메시징API 관리자센터(<a href="https://developers.line.me/" target="_blank">https://developers.line.me/</a>) 접속 후 하단의 <strong>Messaging API</strong> 메뉴 클릭.</li>
+    <li>5) Messaging API 페이지에서 <code>Start now</code> 버튼 클릭 후 <strong>3) 에서 등록한 이메일/비밀번호</strong> 로 로그인. <li>
+    <li>6) 해당 절차에 따라 <code>Provider</code> 및  <code>Channel</code> 을 생성한 후 설정페이지(이하 7,8,9번 항목진행)로 이동. <li>
+    <li>7) <code>Use webhooks</code> 항목을 <code>활성화(Enabled)</code> 변경(체크).<li>
+    <li>8) 아래의 URL을 <code>Webhook URL</code> 항목 입력란에 입력(<code>https://</code> 포함여부 체크).<li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;" id="webhookUrl-wrapper"> 
+            <div class="input-group">
+                <input type="text" class="form-control" value="{$return_url}" disabled />
+                <span class="input-group-addon">
+                    <button class="btn btn-default btn-copy" data-role="clipboard-copy" data-clipboard-text="{$return_url}" data-container="#webhookUrl-wrapper" data-feedback="URL 이 복사되었습니다.">복사</button>
+                </span>
+            </div>
+        </div>
+    </li>    
+    <li>9) <strong>Channel Access Token 을 발급(Issue)</strong>한 후 <code>Channel ID, Channel Secret, Access Token</code> 을 아래의 입력란에 입력.<li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;"> 
+            <div class="input-group">
+                <span class="input-group-addon">Channel ID</span>
+                <input type="text" name="channel_id" value="{$channel_id}" class="form-control" >
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;"> 
+            <div class="input-group">
+                <span class="input-group-addon">Channel Secret</span>
+                <input type="text" name="channel_secret" value="{$channel_secret}" class="form-control" >
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;"> 
+            <div class="input-group">
+                <span class="input-group-addon" >Access Token</span>
+                <textarea name="access_token" rows="3" class="form-control" >{$access_token}</textarea>
+            </div>
+        </div>
+    </li>
+    
+</ul>

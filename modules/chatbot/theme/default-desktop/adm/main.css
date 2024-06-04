@@ -1,0 +1,23 @@
+#productlist {padding:0 0 30px 0;}
+#productlist .info {height:28px;}
+#productlist .info .article {float:left;font-size:11px;font-family:gothic,dotum;color:#c0c0c0;padding:5px 0 0 5px;}
+#productlist .info .category {float:right;}
+#productlist table {width:100%;border-spacing:0px;border-collapse:collapse;}
+#productlist table caption {display:none;}
+#productlist thead th {height:28px;border-top:#D2D2D2 solid 1px;border-bottom:#D2D2D2 solid 1px;background:url('../../../../../../_core/image/_public/bg_list_tt.jpg');font-size:11px;font-family:dotum;font-weight:normal;color:#787878;}
+#productlist thead .side1 {border-left:#D2D2D2 solid 1px;}
+#productlist thead .side2 {border-right:#D2D2D2 solid 1px;}
+#productlist tbody td {text-align:center;color:#888888;font-family:arial;font-size:10px;border-bottom:#E6E6E6 solid 1px;letter-spacing:-1px;}
+#productlist .auth {font-size:11px;font-family:dotum;}
+#productlist .cat {font-size:11px;font-family:dotum;}
+#productlist .sbj {text-align:left;padding:5px 0 3px 10px;letter-spacing:-1px;}
+#productlist .sbj a {font-size:12px;font-family:gulim;color:#222222;text-decoration:none;line-height:150%;}
+#productlist .sbj a:hover {text-decoration:underline;}
+#productlist .sbj .new {color:#ff0000;}
+#productlist .sbj .act {color:#ff0000;font-family:dotum;font-size:11px;}
+#productlist .sbj .qna {color:#ff0000;padding:0 0 0 2px;}
+#productlist .sbj .comment {color:#0000ff;padding:0 0 0 2px;}
+#productlist .price {font-size:11px;font-family:dotum;}
+#productlist .sbj1 {text-align:left;padding:5px 0 3px 10px;font-size:12px;font-family:gothic,gulim;color:#222222;line-height:150%;}
+#productlist .pagebox01 {text-align:center;padding:15px 0 0 0;}
+#productlist .none {display:none;}

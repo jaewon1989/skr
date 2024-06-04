@@ -1,0 +1,26 @@
+<div class="cti-wrapper">
+    <span>콜봇 액션 : </span>
+    <select class="form-control" data-role="cti-Action" data-itemtype="{$CTI_item_type}" data-itemuid="{$CTI_item_uid}">
+        <option value="recognize" {$CTI_select_recognize}>음성인식 대기</option>
+        <option value="keyin" {$CTI_select_keyin}>키패드 입력</option>
+        <option value="routing" {$CTI_select_routing}>고객센터 호출</option>
+        <option value="ars" {$CTI_select_ars}>보이는 ARS</option>
+<!--        <option value="speed" {$CTI_select_speed}>TTS 속도조절</option>-->
+        <option value="hangup" {$CTI_select_hangup}>통화 종료</option>
+    </select>
+</div>
+<div class="cvalue-wrapper">
+    <div class="cti-value cti-value-keyin {$CTI_view_keyin}">
+        <input type="text" class="form-control" data-role="cti-value-keyin" placeholder="입력 자리 수 제한" value="{$CTI_value_keyin}"/>
+    </div>
+    <div class="cti-value cti-value-routing {$CTI_view_routing}">
+        <input type="text" class="form-control routing" data-role="cti-value-routing" placeholder="전화번호(숫자만 입력)" value="{$CTI_value_routing}"/>
+        <input type="text" class="form-control routing" data-role="cti-value-routing-skill" placeholder="skill 입력" value="{$CTI_value_routing_skill}"/>
+    </div>
+    <div class="cti-value cti-value-ars {$CTI_view_ars}">
+        <input type="text" class="form-control" data-role="cti-value-ars" placeholder="ARS 링크 주소" value="{$CTI_value_ars}"/>
+    </div>
+<!--    <div class="cti-value cti-value-speed {$CTI_view_speed}">-->
+<!--        <input type="text" class="form-control" data-role="cti-value-speed" placeholder="속도값(-5 ~ 5)" value="{$CTI_value_speed}"/>-->
+<!--    </div>-->
+</div>

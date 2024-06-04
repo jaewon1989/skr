@@ -1,0 +1,94 @@
+.panel-body.guide {
+	background-color: #f5f5f5;
+	color: #777;
+}
+.panel .panel-body .group-box {
+	position: relative;
+   clear: both;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	cursor: move;
+	background-color: transparent;
+   border: 1px dashed #d5d5d5;
+}
+
+  
+.panel .panel-body .group-box .label {
+	position: absolute;
+	top: 13px;
+	left: 12px;
+	background-color: #F9F2F4;
+	color: #D55E4E;
+	border-radius: 7px
+}
+.panel .panel-body .group-box .delbtn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	background-color: transparent;
+	font-size: 11px
+}
+.panel .panel-body .group-box .name .form-control {
+	width: 85px;
+	font-size: 11px;
+	margin-left: 0;
+	margin-top: 20px;
+	border-radius: 4px
+}
+.panel .panel-body .group-box .delbtn a {
+	color: #999
+}
+.panel .panel-body .group-box .delbtn a:hover {
+	color: #fff
+}
+.panel .panel-body .group-box .fa-square {
+	font-size: 100px;
+}
+.panel .panel-body .group-box .fa-users {
+	position: absolute;
+	top: 18px;
+	left: 3px;
+	color: #fff
+}
+@media (max-width: 1199px) {
+	.panel .panel-body .group-box .fa-users {
+		top: 15px;
+		left: 0;
+	}
+	.panel .panel-body .group-box .name .form-control {
+		margin-top: 10px;
+	}
+}
+.level {
+	padding: 0 !important;
+	font-family: 'Open Sans', sans-serif;
+}
+.level table {
+	border-top: 0
+}
+.level .table > thead > tr > th {
+	background-color: #f5f5f5;
+	vertical-align: middle;
+	font-weight: normal;
+	border-bottom: 0;
+	font-size: 13px;
+	color: #777
+}
+.level table th  ,
+.level table td {
+	text-align: center
+}
+.level table td .form-control {
+	font-size: 12px
+}
+.level .table > tbody > tr > td > .label {
+	font-size: 120%;
+	margin-top: 4px;
+	display: inline-block;
+	background-color: #444
+}
+.level .table > tbody > tr > td > .form-control-static {
+	padding-top: 7px;
+}
+.kiere-ul {padding-left:10px;line-height: 160%;margin-bottom: 0}
+.tooltip { z-index: 20000;position: absolute;display:inline-block;min-width: 40px }

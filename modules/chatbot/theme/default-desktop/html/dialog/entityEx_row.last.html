@@ -1,0 +1,14 @@
+<div class="entityEx-item" data-role="entityEx-item-{$iEx_uid}" style="width: 100%">
+  	<input type="hidden" name="entityEx_uid[]" value="{$iEx_uid}" />
+  	<div class="input-group">
+	    <input class="form-control eX-name" type="text" data-role="ex-name" data-type="entity" data-uid="{$iEx_uid}" name="entityEx[]" value="{$iEx_val}" placeholder="{$callEntity} 벨류를 입력해주세요">
+	    <span class="input-group-btn">
+	        <button class="btn btn-default" data-role="del-entityEx" data-uid="{$iEx_uid}" data-tooltip="tooltip" title="{$callEntity} 벨류  삭제">
+	            <i class="fa fa-trash-o"></i>
+	        </button>
+	    </span>
+    </div>
+    <div>
+	    <textarea class="form-control" data-role="entityEx-syn" name="entityEx_synonyms[]" placeholder="유사어를 콤마(,)로 구분해서 입력해주세요">{$iEx_syn}</textarea>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+<div class="tts_speed_wrap checkbox-info" data-role="tts-Speed" data-itemtype="{$TTS_item_type}" data-itemuid="{$TTS_item_uid}">
+    <div class="cti-wrapper">
+        <span>TTS 속도 : </span>
+        <select class="ttsSpeedSelect" id="ttsSpeedSelect_{$TTS_item_uid}">
+            <option value="-5" {$TTS_select_minus5}>-5 (빠름)</option>
+            <option value="-4" {$TTS_select_minus4}>-4</option>
+            <option value="-3" {$TTS_select_minus3}>-3</option>
+            <option value="-2" {$TTS_select_minus2}>-2</option>
+            <option value="-1" {$TTS_select_minus1}>-1</option>
+            <option value="0" {$TTS_select_0}>0 (보통)</option>
+            <option value="1" {$TTS_select_1}>1</option>
+            <option value="2" {$TTS_select_2}>2</option>
+            <option value="3" {$TTS_select_3}>3</option>
+            <option value="4" {$TTS_select_4}>4</option>
+            <option value="5" {$TTS_select_5}>5 (느림)</option>
+        </select>
+        <button type="button" data-role="btn-tts-pre-listening" class="btn btn-secondary" style="width: 40px;margin-left: 2px;padding: 0;">듣기</button>
+    </div>
+</div>

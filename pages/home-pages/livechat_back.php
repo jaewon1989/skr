@@ -1,0 +1,1 @@
+<script src="<?php echo $g['url_root']?>/_core/js/jquery.bottalks.liveChat.js"></script>

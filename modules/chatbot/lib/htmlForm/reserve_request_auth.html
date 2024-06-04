@@ -1,0 +1,63 @@
+<div class="cb-chatting-form">    
+    <!-- 개인 정보 입력 -->
+    <div class="bot_form">
+        <h1>개인 정보 입력</h1>
+        <h2 class="msg">예약자명과 휴대폰 번호를 입력해주세요.</h2>
+        <fieldset class="form_field">
+            <div class="input_area">
+                <label for="reserve_uname" class="input_label">예약자명</label>
+                <div>
+                    <input type="text" id="reserve_uname" name="reserve_uname" maxlength="20" placeholder="예약자명" />
+                </div>
+            </div>
+            <div class="input_area mt5">
+                <label for="reserve_uphone" class="input_label">휴대폰번호</label>
+                <div>
+                    <input type="tel" id="reserve_uphone" name="reserve_uphone" maxlength="13" placeholder="휴대폰번호" />
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="form_field">
+            <div class="acenter mb10 kr15">개인정보의 수집·이용에 동의해주세요.</div>
+            <div class="input_area agree">
+                <div class="check_wrap radio_agree">
+                    <input type="radio" id="agree_true" class="ip_r" name="reserve_uagree" value="true" />
+                    <label for="agree_true" class="mr10">동의함</label>
+                    <input type="radio" id="agree_false" class="ip_r" name="reserve_uagree" value="false" />
+                    <label for="agree_false">동의안함</label>
+                </div>
+                <button type="button" class="input_btn_agree btn_form_pop">자세히 보기</button>
+            </div>
+        </fieldset>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item w30 submit_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="auth">다음</button>
+            <button type="button" class="kwd-item cancel w30 cancel_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+        </div>
+    </div>
+    
+    <!-- 레이어 팝업 -->
+    <div class="bot_form_pop">
+        <div class="pop_inner">
+            <h4 class="pop_title">개인정보의 수집·이용</h4>
+            <div class="pop_box">
+                <div class="pop_content">
+                    <div class="pop_ss">
+                        <strong>개인정보의 수집·이용 목적</strong>
+                        <p>예약 신청, 조회를 위한 용도</p>
+                    </div>
+                    <div class="pop_ss">
+                        <strong>수집하려는 개인정보의 항목</strong>
+                        <p>고객성명, 연락번호</p>
+                    </div>
+                    <div class="pop_ss">
+                        <strong>개인정보의 보유 및 이용 기간</strong>
+                        <p>보유기간은 3년이며, 예약 외의 목적으로는 사용하지 않습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_close">
+                <button type="button" class="btn_close form_pop_close">확인</button>
+            </div>
+        </div>
+    </div>
+</div>

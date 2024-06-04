@@ -1,0 +1,492 @@
+__label__22 픽업|NNG 가능|NNG 한가요|XSA+EC
+__label__35 바비큐|NNG 장|NNG 이용|NNG 얼마|NNG 인가요|VCP+EC
+__label__30 바우처|NNG 사용|NNG 가능|NNG 한가요|XSA+EC
+__label__13 비회원|NNG 인데|VCP+EC 예약|NNG 취소|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__1 거기|NP 어떻게|MAG 가|VV+EC
+__label__4 영수증|NNG 확인|NNG 할|XSV+ETM 때|NNG 화면|NNG 흰색|NNG 되|VV 버려요|EC+VX+EF
+__label__10 재|XPN 가입|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__4 결제|NNG 안|MAG 되|VV 요|EC
+__label__14 객실|NNG 변경|NNG 원해요|VV+EC
+__label__14 예약|NNG 변경|NNG 어떻게|MAG 진행|NNG 되|XSV 죠|EC
+__label__3 거기|NP 위치|NNG 어디|NP 야|VCP+EF
+__label__29 코로나|NNP 자|NNG 격리|NNG 가능|NNG 한가요|XSA+EC
+__label__23 강아지|NNG 데려가|VV+EC 되|VV 나요|EC
+__label__14 예약|NNG 변경|NNG 가능|NNG 한가요|XSA+EC
+__label__29 2|SN 주간|NNBC 격리|NNG 인데|VCP+EC 2|SN 주간|NNBC 머물러도|VV+EC 되|VV 나요|EC
+__label__13 예약|NNG 대|XSV 기|ETN 건|NNB+JX 예약|NNG 취소|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__14 예약|NNG 변경|NNG 하|XSV 려고|EC 하|VV 는데|EC
+__label__11 부킹|NNP 정보|NNG 알려줘|VV+EC+VX+EC
+__label__11 예약|NNG 완료|NNG 된|XSV+ETM 거|NNB 맞|VV 아|EC
+__label__13 숙소|NNG 예약|NNG 취소|NNG 했|XSV+EP 어요|EF 어떻게|MAG 하나|NR 요|VCP+EC
+__label__13 다음|NNG 주|NNG 월요일|NNG 가|VV 기|ETN 되|VV 어|EC 있|VX 었|EP 는데|EC 사정|NNG 생겨서|VV+EC 못|MAG 갈|VV+ETM 것|NNB 같|VA 아|EC
+__label__14 인원|NNG 수|NNG 변경|NNG 원해요|VV+EC
+__label__18 로그인|NNG 정보|NNG 분실|NNG 했어요|XSV+EP+EC
+__label__10 재|XPN 가입|NNG 안|MAG 되|VV 요|EC
+__label__32 누구|NP 냐|VCP+EC
+__label__6 환불|NNG 완료|NNG 되|XSV 는|ETM 건|NNB+JX 언제|NP 쯤|XSN 되|VV 나요|EC
+__label__5 가입|NNG 하|XSV 게|EC 되|VV 는|ETM 순서|NNG 뭔|MM 가요|NNG
+__label__17 회원|NNG 가입|NNG 불가해|NNG 요|VCP+EC
+__label__22 바비큐|NNG 이용|NNG 가능|NNG 한가요|XSA+EC
+__label__4 결제|NNG 하|XSV 고|EC 있|VX 는|ETM 중간|NNG 멈춰서|VV+EC 아무것|NP 안|MAG 되|VV 요|EC
+__label__21 신용카드|NNP 숙박|NNG 요금|NNG 내|VV 려고|EC
+__label__7 환불|NNG 요청|NNG 하|XSV 고서|EC 수일|NNG 지나갔|VV+EP 는데|EC 아직|MAG 돈|NNG 못|MAG 받|VV 았|EP 어|EC
+__label__14 일정|NNG 변경|NNG 원해요|VV+EC
+__label__15 현금|NNG 영수증|NNG 뽑|VV 고|EC 싶|VX 어요|EF
+__label__9 이름|NNG 바꾸|VV 고|EC 싶|VX 어|EC
+__label__1 숙소|NNG 가|VV 는|ETM 데|NNB 걸리|VV 는|ETM 시간|NNG
+__label__22 스파|NNP 이용|NNG 가능|NNG 한가요|XSA+EC
+__label__28 입실|NNG 시간|NNG 빠르|VA 게|EC 체크인|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__24 인원|NNG 추가|NNG 하|XSV 려면|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__26 주변|NNG 관광|NNG 명소|NNG 있|VV 나요|EC
+__label__5 가입|NNG 하|XSV 는|ETM 방법|NNG
+__label__20 카드|NNG 결제|NNG 했|XSV+EP 는데|EC 현장|NNG 가|VV 서|EC 바꿔도|VV+EC 되|VV 나요|EC
+__label__2 스마트|NNG 폰|NNG 키|NNG 쓰|VV 는|ETM 방법|NNG
+__label__11 예약|NNG 된|XSV+ETM 거|NNB 맞|VV 지|EC
+__label__18 아이디|NNG 비번|NNG 모르|VV 겠|EP 음|ETN
+__label__12 예약|NNG 할래|XSV+EC
+__label__17 로그인|NNG 할|VV+ETM 수|NNB 없|VA 어요|EF
+__label__2 숙소|NNG 사용|NNG 방법|NNG 안내|NNG 해|XSV+EC 줘|VX+EC
+__label__17 가입|NNG 하|XSV 려고|EC 하|VV 는데|EC 진행|NNG 안|MAG 되|VV 고|EC 멈춰|VV+EC 있|VX 어요|EF
+__label__11 예약|NNG 된|XSV+ETM 건지|NNB+VCP+EC 확인|NNG 좀|MAG 해|VV+EC 주|VX 세요|EP+EF
+__label__27 도착|NNG 하|XSV 는|ETM 건|NNB+JX 당일|NNG 말|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__24 예약|NNG 했|XSV+EP 던|ETM 거|NNB 한|MM 명|NNBC 더|MAG 가|VV 는|ETM 데|NNB 괜찮|VA 을까요|EC
+__label__7 환불|NNG 완료|NNG 라고|VCP+EC 뜨|VV 는데|EC 입금|NNG 안|MAG 됨|VV+ETN
+__label__12 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__22 아침밥|NNG 먹|VV 으려면|EC 어떻게|MAG 해야|VV+EC 돼|VV+EC
+__label__31 주소|NNG
+__label__14 예약|NNG 시간|NNG 바꿀|VV+ETM 하|VV 는데요|EC
+__label__22 주차|NNG 가능|NNG 한가요|XSA+EC
+__label__33 반가|NNG 반가|NNG
+__label__35 이용|NNG 시|NNG 지불|NNG 해야|XSV+EC 되|VV 는|ETM 비용|NNG
+__label__14 예약|NNG 했|XSV+EP 는데|EC 변동|NNG 필요|NNG 해요|XSA+EC
+__label__23 고양이|NNG 데려가|VV+EC 될까요|VV+EC
+__label__26 관광지|NNG 괜찮|VA 은|ETM 데|NNB 알려줘|VV+EC+VX+EC 봐|VX+EC
+__label__4 결제|NNG 도중|NNG 멈췄|VV+EP 어요|EF
+__label__12 예약|NNG 신청|NNG 하|VV 려면|EC 어떻게|MAG 해야|VV+EC 하|VV 나요|EC
+__label__31 가|VV 려고|EC 하|VV 는|ETM 데|NNB 어떻|VA 게|EC 가|VX 야|EC 되|VV 나요|EC
+__label__31 어디|NP 있|VV 어|EC
+__label__5 가입|NNG 하|XSV 는|ETM 프로세스|NNG 알려줘|VV+EC+VX+EC
+__label__11 예약|NNG 정보|NNG 알려줘|VV+EC+VX+EC
+__label__34 객실|NNG 넓|VA 나요|EC
+__label__17 회원|NNG 가입|NNG 안|MAG 되|VV 요|EC
+__label__3 숙소|NNG 이름|NNG 좀|MAG 알려|VV+EC 줄|VX+ETM 수|NNB 있|VV 나요|EC
+__label__23 개|NNG 키우|VV 고|EC 있|VX 는데|EC 개|NNBC 함께|MAG 가|VV 도|EC 되|VV 나요|EC
+__label__14 예약|NNG 시간|NNG 수정|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__14 예약|NNG 변경|NNG 어|IC 케|IC 하|VV 죠|EF
+__label__13 예약|NNG 취소|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__12 예약|NNG 하|XSV 려고|EC 하|VV 는데|EC 어떻게|MAG 해야|VV+EC 돼|VV+EC
+__label__14 예약|NNG 늦출|VV+ETM 수|NNB 있|VV 나요|EC
+__label__8 환불|NNG 하|XSV 려면|EC 어떻게|MAG 해야|VV+EC 하|VV 나요|EC
+__label__19 부대시설|NNG 예약|NNG 현장|NNG 가능|NNG 한가요|XSA+EC
+__label__14 예약|NNG 내용|NNG 조금|MAG 바꿔야|VV+EC 될|VV+ETM 거|NNB 같|VA 아요|EC
+__label__19 신청|NNG 인원|NNG 한|MM 명|NNBC 더|MAG 많|VA 은데|EC 이건|NP+JX 어떻게|MAG 처리|NNG 해야|XSV+EC 되|VV 나요|EC
+__label__21 신용카드|NNP 계산|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__20 결제|NNG 수단|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__27 저녁|NNG 나|NP 거기|NP 갈|VV+ETM 거|NNB 같|VA 아요|EC
+__label__11 예약|NNG 완료|NNG 문자|NNG 못|MAG 받|VV 았|EP 는데|EC 확인|NNG 좀|MAG
+__label__16 계정|NNG 많이|MAG 만들|VV 어도|EC 상관없|VA 나요|EC
+__label__14 예약|NNG 다른|MM 날|NNG 되|VV 나요|EC
+__label__16 아이디|NNG 복수|NNG 가입|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__15 영수증|NNG 보여|VV+EC 주|VX 세요|EP+EF
+__label__14 예약|NNG 못|MAG 갈|VV+ETM 거|NNB 같|VA 아요|EC
+__label__19 조식|NNG 얼만|NNG+VCP+ETM 가요|NNG
+__label__28 체크|NNG 인|VCP+ETM 시간|NNG 안내|NNG
+__label__24 예약|NNG 인원|NNG 3|SN 명|NNBC 더|MAG 가요|NNG
+__label__11 예약|NNG 완료|NNG 됬|VV+EP 니|EC
+__label__31 어디|NP 있|VV 나요|EC
+__label__22 취사|NNG 가능|NNG 한가요|XSA+EC
+__label__13 전월|NNG 휴대폰|NNG 결제|NNG 취소|NNG 어떻게|MAG 하나|NR 요|VCP+EC
+__label__12 연속|NNG 해서|XSA+EC 예약|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__7 환불|NNG 신청|NNG 했|VV+EP 는데|EC 왜|MAG 돈|NNG 안|MAG 들어오|VV 죠|EF
+__label__21 신용카드|NNP 하|VV 려고|EC 합니다|VX+EC
+__label__11 예약|NNG 확인|NNG 어떻게|MAG 하나|NR 요|VCP+EC
+__label__13 가|VV 려고|EC 했|VX+EP 는데|EC 사정|NNG 생겨서|VV+EC 못|MAG 가|VV 게|EC 됬|VV+EP 습니다|EF
+__label__31 주소|NNG 문의|NNG
+__label__11 예약|NNG 확인|NNG 좀|MAG 할게요|VV+EC
+__label__2 스마트|NNG 폰|NNG 키|XSV+ETN 사용|NNG 안내|NNG
+__label__21 계좌|NNG 이체|NNG 가능|NNG
+__label__12 부킹|NNP 할래|VV+EC
+__label__1 가|VV 는|ETM 방법|NNG
+__label__28 입실|NNG /|SC 퇴실|NNG
+__label__5 회원|NNG 등록|NNG 절차|NNG 궁금|XR 해요|XSA+EC
+__label__14 예약|NNG 시간|NNG 변경|NNG 가능|NNG 할까요|XSA+EC
+__label__32 좋|VA 냐|EC
+__label__12 예약|NNG 신청|NNG 할|XSV+ETM 게|NNB+JKS
+__label__33 반가워|VA+EC
+__label__14 예약|NNG 다음|NNG 시간|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__6 취소|NNG 하|XSV 면|EC 언제|MAG 다시|MAG 돈|NNG 받|VV 을|ETM 수|NNB 있|VV 나요|EC
+__label__13 취소|NNG 되|VV 나요|EC
+__label__2 객실|NNG 사용|NNG 정보|NNG 좀|MAG 알려|VV+EC 줄래|VX+EC
+__label__15 현금영수증|NNP 발급|NNG 받|VV 고|EC 싶|VX 어요|EF
+__label__35 얼마|NNG 야|VCP+EF
+__label__7 돈|NNG 왜|MAG 아직|MAG 안|MAG 들|VV 어|EC 왔|VX+EP 어|EC
+__label__9 email|SL 수정|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__2 방|NNG 이용|NNG 방법|NNG
+__label__16 아|IC 뒤|NNG 몇|MM 개|NNBC 만들|VV+ETM 수|NNB 있|VV 어|EC
+__label__10 재|XPN 가입|NNG 해도|XSV+EC 되|VV 나요|EC
+__label__14 예약|NNG 시간|NNG 옮기|VV 려고|EC 하|VV 는데요|EC
+__label__16 한|MM 명|NNBC 아이디|NNG 여러|MM 개|NNBC 돌려|VV+EC 써도|VV+EC 돼|VV+EC
+__label__22 바비큐|NNG 이용|NNG 하|XSV 려면|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__15 현금영수증|NNP 발급|NNG 받|VV 으려면|EC 어떻게|MAG 해야|VV+EC 하|VV 나요|EC
+__label__11 예약|NNG 된|XSV+ETM 거|NNB 맞|VV 는지|EC 확인|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__14 예약|NNG 미룰|VV+ETM 수|NNB 있|VV 나요|EC
+__label__13 예약|NNG 된|XSV+ETM 거|NNB 캔|VV+ETM 슬|NNG 시킬|XSV+ETM 게|NNB+JKS
+__label__33 hello|SL
+__label__28 출입문|NNG 비번|NNG 알려줘|VV+EC+VX+EC
+__label__10 탈퇴|NNG 후|NNG 재|XPN 가입|NNG 가능|NNG 한가요|XSA+EC
+__label__8 환불|NNG 요청|NNG 할|XSV+ETM 게|NNB+JKS
+__label__19 예약|NNG 하|XSV 면|EC 헬스|NNG 장|NNG 공짜|NNG 야|VCP+EF
+__label__34 다른|MM 객실|NNG 없|VA 나요|EC
+__label__24 예약|NNG 한|XSV+ETM 인원수|NNG 늘|VV 었|EP 는데|EC
+__label__18 로그인|NNG 정보|NNG 뭔지|NP+VCP+EC 기억|NNG 안|MAG 남|VV+EC
+__label__14 예약|NNG 늦|VA 은|ETM 시간|NNG 늦춰|VV+EC 주|VX 세요|EP+EF
+__label__15 카드|NNG 결제|NNG 한|XSV+ETM 거|NNB 영수증|NNG 출력|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__14 예약|NNG 앞|NNG 시간|NNG 당길|VV+ETM 수|NNB 있|VV 나요|EC
+__label__15 신용카드|NNP 영수증|NNG 어디|NP 발급|NNG 받|VV 나요|EC
+__label__32 대답|NNG 못|MAG 하|VV 네|EC
+__label__11 저|MM 부킹|NNP 된|VV+ETM 거|NNB 확인|NNG 할게요|XSV+EC
+__label__34 객실|NNG 안내|NNG
+__label__23 고양이|NNG 데려가|VV+EC 상관|NNG 없|VA 나요|EC
+__label__20 결제|NNG 수단|NNG 변경|NNG
+__label__28 얼리|NNG 체크|NNG 인|VCP+ETM 가능|NNG 한가요|XSA+EC
+__label__18 아이디|NNG 비번|NNG 까먹|VV 었|EP 어|EC
+__label__26 편의점|NNG 가까이|MAG 있|VV 나요|EC
+__label__16 한|MM 사람|NNG 여러|MM 번|NNBC 가입|NNG 가능|NNG 한가요|XSA+EC
+__label__6 환불|NNG 신청|NNG 후|NNG 몇|MM 일|NR 후|NNG 입금|NNG 되|XSV 나요|EC
+__label__28 출입|NNG 비밀|NNG 번호|NNG 알려|VV+EC 주|VX 세요|EP+EF
+__label__12 지금|MAG 바로|MAG 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__6 얼마나|MAG 지나|VV 야|EC 환불|NNG 액|NNG 다시|MAG 돌려받|VV 게|EC 되|VV 나요|EC
+__label__18 비밀|NNG 번호|NNG 까먹|VV 음|ETN
+__label__15 카드|NNG 영수증|NNG 보|VV 고|EC 싶|VX 어|EC
+__label__20 결제|NNG 방법|NNG 바꿀|VV+ETM 게|NNB+JKS
+__label__11 예약|NNG 하|XSV 고|EC 나|VX 서|EC 알려준다고|VV+EC+VX+EC 했|VX+EP 는데|EC 아직|MAG 연락|NNG 못|MAG 받|VV 았|EP 어요|EF
+__label__17 로그인|NNG 못|MAG 하|VV 고|EC 있|VX 어요|EF
+__label__22 짐|NNG 맡|VV 아|EC 줄|VX+ETM 수|NNB 있|VV 나|EC
+__label__15 영수증|NNG 출력|NNG 어디|NP 하나|NR 요|VCP+EC
+__label__18 로그인|NNG 정보|NNG 뭔지|NP+VCP+EC 모르|VV 겠|EP 어|EC
+__label__17 회원|NNG 가입|NNG 하|XSV 려고|EC 하|VV 는데|EC 안|MAG 됩니다|VV+EF
+__label__15 현금영수증|NNP 출력|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__6 환불|NNG 완료|NNG 시점|NNG
+__label__24 2|SN 명|NNBC 추가|NNG 해서|XSV+EC 예약|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__7 환불|NNG 하|XSV 고|EC 미|NNG 입금|NNG
+__label__7 취소|NNG 신청|NNG 하|XSV 고|EC 이틀|NNG 정도|NNG 지났|VV+EP 는데|EC 아직|MAG 돈|NNG 안|MAG 들어와요|VV+EF
+__label__31 어디|NP 있|VV 어|EC
+__label__5 회원|NNG 되|VV 고|EC 싶|VX 어요|EF
+__label__14 예약|NNG 이번|NNG 안|MAG 될|VV+ETM 것|NNB 같|VA 은데요|EC
+__label__26 주변|NNG 갈|VV+ETM 만|NNB 한|XSA+ETM 곳|NNG
+__label__35 서비스|NNG 이용|NNG 시|NNG 이용료|NNG
+__label__32 우울|NNG 해|XSV+EC
+__label__13 죄송|XR 한데|XSA+EC 예약|NNG 했|XSV+EP 던|ETM 거|NNB 물릴|VV+ETM 게요|NNB+VCP+EC
+__label__26 근처|NNG 이쁜데|VA+EC 있|VX 어|EC
+__label__27 도착|NNG 시간|NNG 아직|MAG 정해|VV+EC 지|VX 지|EC 않|VX 았|EP 어요|EF
+__label__4 계속|MAG 결제|NNG 하|XSV 다가|EC 강제|NNG 종료|NNG 되|XSV 요|EC
+__label__12 예약|NNG 해|XSV+EC 줘|VX+EC
+__label__19 미팅|NNG 룸|NNG 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__31 어디|NP 정류장|NNG 제일|MAG 가깝|VA 나요|EC
+__label__5 가입|NNG 절차|NNG
+__label__23 애완|NNG 동물|NNG 동반|NNG 입실|NNG 가능|NNG 한가요|XSA+EC
+__label__22 조식|NNG 서비스|NNG 대해|VV+EC 궁금|XR 해요|XSA+EC
+__label__33 반갑|VA 습니다|EF
+__label__32 뭐|IC 해|VV+EC
+__label__27 늦|VA 게|EC 도착|NNG 할|XSV+ETM 거|NNB 같|VA 아요|EC
+__label__17 회원|NNG 가입|NNG 못|MAG 하|VV 고|EC 있|VX 어요|EF
+__label__28 입실|NNG 시간|NNG
+__label__10 재|XPN 가입|NNG 하|XSV 려면|EC 얼마나|MAG 기다려야|VV+EC 하|VV 나요|EC
+__label__1 몇|MM 시간|NNG 걸려|VV+EC
+__label__4 결제|NNG 창|NNG 하얀|VA+ETM 창|NNG 떠요|VV+EF
+__label__18 비번|NNG 기억|NNG 안|MAG 나|VV+EC
+__label__15 현금영수증|NNP 발급|NNG 방법|NNG 알려줘|VV+EC+VX+EC
+__label__34 다른|MM 방|NNG 좀|MAG 보|VV 고|EC 싶|VX 어|EC
+__label__2 숙소|NNG 사용|NNG 안내|NNG
+__label__31 버스|NNG 타|VV 고|EC 방문|NNG 가능|NNG 한가요|XSA+EC
+__label__29 격리|NNG 가능|NNG 한가요|XSA+EC
+__label__31 가|VV 려고|EC 하|VV 는|ETM 데|NNB 어떻|VA 게|EC 가|VX 나요|EC
+__label__19 세탁실|NNG 세탁|NNG 맡기|VV 면|EC 얼마|NNG 죠|VCP+EC
+__label__28 체크아웃|NNG 하|VV 려고|EC 하|VV 는데|EC 몇|MM 시|NNBC
+__label__12 예약|NNG 할|XSV+ETM 게|NNB+JKS
+__label__15 카드|NNG 영수증|NNG 뽑|VV 고|EC 싶|VX 은데|EC 어디|NP 확인|NNG 하|XSV 나요|EC
+__label__12 예약|NNG 날짜|NNG 잡|VV 아|EC 줘|VX+EC
+__label__31 지하철|NNG 갈|VV+ETM 수|NNB 있|VV 나요|EC
+__label__14 예약|NNG 바꿔도|VV+EC 되|VV 나요|EC
+__label__16 아이디|NNG 몇|MM 개|NNBC 만들|VV+ETM 수|NNB 있|VV 나요|EC
+__label__12 법|NNG 카로|NNG 부킹|NNP 해도|VV+EC 되|VV 나요|EC
+__label__3 숙소|NNG 상호|NNG 명|NNBC 어떻게|MAG 되|VV 나요|EC
+__label__19 부|NNG 서비스|NNG 이용|NNG 시|NNG 계산|NNG 어떻게|MAG 하나|NR 요|VCP+EC
+__label__4 결제|NNG 안|MAG 됌|UNKNOWN
+__label__15 결제|NNG 영수증|NNG 발급|NNG 받|VV 고|EC 싶|VX 어요|EF
+__label__17 회원|NNG 가입|NNG 하|VV 고|EC 싶|VX 은데|EC 왜|MAG 안|MAG 되|VV 죠|EF
+__label__18 패스워드|NNG 잊어먹|VV 었|EP 어|EC
+__label__4 하얀|VA+ETM 화면|NNG 뜨|VV 는데|EC
+__label__7 취소|NNG 했|XSV+EP 는데|EC 아직|MAG 돈|NNG 안|MAG 들어와서|VV+EC 언제|NP 쯤|XSN 들어올까요|VV+EF
+__label__35 비용|NNG 어느|MM 정도|NNG 드나|VV 요|EC
+__label__15 현금|NNG 영수증|NNG 발급|NNG 받|VV 는|ETM 방법|NNG 대해서|VV+EC 설명|NNG 해|XSV+EC 줘|VX+EC
+__label__5 가입|NNG 절차|NNG 어떻게|MAG 되|VV 나요|EC
+__label__17 회원|NNG 가입|NNG 안|MAG 되|VV 요|EC
+__label__28 퇴실|NNG 하|XSV 는|ETM 시간|NNG 안내|NNG
+__label__5 회원|NNG 가입|NNG 시|NNB 절차|NNG 안내|NNG
+__label__22 바베큐|NNG 이용|NNG 원해요|VV+EC
+__label__8 갑자기|MAG 마음|NNG 바|NNB 껴서|VV+EC 환불|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__6 환불|NNG 했|XSV+EP 는데|EC 돈|NNG 받|VV 으려면|EC 몇일|NNG 지나|VV 야|EC 할까요|VX+EC
+__label__18 비밀|NNG 번호|NNG 기억|NNG 안|MAG 나|VV 요|EC
+__label__12 다음|NNG 날|NNG 10|SN 일|NNBC 예약|NNG 할|XSV+ETM 게|NNB+JKS
+__label__18 아이디|NNG 모르|VV 겠|EP 어|EC
+__label__8 환불|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__12 비회원|NNG 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__12 미성년자|NNG 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__28 원래|MAG 시간|NNG 좀|MAG 당겨서|VV+EC 체크인|NNG 해도|VV+EC 될|VV+ETM 찌|NNG
+__label__17 임시|NNG 비번|NNG 로그인|NNG 안|MAG 돼요|VV+EC
+__label__17 가입|NNG 불|NNG 간데|XSN+VCP+EC
+__label__33 헬로|NNP
+__label__15 구매|NNG 한|XSV+ETM 영수증|NNG 어떻게|MAG 뽑|VV 아요|EC
+__label__4 결제|NNG 오류|NNG 났|VV+EP 는데|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__31 찾아가|VV 는|ETM 방법|NNG
+__label__5 가입|NNG 절차|NNG 알려줘|VV+EC+VX+EC
+__label__29 자|NNG 격리|NNG 거기|NP 해도|VV+EC 되|VV 나요|EC
+__label__28 현관|NNG 비밀|NNG 번호|NNG 있|VA 는데|EC 어떻게|MAG 되|VV 나요|EC
+__label__17 로그아웃|NNG 할|VV+ETM 수|NNB 없|VA 어요|EF
+__label__5 가입|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__32 제일|MAG 예쁜|VA+ETM 사람|NNG
+__label__22 짐|NNG 보관|NNG 서비스|NNG 가능|NNG
+__label__19 침대|NNG 추가|NNG 얼마|NNG 인가요|VCP+EC
+__label__5 가입|NNG 하|XSV 려면|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__33 할|VV+ETM 룽|NNG
+__label__35 조식|NNG 가격|NNG
+__label__2 스마트폰|NNP 키|NNG 이용|NNG 안내|NNG
+__label__27 도착|NNG 시간|NNG 당일|NNG 말씀|NNG 드리|VV 겠|EP 습니다|EF
+__label__32 바보|NNG
+__label__18 패스워드|NNG 잃어버렸|VV+EP 어|EC
+__label__9 휴대폰|NNG 번호|NNG 바꾸|VV 고|EC 싶|VX 은데|EC 어떻게|MAG 해야|VV+EC 돼|VV+EC
+__label__4 결제|NNG 하|XSV 려고|EC 하|VV 는데|EC 에러|NNG 나|VV 요|EC
+__label__28 체크인|NNG 어떻|VA 게|EC 해요|VX+EC
+__label__7 환불|NNG 했|XSV+EP 는데|EC 돈|NNG 들어오|VV 지|EC 않|VX 아요|EC
+__label__20 입금|NNG 했|XSV+EP 던|ETM 거|NNB 돌려받|VV 고|EC 다시|MAG 결제|NNG 하|XSV 려고|EC 합니다|VX+EC
+__label__12 예약|NNG 하|XSV 기|ETN
+__label__14 예약|NNG 연기|NNG 가능|NNG 한가요|XSA+EC
+__label__16 id|SL 몇|MM 개|NNBC 만들|VV+ETM 수|NNB 있|VV 어|EC
+__label__34 방|NNG 어떻게|MAG 생겼|VV+EP 어|EC
+__label__9 번호|NNG 변경|NNG 하|XSV 고|EC 싶|VX 은데|EC 어떻게|MAG 해|VV+EC
+__label__3 숙소|NNG 방문|NNG 하|XSV 려고|EC 하|VV 는데|EC 거기|NP 이름|NNG 어떻게|MAG 됩니까|VV+EC
+__label__16 아이디|NNG 여러|MM 개|NNBC 만들|VV+ETM 수|NNB 있|VV 나|EC
+__label__11 예약|NNG 컨|NNP 펌|NNG 끝|NNG 난거지|NNG
+__label__5 회원|NNG 가입|NNG
+__label__3 거기|NP 연락처|NNG 어떻게|MAG 돼|VV+EC
+__label__10 재|XPN 가입|NNG 하|VV 고|EC 싶|VX 은데|EC 재|XPN 가입|NNG 안|MAG 되|VV 는|ETM 이유|NNG 뭔|MM 가요|NNG
+__label__29 격리|NNG 시설|NNG 이용|NNG 가능|NNG 할까요|XSA+EC
+__label__6 취소|NNG 했|XSV+EP 는데|EC 아직|MAG 돈|NNG 안|MAG 들어와서|VV+EC 언제|NP 쯤|XSN 들어오|VV 는지|EC 알려|VV+EC 주|VX 실|EP+ETM 수|NNB 있|VV 나요|EC
+__label__10 다시|MAG 가입|NNG 하|XSV 려면|EC 뭐|IC 해야|VV+EC 되|VV 요|EC
+__label__32 넌|NP+JX 누구|NP 좋|VA 아|EC 해|VV+EC
+__label__9 닉네임|NNG 변경|NNG 하|XSV 고|EC 싶|VX 은데|EC 어떻게|MAG 바꿔요|VV+EF
+__label__28 체크아웃|NNG 시간|NNG 알려|VV+EC 주|VX 세요|EP+EF
+__label__2 단독|NNG 사용|NNG 가능|NNG 한가요|XSA+EC
+__label__8 환불|NNG 해|XSV+EC 줘|VX+EC
+__label__14 예약|NNG 빠른|VA+ETM 시간|NNG 바꿀려구|VV+EF 요|VCP+EC
+__label__12 여러|MM 개|NNBC 객실|NNG 동시|NNG 예약|NNG 할|XSV+ETM 수|NNB 있|VV 나요|EC
+__label__32 신나|VV 는|ETM 거|NNB 없|VA 어|EC
+__label__21 무|XPN 통장|NNG 입금|NNG 가능|NNG 한가요|XSA+EC
+__label__10 재|XPN 가입|NNG 언제|NP 가능|NNG 한가요|XSA+EC
+__label__16 여러|MM 개|NNBC 가입|NNG 가능|NNG 하|XSA 니|EC
+__label__23 애견|NNG 동반|NNG 미리|MAG 말씀|NNG 드려야|VV+EC 하|VV 나요|EC
+__label__26 가|VV 볼|EC+VX+ETM 만|NNB 한|XSA+ETM 곳|NNG 있|VA 나|EC
+__label__19 부대시설|NNG 조식|NNG 등|NNB 부가|NNG 요금|NNG 어떻게|MAG 지불|NNG 하|XSV 나요|EC
+__label__26 옆|NNG 마트|NNG 가깝|VA 나요|EC
+__label__30 할인|NNG 가능|NNG 한가요|XSA+EC
+__label__14 예약|NNG 변경|NNG 하|XSV 려면|EC 어떻게|MAG 해야|VV+EC 하|VV 나요|EC
+__label__27 도착|NNG 시간|NNG 아직|MAG 미정|NNG 입니다|VCP+EC
+__label__11 부킹|NNP 끝|NNG 난|VV+ETM 거|NNB 맞|VV 죠|EF
+__label__35 수영장|NNG 이용|NNG 시|NNG 금액|NNG
+__label__4 결제|NNG 오류|NNG
+__label__18 비번|NNG 까먹|VV 었|EP 다|EC
+__label__19 부|NNG 서비스|NNG 결제|NNG 하|XSV 려면|EC
+__label__14 예약|NNG 다음|NNG 가|VV 도|EC 되|VV 나요|EC
+__label__23 기본|NNG 규정|NNG 어떻게|MAG 되|VV 나요|EC
+__label__15 현금|NNG 영수증|NNG 발급|NNG 받|VV 고|EC 싶|VX 습니다|EF
+__label__17 회원|NNG 가입|NNG 하|VV 려고|EC 하|VV 는데|EC 안|MAG 돼요|VV+EC
+__label__8 환불|NNG 요청|NNG 드립니다|VV+EC
+__label__13 다음|NNG 주|NNG 방문|NNG 예정|NNG 되|VV 어|EC 있|VX 었|EP 는데|EC 못|MAG 감|VV+EC
+__label__31 어떤|MM 정거장|NNG 내려야|VV+EC 하|VV 나요|EC
+__label__26 숙소|NNG 근처|NNG 맛집|NNG
+__label__17 회원|NNG 가입|NNG 할|VV+ETM 수|NNB 없|VA 어요|EF
+__label__11 화|NNG 욜|NNP 예약|NNG 한|XSV+ETM 거|NNB 같|VA 은데|EC 그때|NNG 가|VV 면|EC 되|VV 죠|EF
+__label__35 조식|NNG 얼마|NNG 야|VCP+EF
+__label__22 방음|NNG 되|VV 나요|EC
+__label__14 방문일|NNP 변경|NNG
+__label__17 로그인|NNG 하|VV 려고|EC 하|VV 는데|EC 안|MAG 돼요|VV+EC
+__label__22 스파|NNP 쓰|VV 고|EC 싶|VX 어|EC
+__label__9 전화|NNG 번호|NNG 바꾸|VV 고|EC 싶|VX 어|EC
+__label__18 아이디|NNG 생각|NNG 안|MAG 나|VV 요|EC
+__label__35 아침밥|NNG 가격|NNG
+__label__19 사우나|NNP 결제|NNG 가능|NNG 한가요|XSA+EC
+__label__20 무|XPN 통장|NNG 입금|NNG 했|XSV+EP 는데|EC 카드|NNG 결제|NNG 바꾸|VV 려고|EC
+__label__13 천재지변|NNG 인한|VV+ETM 예약|NNG 취소|NNG 어떻게|MAG 하나|NR 요|VCP+EC
+__label__12 연달|VV 아서|EC 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__12 재|XPN 예약|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__18 아이디|NNG 뭐|NP 였|VCP+EP 는지|EC 알려줘|VV+EC+VX+EC
+__label__29 숙소|NNG 격리|NNG 해도|VV+EC 되|VV 나요|EC
+__label__13 가|VV 려고|EC 예약|NNG 했었|XSV+EP 는데|EC 못|MAG 갈|VV+ETM 것|NNB 같|VA 아요|EC
+__label__7 환불|NNG 신청|NNG 했|VV+EP 는데|EC 아직|MAG 입금|NNG 안|MAG 됬|VV+EP 어요|EF
+__label__15 결제|NNG 한|XSV+ETM 영수증|NNG 보여줘|VV+EC+VX+EC
+__label__17 임시|NNG 비번|NNG 안|MAG 들어가|VV 짐|EC+VX+ETN
+__label__13 차주|NNG 가|VV 려고|EC 예약|NNG 했었|XSV+EP 는데|EC 갑자기|MAG 지방|NNG 출장|NNG 때문|NNB 못|MAG 갈|VV+ETM 것|NNB 같|VA 아요|EC
+__label__13 방문|NNG 예약|NNG 된|XSV+ETM 거|NNB 취소|NNG
+__label__22 바베큐|NNG 이용|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__14 예약|NNG 변경|NNG 하|XSV 는|ETM 방법|NNG 알려줘|VV+EC+VX+EC
+__label__24 예약|NNG 인원|NNG 많|VA 은|ETM 경우|NNG 안내|NNG
+__label__2 객실|NNG 키|NNG 쓰|VV 려고|EC 하|VV 는데|EC
+__label__1 고속도|NNG 타|VV 고|EC 가|VX 는데|EC 몇|MM 시간|NNG 걸려|VV+EC
+__label__17 로그인|NNG 안|MAG 되|VV 요|EC
+__label__25 추가|NNG 인원|NNG 수|NNG 침구|NNG 제공|NNG 되|VV 나요|EC
+__label__25 샴푸|NNG 있|VX 나요|EC
+__label__9 성별|NNG 잘못|MAG 적|VV 어서|EC 바꾸|VV 고|EC 싶|VX 어요|EF
+__label__13 예약|NNG 됬|VV+EP 던|ETM 거|NNB 취소|NNG 할|XSV+ETM 게|NNB+JKS
+__label__13 예약|NNG 했|XSV+EP 던|ETM 것|NNB 취소|NNG 할게요|XSV+EC
+__label__34 어떤|MM 객실|NNG 있|VV 나요|EC
+__label__14 예약|NNG 연기|NNG 할|XSV+ETM 수|NNB 있|VV 나요|EC
+__label__19 객실|NNG 이용|NNG 시|NNB 수영장|NNG 이용|NNG 얼마|NNG 인지|VCP+EC 알려|VV+EC 줄|VX+ETM 수|NNB 있|VV 어|EC
+__label__23 규정|NNG 대해서|VV+EC 말|NNG 해|XSV+EC 줘|VX+EC
+__label__34 객실|NNG 궁금|XR 하|XSA 네요|EC
+__label__14 예약|NNG 수정|NNG 하|XSV 는|ETM 방법|NNG 좀|MAG 알려|VV+EC 주|VX 세요|EP+EF
+__label__16 아이디|NNG 여러|MM 개|NNBC 만들|VV 어도|EC 되|VV 나요|EC
+__label__15 영수증|NNG 발급|NNG 받|VV 는|ETM 방법|NNG 알려줘|VV+EC+VX+EC
+__label__16 가입|NNG 할|XSV+ETM 때|NNG 아이디|NNG 여러|MM 개|NNBC 만들|VV 어도|EC 되|VV 나|EC
+__label__10 탈퇴|NNG 후|NNG 언제|NP 재|XPN 가입|NNG 할|XSV+ETM 수|NNB 있|VV 나요|EC
+__label__26 숙소|NNG 주변|NNG 편의점|NNG 있|VV 나요|EC
+__label__11 예약|NNG 확실히|MAG 완료|NNG 된|XSV+ETM 게|NNB+JKS 맞|VV 죠|EF
+__label__11 완료|NNG 문자|NNG 못|MAG 받|VV 았|EP 는데|EC 확인|NNG 필요|NNG 해요|XSA+EC
+__label__4 결제|NNG 시|NNG 강제|NNG 종료|NNG 되|VV 는|ETM 현상|NNG 있|VV 는데|EC
+__label__9 패스워드|NNG 변경|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__27 도착|NNG 시간|NNG 미정|NNG
+__label__31 위치|NNG 알려줘|VV+EC+VX+EC
+__label__19 부|NNG 서비스|NNG 현장|NNG 결제|NNG 해야|XSV+EC 되|VV 나|EC
+__label__10 다시|MAG 가입|NNG 하|XSV 려고|EC 하|VV 는데|EC 왜|MAG 안|MAG 되|VV 나요|EC
+__label__32 ㅜㅜ|UNKNOWN
+__label__33 ㅎ|IC ㅇ|UNKNOWN
+__label__2 독채|NNG 인가요|VCP+EC
+__label__2 스마트폰|NNP 도어|NNG 락|VCP+EC 비밀|NNG 번호|NNG
+__label__11 예약|NNG 다|MAG 됬|VV+EP 는지|EC 확인|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__4 호스트|NNP 달력|NNG 업데이트|NNG 되|VV 지|EC 않|VX 아|EC 결제|NNG 안|MAG 돼요|VV+EC
+__label__4 하얀|VA+ETM 화면|NNG 뜨|VV 고|EC 아무것|NP 안|MAG 눌려|VV+EC
+__label__27 저녁|NNG 도착|NNG 할|XSV+ETM 예정|NNG 입니다|VCP+EC
+__label__14 예약|NNG 일정|NNG 변경|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__9 생일|NNG 잘못|MAG 입력|NNG 해서|XSV+EC 변경|NNG 해야|XSV+EC 하|VV 는데|EC 어떻게|MAG 해야|VV+EC 하|VV 나요|EC
+__label__22 짐|NNG 맡겨도|VV+EC 되|VV 나요|EC
+__label__10 다시|MAG 가입|NNG 안|MAG 되|VV 요|EC
+__label__22 bbq|SL 서비스|NNG 이용|NNG 하|XSV 고|EC 싶|VX 은데|EC
+__label__16 개인|NNG 여러|MM 개|NNBC 아이디|NNG 만들|VV+ETM 수|NNB 있|VV 나요|EC
+__label__9 이름|NNG 변경|NNG 하|XSV 고|EC 싶|VX 어|EC
+__label__18 내|NP+JKG 아이디|NNG 뭐|NP 였|VCP+EP 는지|EC 아니|VCN
+__label__34 방|NNG 사진|NNG 좀|MAG 볼|VV+ETM 수|NNB 없|VA 나요|EC
+__label__13 예약|NNG 된|XSV+ETM 거|NNB 캔|VV+ETM 슬|NNG 할|XSV+ETM 게|NNB+JKS
+__label__14 예약|NNG 앞당길|VV+ETM 수|NNB 있|VV 나요|EC
+__label__20 신한|NNP 카드|NNG 결제|NNG 했|XSV+EP 는데|EC 우리|NP 카드|NNG 바꿔도|VV+EC 되|VV 나|EC
+__label__7 아직|MAG 돈|NNG 못|MAG 돌려|VV+EC 받|VV 았|EP 어요|EF
+__label__12 법인|NNG 카드|NNG 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__15 영수증|NNG 출력|NNG 하|XSV 려면|EC 어디|NP 할|VV+ETM 수|NNB 있|VV 나요|EC
+__label__12 연박|NNP 예약|NNG 가능|NNG 한가요|XSA+EC
+__label__12 내일|MAG 가|VV 도|EC 돼|VV+EC
+__label__4 영수증|NNG 확인|NNG 시|NNB 흰|VA+ETM 화면|NNG 보입니다|VV+EC
+__label__13 병원|NNG 방문|NNG 취소|NNG
+__label__35 부대시설|NNG 이용|NNG 시|NNG 요금|NNG
+__label__1 거기|NP 얼마나|MAG 걸리|VV 나요|EC
+__label__11 체크|NNG 인|VCP+ETM 날짜|NNG 확인|NNG 좀|MAG 해|VV+EC 줘|VX+EC
+__label__14 예약|NNG 변경|NNG 해|XSV+EC 주|VX 세요|EP+EF
+__label__33 Hi|SL
+__label__17 로그인|NNG 불가해|NNG 요|VCP+EC
+__label__29 코로나|NNP 때문|NNB 거기|NP 오래|MAG 있|VV 어도|EC 될까요|VV+EC
+__label__20 결제|NNG 수단|NNG 바꾸|VV 려면|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__21 법인|NNG 카드|NNG 결제|NNG 가능|NNG 한가요|XSA+EC
+__label__5 회원|NNG 가입|NNG 하|XSV 려면|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__32 넌|NP+JX 누구|NP 야|VCP+EF
+__label__32 미친|VV+ETM
+__label__31 가|VV 는|ETM 길|NNG 안내|NNG 부탁|NNG 합니다|XSV+EC
+__label__11 체크인|NNG 당일|NNG 3|SN 시|NNBC 이후|NNG 가능|NNG 한가|XSA+EC
+__label__7 취소|NNG 하|XSV 고|EC 몇|MM 일|NR 지난|VV+ETM 거|NNB 같|VA 은데|EC 왜|MAG 아직|MAG 돈|NNG 입금|NNG 되|XSV 지|EC 않|VX 았|EP 나요|EC
+__label__27 몇|MM 시|NNBC 도착|NNG 하|XSV 는지|EC 나중|NNG 알려|VV+EC 드려도|VX+EC 될까요|VV+EC
+__label__6 예약|NNG 취소|NNG 했|XSV+EP 는데|EC 언제|MAG 환불|NNG 되|XSV 나요|EC
+__label__13 예약|NNG 취소|NNG
+__label__9 비밀|NNG 번호|NNG 변경|NNG
+__label__2 객실|NNG 이용|NNG 정보|NNG
+__label__5 회원|NNG 가입|NNG 절차|NNG 궁금|XR 해요|XSA+EC
+__label__15 결제|NNG 영수증|NNG 발급|NNG 방법|NNG
+__label__35 이용|NNG 요금|NNG 안내|NNG
+__label__15 현금영수증|NNP 확인|NNG 하|XSV 는|ETM 방법|NNG 대해서|VV+EC 문|NNG 드립니다|VV+EC
+__label__17 가입|NNG 하|XSV 려고|EC 하|VV 는데|EC 진행|NNG 안|MAG 되|VV 네요|EC
+__label__9 비번|NNG 바꿀|VV+ETM 래|NNP
+__label__15 영수증|NNG 거래|NNG 내역|NNG 발급|NNG 받|VV 고|EC 싶|VX 어요|EF
+__label__26 근처|NNG 마트|NNG 있|VV 어|EC
+__label__16 아이디|NNG 다수|NNG 만들|VV+ETM 수|NNB 있|VV 을까|EC
+__label__32 ㅋㅋ|IC
+__label__2 도어|NNG 락|VCP+EC 비번|NNG
+__label__17 회원|NNG 가입|NNG 할|VV+ETM 수|NNB 없|VA 어요|EF
+__label__14 예약|NNG 변경|NNG
+__label__28 체크아웃|NNG 안내|NNG
+__label__10 재|XPN 가입|NNG 할|XSV+ETM 수|NNB 있|VV 나요|EC
+__label__11 월요일|NNG 예약|NNG 했|XSV+EP 는데|EC 그때|NNG 가|VV 면|EC 되|VV 는|ETM 거|NNB 맞|VV 죠|EF
+__label__34 룸|NNG 좀|MAG 보|VV 고|EC 싶|VX 어요|EF
+__label__33 안녕|IC
+__label__17 임시|NNG 비밀|NNG 번호|NNG 로그인|NNG 했|XSV+EP 는데|EC 안|MAG 되|VV 요|EC
+__label__13 예약|NNG 된|XSV+ETM 거|NNB 취소|NNG 할|XSV+ETM 게|NNB+JKS
+__label__14 예약|NNG 시간|NNG 땡기|VV 고|EC 싶|VX 은데|EC 가능|NNG 한가요|XSA+EC
+__label__9 전화|NNG 번호|NNG 변경|NNG
+__label__32 추천|NNG 해|XSV+EC 줘|VX+EC
+__label__32 모|NNG 해|XSV+EC
+__label__9 핸드폰|NNG 번호|NNG 바|NNB 껴서|VV+EC 변경|NNG 해야|XSV+EC 되|VV 는데|EC 어떻게|MAG 해야|VV+EC 되|VV 나요|EC
+__label__33 하이|NNG
+__label__12 모레|MAG 가|VV 면|EC 안|MAG 될까요|VV+EC
+__label__9 이메일|NNG 잘못|MAG 적|VV 어서|EC 수정|NNG 하|XSV 고|EC 싶|VX 어요|EF
+__label__14 예약|NNG 수정|NNG 하|XSV 는|ETM 법|NNG
+__label__14 날짜|NNG 바꿔|VV+EC 줘|VX+EC
+__label__6 돈|NNG 들어오|VV 는|ETM 건|NNB+JX 몇|MM 일|NR 날|NNG 들어와|VV+EC
+__label__5 회원|NNG 가입|NNG 절차|NNG 어떻게|MAG 이루|VV 어|EC 지나|VV 요|EC
+__label__26 맛집|NNG 안내|NNG
+__label__31 찾아가|VV 려고|EC 하|VV 는데|EC 주소|NNG 어떻게|MAG 돼|VV+EC
+__label__2 스마트폰|NNP 키|NNG 사용|NNG 방법|NNG
+__label__9 휴대폰|NNG 번호|NNG 바뀌|VV 어서|EC 수정|NNG 하|XSV 려고|EC 해요|VX+EC
+__label__19 부|NNG 시설|NNG 결제|NNG 방법|NNG
+__label__24 최대|NNG 인원|NNG 초과|NNG 괜찮|VA 은|ETM 가요|NNG
+__label__14 예약|NNG 내용|NNG 수정|NNG 되|VV 나요|EC
+__label__14 예약|NNG 다음|NNG 시간|NNG 돌려도|VV+EC 되|VV 나요|EC
+__label__12 나이|NNG 어려도|VA+EC 예약|NNG 할|XSV+ETM 수|NNB 있|VV 나요|EC
+__label__6 취소|NNG 완료|NNG 했|XSV+EP 는데|EC 언제|NP 쯤|XSN 돈|NNG 들어오|VV 나요|EC
+__label__19 현장|NNG 결제|NNG 가능|NNG 한가요|XSA+EC
+__label__20 현금|NNG 결제|NNG 했|XSV+EP 는데|EC 카드|NNG 바꾸|VV 고|EC 싶|VX 어요|EF
+__label__2 방|NNG 이용|NNG 하|VV 려고|EC 하|VV 는데|EC 어떻게|MAG 하|VV 면|EC 되|VV 는지|EC 안내|NNG 좀|MAG
+__label__14 예약|NNG 보류|NNG 하|XSV 려고|EC 하|VV 는데요|EC
+__label__20 계좌|NNG 이체|NNG 환불|NNG 하|XSV 고|EC 카드|NNG 다시|MAG 결제|NNG 할|XSV+ETM 게|NNB+JKS
+__label__6 언제|NP 쯤|XSN 환불|NNG 완료|NNG 되|XSV 나요|EC
+__label__1 걸리|VV 는|ETM 시간|NNG 좀|MAG 알려줘|VV+EC+VX+EC
+__label__28 예상|NNG 시간|NNG 빨리|MAG 도착|NNG 했|XSV+EP 는데|EC 일찍|MAG 체크인|NNG 해도|XSV+EC 될까요|VV+EC
+__label__13 방문|NNG 예정|NNG 이|VCP 었|EP 는데|EC 취소|NNG 하|XSV 려고|EC
+__label__11 예약|NNG 하|XSV 면|EC 문자|NNG 온다고|VV+EC 본|VX+ETM 것|NNB 같|VA 은데|EC 이거|NP 된|VV+ETM 거|NNB 맞|VV 나요|EC
+__label__22 야외|NNG 수영장|NNG 온수|NNG 이용|NNG 가능|NNG 한가요|XSA+EC
+__label__17 가입|NNG 안|MAG 되|VV 요|EC
+__label__16 계정|NNG 여러|MM 개|NNBC 만들|VV 어도|EC 괜찮|VA 은|ETM 가요|NNG
+__label__35 부대|NNG 서비스|NNG 이용|NNG 하|XSV 려고|EC 하|VV 는데|EC 얼마|NNG 정도|NNG 드나|VV 요|EC
+__label__5 사이트|NNG 가입|NNG 하|XSV 고|EC 싶|VX 은데|EC 프로세스|NNG 어떻게|MAG 되|VV 냐|EC
+__label__7 환불|NNG 신청|NNG 후|NNG 몇|MM 일|NR 지났|VV+EP 는데|EC 왜|MAG 아직|MAG 돈|NNG 미|XPN 입금|NNG 상태|NNG 죠|VCP+EC
+__label__31 위치|NNG 어디|NP 인가요|VCP+EC
+__label__3 숙소|NNG 연락처|NNG 좀|MAG 알려|VV+EC 주|VX 세요|EP+EF
+__label__13 예약|NNG 물릴|VV+ETM 수|NNB 있|VV 나요|EC
+__label__14 예약|NNG 다른|MM 때로|MAG 바꿔|VV+EC 주|VX 세요|EP+EF
+__label__5 가입|NNG 할|XSV+ETM 게|NNB+JKS
+__label__13 내일|MAG 모레|MAG 가|VV 기|ETN 했|VV+EP 던|ETM 거|NNB 못|MAG 갈|VV+ETM 거|NNB 같|VA 아|EC
+__label__11 저|MM 예약|NNG 되|XSV 었|EP 나요|EC
+__label__33 hi|SL
+__label__5 회원|NNG 가입|NNG 어떤|MM 순서|NNG 진행|NNG 되|XSV 나요|EC
+__label__21 신|XPN 카로|NNG 결제|NNG
+__label__3 거기|NP 주소|NNG 좀|MAG
+__label__1 소요|NNG 시간|NNG
+__label__2 객실|NNG 사용|NNG 하|XSV 려고|EC 하|VV 는데|EC
+__label__2 스마트|NNG 도어|NNG 락|VCP+EC 사용법|NNG
+__label__14 예약|NNG 어|IC 레인지|NNG 되|VV 나요|EC
+__label__8 마음|NNG 안|MAG 들|VV 어서|EC 그냥|MAG 환불|NNG 할게요|XSV+EC
+__label__34 룸|NNG 보여|VV+EC 주|VX 세요|EP+EF
+__label__8 환불|NNG 요청|NNG
+__label__3 상호|NNG 명|XPN 안내|NNG
+__label__22 실내|NNG 취사|NNG 가능|NNG 한가요|XSA+EC
+__label__13 예약|NNG 캔|NNG 슬|NNG
+__label__17 회원|NNG 가입|NNG 하|XSV 고|EC 싶|VX 은데|EC 안|MAG 돼|VV+EC
+__label__13 갈|VV+ETM 예정|NNG 이|VCP 었|EP 는데|EC 못|MAG 가|VV 요|EC
+__label__34 객실|NNG 사진|NNG 더|MAG 없|VA 나요|EC
+__label__11 나|NP 예약|NNG 된|XSV+ETM 거|NNB 맞|VV 아|EC
+__label__31 찾아가|VV 려고|EC 하|VV 는데|EC 위치|NNG 알려줘|VV+EC+VX+EC
+__label__3 정확|NNG 한|XSA+ETM 숙소|NNG 주소|NNG 알려|VV+EC 주|VX 세요|EP+EF

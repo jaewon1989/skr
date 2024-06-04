@@ -1,0 +1,251 @@
+<div id="#page-movieList" class="page center">
+    <header id="cb-navigator" class="bar bar-nav cb-box-shadow">
+        <div class=" cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>
+                </div>
+                <div class="cb-cell cb-cell-center">
+                    <h3>{$bot_service}</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                    <a href="{$bot_home}" target="_blank" style="display:none;">
+                       <span class="cb-icon cb-icon-house"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cb-chatting-body" class="cb-chatting-scroll">
+        <div data-role="chatting-logContainer" class="cb-chatting-rows">
+           {$chat_rows}          
+        </div>
+    </section>
+
+    <section id="cb-chatting-input{$position}">
+        <div class="emoticon-wrapper" data-role="emoticon-box">
+            {$emoticon_list}
+        </div>
+        <div class="cb-layout">
+            <div class="cb-right">
+                <ul class="cb-chatting-icon">
+                    <li>
+                        <span class="cb-icon cb-icon-smile" data-role="btn-showEmoticon"></span>
+                    </li>
+                    <li>
+                        <span class="cb-icon cb-icon-recom" data-id="{$bot_id}" data-role="btn-forSquare" id="show-firstKwd"></span>
+                        <span class="cb-chatting-send" style="display:none;" data-id="{$bot_id}" data-role="btn-send">전송</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="cb-left" style="display:none;">
+                <div class="cb-chatting-profile">
+                    <img src="{$user_avatar_src}" alt="Chatting Profile Image" />
+                </div>
+            </div>
+            <div class="cb-center">
+                <input type="text" name="user_input" data-id="{$bot_id}" placeholder="메시지를 입력하세요." data-role="bot-talks"/>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- view page -->
+<div id="page-movieView" class="page-movieDetail page right">
+     <header id="cb-navigator" class="bar bar-nav cb-box-shadow" style="display:none;">
+        <div class=" cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>
+                </div>
+                <div class="cb-cell cb-cell-center">
+                    <h3>{$bot_service}</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                    <a href="{$bot_home}" target="_blank">
+                       <span class="cb-icon cb-icon-house"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="cb-chatting-scroll" style="margin-top:-20px !important;">
+            <div class="mvDetail-wrapper">
+                <div class="dt-poster" data-role="dt-poster">
+                </div>
+                <div class="dt-content">
+                    <h3 class="dt-title" data-role="dt-title">제목이 나오는 자리 </h3>
+                    <div class="dt-tableWrapper">
+                        <table class="dt-table">
+                            <tr>
+                               <td colspan="2"><span data-role="dt-rated" class="dt-rated"></span> 관람가</td> 
+                            </tr>
+                            <tr>
+                                <th>장르</th>
+                                <td><span data-role="dt-genre"></span></td>
+                            </tr>
+                            <tr>
+                                <th>배우</th>
+                                <td><span data-role="dt-actors"></span></td>
+                            </tr>
+                            <tr>
+                                <th>감독</th>
+                                <td><span data-role="dt-director"></span></td>
+                            </tr>
+                            <tr>
+                                <th>국가</th>
+                                <td><span data-role="dt-country"></span></td>
+                            </tr>
+                            <tr>
+                                <th>제작년도</th>
+                                <td><span data-role="dt-pyear"></span></td>
+                            </tr>
+                            <tr>
+                                <th>외부평점</th>
+                                <td><span class="star-wrapper"></span><span data-role="dt-grade"></span></td>
+                            </tr>
+                        </table>
+                        <table class="dt-table" data-role="show-rmv" style="display:none;"> 
+                            <tr>
+                               <td colspan="2"><h3 style="font-size:1.8rem;font-weight:bold;padding:1rem 0;color:#000;">인공지능 추천영화</h3></td> 
+                            </tr>  
+                        </table>     
+                        <div data-role="rmv-swiper" style="width:100%;">
+                                    <!-- 추천영화 swiper -->        
+                        </div>
+                    </div>
+                    <div class="dt-close" data-history="back">
+                        <span>닫기</span> 
+                    </div>
+                </div> <!-- dt-content -->  
+            </div>   
+        </div>
+    </section> 
+</div>
+
+<!-- 연관 영화 view page -->
+<div id="page-movieView2" class="page-movieDetail page right">
+     <header id="cb-navigator" class="bar bar-nav cb-box-shadow" style="display:none;">
+        <div class=" cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>
+                </div>
+                <div class="cb-cell cb-cell-center">
+                    <h3>{$bot_service}</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                    <a href="{$bot_home}" target="_blank">
+                       <span class="cb-icon cb-icon-house"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="cb-chatting-scroll" style="margin-top:-20px !important;">
+            <div class="mvDetail-wrapper">
+                <div class="dt-poster" data-role="dt-poster">
+                </div>
+                <div class="dt-content">
+                    <h3 class="dt-title" data-role="dt-title">제목이 나오는 자리 </h3>
+                    <div class="dt-tableWrapper">
+                        <table class="dt-table">
+                            <tr>
+                               <td colspan="2"><span data-role="dt-rated" class="dt-rated"></span> 관람가</td> 
+                            </tr>
+                            <tr>
+                                <th>장르</th>
+                                <td><span data-role="dt-genre"></span></td>
+                            </tr>
+                            <tr>
+                                <th>배우</th>
+                                <td><span data-role="dt-actors"></span></td>
+                            </tr>
+                            <tr>
+                                <th>감독</th>
+                                <td><span data-role="dt-director"></span></td>
+                            </tr>
+                            <tr>
+                                <th>국가</th>
+                                <td><span data-role="dt-country"></span></td>
+                            </tr>
+                            <tr>
+                                <th>제작년도</th>
+                                <td><span data-role="dt-pyear"></span></td>
+                            </tr>
+                            <tr>
+                                <th>외부평점</th>
+                                <td><span class="star-wrapper"></span><span data-role="dt-grade"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="dt-close" data-history="back">
+                        <span>닫기</span> 
+                    </div>
+                </div> <!-- dt-content -->  
+            </div>   
+        </div>
+    </section> 
+</div>
+
+<!-- 설정 페이지 view page -->
+<div id="page-setting" class="page right"> 
+     <header id="cb-navigator" class="bar bar-nav cb-box-shadow" style="display:none;">
+        <div class=" cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>
+                </div>
+                <div class="cb-cell cb-cell-center">
+                    <h3>{$bot_service}</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="cb-chatting-scroll" style="margin-top:-20px !important;">
+            <div class="mvDetail-wrapper">
+                <div class="dt-content">
+                    <div class="dt-tableWrapper" style="padding-bottom:60px">
+                        <form id="form-learningData">
+                            {$learning_data}
+                        </form>
+                    </div>
+                   
+                </div> 
+            </div>   
+        </div>
+    </section>
+    <footer class="bar bar-footer dt-close" data-history="back">
+        <span>닫기</span> 
+    </footer> 
+</div>
+<!-- iframe 페이지 -->
+<div id="page-iframe" class="page right" data-role="iframe-page"> 
+    <header id="cb-navigator" class="bar bar-nav cb-box-shadow">
+        <div class=" cb-navigator-wrapper">
+            <div class="cb-cell-layout">
+                <div class="cb-cell cb-cell-left">
+                    <span class="cb-icon cb-icon-prev{$back_button_hidden}" data-history="back"></span>
+                </div>
+                <div class="cb-cell cb-cell-center">
+                    <h3>{$bot_service}</h3>
+                </div>
+                <div class="cb-cell cb-cell-right">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="cb-chatting-scroll" data-role="iframe-container" style="margin-top:-35px !important;">
+           
+        </div>
+    </section>
+</div>

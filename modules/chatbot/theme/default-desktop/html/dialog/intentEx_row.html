@@ -1,0 +1,10 @@
+<div class="input-group intentEx-item" data-role="intentEx-item-{$iEx_uid}" >
+  	<input type="hidden" name="intentEx_uid[]" value="{$iEx_uid}" />
+    <input class="form-control eX-name" type="text" data-role="ex-name" data-type="intent" data-uid="{$iEx_uid}" name="intentEx[]" value="{$iEx_val}" placeholder="예문을 입력해주세요">
+
+    <span class="input-group-btn">
+        <button class="btn btn-default" data-role="del-intentEx" data-uid="{$iEx_uid}" data-tooltip="tooltip" title="예문 삭제">
+            <i class="fa fa-trash-o"></i>
+        </button>
+    </span>
+</div>

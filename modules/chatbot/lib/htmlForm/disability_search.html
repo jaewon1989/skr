@@ -1,0 +1,25 @@
+<div class="cb-chatting-form cb-form-start">
+    <!-- 개인 정보 입력 -->
+    <div class="bot_form">
+        <h1>신청자 정보 입력</h1>
+        <h2 class="msg">신청자명과 휴대폰 번호를 입력해주세요.</h2>
+        <fieldset class="form_field">
+            <div class="input_area">
+                <label for="reserve_uname" class="input_label">이름</label>
+                <div>
+                    <input type="text" id="reserve_uname" name="reserve_uname" maxlength="20" placeholder="신청자명" />
+                </div>
+            </div>
+            <div class="input_area mt5">
+                <label for="reserve_uphone" class="input_label">휴대폰번호</label>
+                <div>
+                    <input type="tel" id="reserve_uphone" name="reserve_uphone" maxlength="13" placeholder="휴대폰번호" />
+                </div>
+            </div>
+        </fieldset>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item w30 submit_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="auth">확인</button>
+            <button type="button" class="kwd-item cancel w30 cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="search_cancel">취소</button>
+        </div>
+    </div>
+</div>

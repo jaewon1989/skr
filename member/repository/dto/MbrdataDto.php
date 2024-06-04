@@ -1,0 +1,64 @@
+<?php
+
+class MbrdataDto
+{
+    use GetSetGenerator;
+    use RepositoryTrait;
+
+    private $memberuid;
+    private $site;
+    private $auth;
+    private $mygroup;
+    private $level;
+    private $comp;
+    private $admin;
+    private $adm_view;
+    private $email;
+    private $name;
+    private $nic;
+    private $grade;
+    private $photo;
+    private $home;
+    private $sex;
+    private $birth1;
+    private $birth2;
+    private $birthtype;
+    private $tel1;
+    private $tel2;
+    private $zip;
+    private $addr0;
+    private $addr1;
+    private $addr2;
+    private $job;
+    private $marr1;
+    private $marr2;
+    private $sms;
+    private $mailing;
+    private $smail;
+    private $point;
+    private $usepoint;
+    private $money;
+    private $cash;
+    private $num_login;
+    private $pw_q;
+    private $pw_a;
+    private $now_log;
+    private $last_log;
+    private $last_pw;
+    private $is_paper;
+    private $d_regis;
+    private $tmpcode;
+    private $sns;
+    private $noticeconf;
+    private $num_notice;
+    private $addfield;
+    private $sid;
+    private $age;
+    private $cgroup;
+    private $manager;
+    private $super;
+    private $log_fail_cnt;
+    private $is_lock;
+    private $before_pw1;
+    private $before_pw2;
+}

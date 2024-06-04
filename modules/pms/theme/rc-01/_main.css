@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*!
+ * Bootstrap blog template (default)
+ * Version: 1.0
+ * Author: gitaeks
+ * Homepage: http://gitaeks.github.io/
+ * Licensed under MIT
+ * Based on Bootstrap v3.3.5
+*/
+
+/**
+ * 목차:
+ *
+ * 1 - Common 공통
+ * 2 - list 목록
+ * 3 - View 보기
+ * 4 - Write 쓰기
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1 - Common 공통
+ * ----------------------------------------------------------------------------
+ */
+
+
+.bar-nav .rb-logo {
+    margin-top: 10px;
+    padding-left: 7px;
+    height: 25px
+}
+
+
+
+/**
+ * 2 - list 목록
+ * ----------------------------------------------------------------------------
+ */
+
+
+/********** blog-heading **********/
+
+
+/********** blog-body **********/
+
+
+
+/*no-post*/
+.content .rb-nopost {
+    width: 250px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 50px;
+    color: #999
+}
+.content .rb-nopost h2 {
+    margin: 0;
+    color: #ddd
+}
+
+/*tab*/
+
+
+
+
+/**
+ * 2 - View 보기
+ * ----------------------------------------------------------------------------
+ */
+
+
+/********** blog-heading **********/
+
+
+
+/********** blog-body **********/
+
+
+
+/********** blog-footer **********/
+
+
+/*pager*/
+
+/*Description lists*/
+
+
+/*tag*/
+
+
+/*attach*/
+
+
+/*tabs*/
+
+
+/*comments*/
+
+/**
+ * 3 - Write 쓰기
+ * ----------------------------------------------------------------------------
+ */
+

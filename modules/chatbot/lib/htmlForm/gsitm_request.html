@@ -1,0 +1,138 @@
+<div class="cb-chatting-form cb-form-start">
+    <div class="cb-chatting-received {$category}">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        {$response}
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bot_form gsitm {$gsitm_start}">
+        <h1>정보 입력</h1>
+        <form id="test">
+        <fieldset class="form_field">
+            <div class="input_area no_label approvallines_area">
+                <label class="input_label">결재순서</label>
+                <ul class="approvallines">
+                    {$gsitm_apprLinesStr}
+                </ul>
+            </div>
+            <div class="input_area no_label">
+                <label class="input_label">요청 유형 <span class="red">*</span></label>
+                <div class="selectwrap">
+                    <select id="gsitm_reqTySe" name="gsitm_reqTySe">
+                        {$gsitm_reqTySe_codes}
+                    </select>
+                </div>
+            </div>
+            <div class="input_area no_label">
+                <label class="input_label">요청 분류 <span class="red">*</span></label>
+                <div class="selectwrap">
+                    <select id="gsitm_reqCl" name="gsitm_reqCl">
+                        {$gsitm_reqCl_codes}
+                    </select>
+                </div>
+            </div>
+            <div class="input_area no_label">
+                <label class="input_label">요청 서비스</label>
+                <div class="selectwrap">
+                    <select id="gsitm_servId" name="gsitm_servId">
+                        {$gsitm_servId_codes}
+                    </select>
+                </div>
+            </div>
+            <div class="input_area no_label">
+                <label class="input_label">템플릿</label>
+                <div class="selectwrap">
+                    <select id="gsitm_tmlNo" name="gsitm_tmlNo">
+                        {$gsitm_tmlNos}
+                    </select>
+                </div>
+            </div>
+            <div class="input_area no_label ocr_date_wrap {$gsitm_ocrdate_class}">
+                <label class="input_label">장애발생일시</label>
+                <div class="input_datewrap">
+                    <input type="text" id="gsitm_ocr_date" name="gsitm_ocr_date" class="input_date" value="{$gsitm_ocr_date}">
+                </div>
+                <div class="fr input_timewrap">
+                    <div class="selectwrap w48">
+                        <select id="gsitm_ocr_hour" name="gsitm_ocr_hour">
+                            {$gsitm_finish_hours}
+                        </select>
+                    </div>
+                    <div class="selectwrap fr w48">
+                        <select id="gsitm_ocr_min" name="gsitm_ocr_min">
+                            {$gsitm_finish_minutes}
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="input_area no_label">
+                <label class="input_label">완료희망일시</label>
+                <div class="input_datewrap">
+                    <input type="text" id="gsitm_req_date" name="gsitm_req_date" class="input_date" value="{$gsitm_finish_date}">
+                </div>
+                <div class="fr input_timewrap">
+                    <div class="selectwrap w48">
+                        <select id="gsitm_req_hour" name="gsitm_req_hour">
+                            {$gsitm_finish_hours}
+                        </select>
+                    </div>
+                    <div class="selectwrap fr w48">
+                        <select id="gsitm_req_min" name="gsitm_req_min">
+                            {$gsitm_finish_minutes}
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="input_area no_label input_text mt15">
+                <label class="input_label">제목 <span class="red">*</span></label>
+                <div>
+                    <input type="text" id="gsitm_req_title" name="gsitm_req_title" maxlength="50" />
+                </div>
+            </div>
+            <div class="input_area no_label input_text mt15">
+                <label class="input_label">내용 <span class="red">*</span></label>
+                <div>
+                    <textarea id="gsitm_req_content" name="gsitm_req_content" rows="8" placeholder="요청사항을 입력해주세요.">{$gsitm_reqCl_tml}</textarea>
+                </div>
+            </div>
+            <div class="input_area no_label input_text mt15">
+                <label class="input_label">보안내용</label>
+                <div>
+                    <textarea id="gsitm_req_secucontent" name="gsitm_req_secucontent" rows="4" placeholder="보안 내용을 입력해주세요."></textarea>
+                </div>
+            </div>
+            <div class="input_area no_label input_text input_filezone mt15">
+                <label class="input_label">첨부파일</label>
+                <div class="no_box">
+                    <button type="button" class="btn_file btn_files">
+                        파일선택
+                        <input type="file" id="blFile" name="blFile" id="btn_file_input" multiple="multiple" />
+                    </button>
+                    <span class="gray">*최대 20MB까지 첨부 가능</span>
+                </div>
+                <ul class="ul_files"></ul>
+            </div>
+            <div class="input_area no_label input_text mt20">
+                <button type="button" class="btn_change_apprline btn_black">결재라인 변경</button>
+            </div>
+        </fieldset>
+        <div class="btn_wrap">            
+            <button type="button" class="kwd-item cancel cancel_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+            <button type="button" class="kwd-item submit_request" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="gsitm_confirm">전송하기</button>
+        </div>
+        </form>
+    </div>
+</div>

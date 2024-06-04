@@ -1,0 +1,105 @@
+
+## js
+
+setNodeData : 노드패널 오픈후 데이타 세팅  
+
+closeSetNodePanel 
+resetNodePanelRes : 답변 그룹 리셋 
+
+setDefaultContextHtml
+setContextAddBtn
+
+getMultiMenuContextRowTpl : multiMenu 컨텍스트 html 
+
+** input filter 박스 출력 
+showFilterBox  -> showFilterData
+if_showFilterBox -> if_showFilterData
+
+
+
+
+## php > class 
+
+getParseText
+getBotTextMsg
+
+1) 노드 찾기 
+ProcessInput  -->  getDialogMatch  -->  getDialogNode         -->  getNodeRespond 
+	                                    ->  getSentenceEntity
+	                                    ->  getSentenceIntent
+	                                    ->  trackDialogNode --> checkDNCondition --> getEvaluateCondition
+
+2) 답변 출력 
+getNodeRespond --> getDialogResItem
+                                        
+getNodeRecognizeCondition : 노드조건 저장형태 추출
+
+getEntityLogList : 관리자 페이지 에터티 로그 
+
+
+getApiResponse : 외부 sns 에서 내부 챗봇으로 접근시 
+
+getLegacyApiResult : 내부 챗봇에서 외부 서버로 API 전송시  
+
+
+getDialogMultiItemRow : hMenu,card,img 등 멀티형식 답변 아이템의 각 요소 값 (타이틀, 요약, 이미지, 링크... )
+
+getMenuRespond : 멀티형식 답변 아이템들 중 특정 아이템에 설정된 답변 내용 추출(텍스트, 이미지, 링크, 컨텍스트, 대화상자  ) 
+
+
+updateContext : 3079 
+- 현재 기준 contxt 값 전체를 대입해서 업데이트 한다. 
+- 사용예 
+  1) 개별 context 저장 
+    - $this->context[$name1]  = $value1, $this->context[$name2]  = $value2 
+    
+  2) $this->updateContext($this->contxt); 
+
+
+setNodeContext : 3447 
+
+*** getType 사용자 입력 처리 순서 
+
+1) getTypeInput 객체 설정
+2) AfterInitChatBox 
+   - user_input 파라미터 값 있는지 체크해서 있으면 
+     this.processInput 실행 (없으면 인사)
+
+3) processInput
+   - this.getTypeInput 이 있으면 처리 
+
+4) getBotMsg 
+   - this.getTypeInput 값 초기화 시킨다. 
+
+*** 다이얼로그 그래프 모드 > 레거시 api 세팅 프로세스 
+1) api 호출시 dialogResApiParam 테이블에 해당 itemOC 값이 
+   있는 row 가 있는지 체크해서 있는 경우 applyed = true 세팅
+
+   - 이 applyed 값이 있는 경우 dialogResApiParam 테이블에서 가져온다.   
+
+
+** 필터용 contextList 추출  
+getDialogAllContext
+
+
+** 봇 설정값 업데이트 
+updateBotData : 설정값 업데이트 
+getAdmBot : 설정값 가져오기 
+
+
+** 로그 등록함수 모음 
+- addChatLog - 사용자 입력내용 
+- addBotChatLog - 챗봇 응답내용 
+- getUserChatLog - 채팅 로그 추출 
+
+
+// 사용자 인풋 log 저장  
+$userChat['printType'] ='E';
+$userChat['content'] = $user_msg; 
+$userLastChat = $this->addChatLog($userChat);
+
+// 챗봇 아웃풋 log 저장 
+$botChat['printType'] ='E';
+$botChat['content'] = $response;
+$botChat['last_chat'] = $userLastChat['last_chat']; // 사용자 chat uid 
+$this->addBotChatLog($botChat);

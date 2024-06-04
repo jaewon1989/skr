@@ -1,0 +1,1 @@
+<?php include $g['dir_module_skin'].'suAdm/a_dashboard.php'?>

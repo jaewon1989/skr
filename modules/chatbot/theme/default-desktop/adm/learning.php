@@ -1,0 +1,353 @@
+<?php
+$chatbot->vendor = $V['uid'];
+$botuid = $bot?$bot:'';
+
+// 답변못한 질문 리스트 
+$data = array();
+$data['bot'] = $botuid?$botuid:'';
+$getUnKnownData = $chatbot->getUnKnownData($data);
+$unKnownList = $getUnKnownData[1];
+$unKnownPageBtn = $getUnKnownData[2];
+
+// 많이한 질문 리스트 
+$data = array();
+$data['vendor'] = $V['uid'];
+$data['bot'] = $botuid?$botuid:'';
+$data['mod'] = 'question';
+$questionData = $chatbot->getFavorateQuestionData($data);
+
+// 많이한 단어 리스트 
+$data = array();
+$data['vendor'] = $V['uid'];
+$data['bot'] = $botuid?$botuid:'';
+$data['mod'] = 'word';
+$wordData = $chatbot->getFavorateQuestionData($data);
+?>
+
+<!-- bootstrap css -->
+<input type="hidden" name="mod" value="month" />
+
+<div class="container-fluid">
+    <!--
+    <div class="row bg-title">
+        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <h4 class="page-title"><?php echo $pageTitle?></h4>
+        </div>
+    </div>
+    -->
+    <div class="overview">
+        <div class="page-title">학습</div>
+        <div class="sub-frame">
+            <div class="sub-title">SK telecom AICC / <?php echo $pageTitle?></div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <div class="row chart_status_board">
+        <div class="col-sm-5">
+            <div class="white-box" style="min-height:720px;">
+                <input type="hidden" value="wait" data-role="unknownMod-input"/>
+                <input type="hidden" value="1" data-role="unknownPage-input"/> 
+                <h3 class="box-title" style="float:left;width:70%;">
+                    <span>답변 못한 문장</span>
+                </h3>
+                <h3 class="box-title" style="float:right;width:30%;text-align:right;" data-role="unknownPage-wrapper">
+                    <?php echo $unKnownPageBtn?>
+                </h3>
+                 <ul class="nav nav-tabs unknown-state">
+                     <li class="active unknown-mod" style="cursor:pointer;"><a data-toggle="tab" data-role="change-unknownMod" data-mod="wait" id="learn-wait">학습대기</a></li>
+                     <li class="unknown-mod" style="cursor:pointer;"><a data-toggle="tab" data-role="change-unknownMod" data-mod="done">학습완료</a></li>
+                     <li class="unknown-mod" style="cursor:pointer;"><a data-toggle="tab" data-role="change-unknownMod" data-mod="except">학습제외</a></li>
+                 </ul>
+
+                <div class="table-responsive clearfix table-container table-aicc-skin" style="position:relative;margin-top:10px;padding-bottom:20px;clear:both;">
+                    <table class="table" id="tbl-unknown">
+                        <colgroup>
+                            <col width="5%">
+                            <col width="77%">
+                            <col width="18%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" data-role="select-all" data-parent="#tbl-unknown" style="margin:0;" /></th>
+                                <th>질문내용</th>
+                                <th data-role="unknown-dateLabel">등록일 </th>
+                            </tr>
+                        </thead>
+                        <tbody data-role="unknownList-wrapper">
+                            <?php echo $unKnownList;?>                        
+                        </tbody>
+                    </table>
+                    <div class="col-sm-12">
+                        <button id="btn_done" class="btn btn-success" data-role="change-learnState" data-state="done" data-msg="학습완료"><?php echo $chatbot->callIntent?> 지정 제외</button>
+                        <button id="btn_wait" class="btn btn-danger" data-role="change-learnState" data-state="wait" data-msg="학습대기" style="display:none; margin-left:5px">학습대기 처리</button>
+                        <button id="btn_intent" class="btn btn-info" data-role="change-learnState" data-state="intent" style="margin-left:5px"><?php echo $chatbot->callIntent?> 지정</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="white-box" style="min-height:720px;">
+                <h3 class="box-title" style="float:left;width:60%;">많이 한 질문</h3> 
+                <h3 class="box-title" style="float:right;width:40%;text-align:right;font-size:15px;" data-role="questionPage-wrapper">
+                    <?php echo $questionData[2]?>
+                </h3>
+                <div class="table-responsive table-container table-aicc-skin" style="clear:both;">
+                    <table class="table ">
+                        <thead>
+                            <tr>
+                                <th style="width:80%">질문내용</th>                                
+                                <th>횟수</th>
+                            </tr>
+                        </thead>
+                        <tbody data-role="questionList-wrapper">
+                            <?php echo $questionData[1];?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-3">
+            <div class="white-box" style="min-height:720px;">
+                <h3 class="box-title" style="float:left;width:50%;">많이 사용한 단어</h3>
+                <h3 class="box-title" style="float:right;width:50%;text-align:right;font-size:15px;" data-role="wordPage-wrapper">
+                    <?php echo $wordData[2]?>
+                </h3>
+                <div class="table-responsive table-container table-aicc-skin" style="clear:both;">
+                    <table class="table ">
+                        <thead>
+                            <tr>
+                                <th style="width:80%">단어</th>                                
+                                <th>횟수</th>
+                            </tr>
+                        </thead>
+                        <tbody data-role="wordList-wrapper">
+                            <?php echo $wordData[1];?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+
+<script src="<?php echo $g['url_layout']?>/_js/jquery.chosen.js"></script>
+<link rel="stylesheet" href="<?php echo $g['url_layout']?>/_css/chosen.css">
+
+<!-- 인텐트 지정 모달-->
+<div id="modal-setIntent" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">인텐트 지정하기</h4>
+            </div>
+            <div class="modal-body" data-role="content">
+                <div class="form-group" style="width:100%;">
+                    <select data-placeholder="인텐트를 선택해주세요" name="intent" id="#set-intent" class="chosen-select" tabindex="8" style="width:100%;">
+                        <option value=""></option>
+                        <?php $sql = "type='V' and vendor='".$V['uid']."' and bot='".$botuid."' and hidden=0";?>
+                        <?php $ICD = getDbArray($table[$m.'intent'],$sql,'uid,name','name','asc','',1)?>
+                        <?php while($IT = db_fetch_array($ICD)):?>
+                        <option value="<?php echo $IT['uid']?>"><?php echo $IT['name']?></option>
+                        <?php endwhile?> 
+                     </select>
+                    
+                </div>
+                <div class="form-group">
+                    <input type="hidden" name="unknownItemsUid" />
+                    <textarea class="form-control" rows="5" name="unknownItemsName"></textarea>
+                </div>    
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-role="btn-setIntent" data-depth="">저장하기</button> 
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// 인텐트 지정 모달 
+var setIntentModal = '#modal-setIntent';
+var module='<?php echo $m?>';
+var vendor='<?php echo $V['uid']?>';
+var botuid ='<?php echo $bot?>';
+
+// Start of  chosen select 
+$(".chosen-select").chosen({
+    no_results_text: '(신규 등록시 Enter 키를 눌러주세요)',
+});
+
+// 인텐트 못찾은 경우 해당 입력값 출력 
+$(".chosen-select").on('change',function(e,data){
+    // $(setIntentModal).find('input[name="intent"]')val(data);
+});
+
+// End of  chosen select 
+
+// 툴팁 이벤트
+$(document).ready(function() {
+    $('[data-toggle=tooltip]').tooltip();
+});
+
+// 선택박스 체크 이벤트 핸들러
+$('[data-role="select-all"]').click(function(){
+    var parent = $(this).data('parent'); 
+    $(parent).find('tbody [data-role="checkbox"]').prop("checked",$(this).prop("checked"));
+});
+
+// unknownList 가져오기
+var getUnKnownList = function(data){
+    var mod = data.mod?data.mod:$('[data-role="unknownMod-input"]').val();
+    var page = data.page?data.page:$('[data-role="unknownPage-input"]').val();
+    var unknownItems = data.unknownItems?data.unknownItems:null;
+    var state = data.state?data.state:null;
+    var pageWrapper = $('[data-role="unknownPage-wrapper"]');
+    var listWrapper = $('[data-role="unknownList-wrapper"]');
+
+    $.post(rooturl+'/?r='+raccount+'&m='+module+'&a=get_UnknownList',{
+        vendor : vendor,
+        botuid : botuid,
+        mod : mod,
+        page : page,
+        unknownItems : unknownItems,
+        state : state
+    },function(response){
+        checkLogCountdown();
+        var result=$.parseJSON(response);
+        var pageBtn = result.pageBtn;
+        var list = result.list;
+        $(pageWrapper).html(pageBtn);
+        $(listWrapper).html(list);        
+    }); 
+}
+
+var getQuestionList = function(data){
+    var mod = data.mod;
+    var page = data.page?data.page:$('[data-role="'+mod+'Page-input"]').val();
+    var pageWrapper = $('[data-role="'+mod+'Page-wrapper"]');
+    var listWrapper = $('[data-role="'+mod+'List-wrapper"]');
+
+    $.post(rooturl+'/?r='+raccount+'&m='+module+'&a=get_UnknownList',{
+        vendor : vendor,
+        botuid : botuid,
+        mod : mod,
+        page : page
+    },function(response){
+        checkLogCountdown();
+        var result=$.parseJSON(response);
+        var pageBtn = result.pageBtn;
+        var list = result.list;
+        $(pageWrapper).html(pageBtn);
+        $(listWrapper).html(list);        
+    }); 
+}
+
+// 인텐트 지정 프로세스 진행 함수 
+var setIntent = function(data){
+    $.post(rooturl+'/?r='+raccount+'&m='+module+'&a=update_intent',{
+        vendor : vendor,
+        botuid : botuid,
+        intent : data.intent,
+        unknownItemsUid : data.unknownItemsUid,
+        unknownItemsName : data.unknownItemsName
+    },function(response){
+        checkLogCountdown();
+        var result=$.parseJSON(response);
+        $(setIntentModal).modal('hide');
+        setTimeout(function(){
+            getUnKnownList(data);
+        },10);     
+    }); 
+}
+
+// 인텐트 지정 모달 호출
+var getIntentModal = function(data){
+    checkLogCountdown();
+    $(setIntentModal).modal();
+    $(setIntentModal).find('textarea[name="unknownItemsName"]').val(data.unknownItemsName);
+    $(setIntentModal).find('input[name="unknownItemsUid"]').val(data.unknownItems);
+}
+
+// 인텐트 지정내용 저장 
+$(document).on('click','[data-role="btn-setIntent"]',function(){
+   var intent = $(".chosen-select").chosen().val();
+   var unknownItemsName = $(setIntentModal).find('textarea[name="unknownItemsName"]').val();
+   var unknownItemsUid = $(setIntentModal).find('input[name="unknownItemsUid"]').val();
+   if(intent==''){
+       alert('인텐트를 선택해주세요.');
+       return false;
+   }else{
+      var data = {"intent":intent,"unknownItemsUid":unknownItemsUid,"unknownItemsName":unknownItemsName};
+      setIntent(data); // 인텐트 지정 프로세스 진행 
+   }
+});
+
+
+// 답변 못한 문장 리스트 > 학습완료 / 학습대기 / 인텐트 지정  state 변경 이벤트 
+$(document).on('click','[data-role="change-learnState"]',function(){
+    var state = $(this).data('state');
+    var page = $('[data-role="unknownPage-input"]').val();
+    var unknownItems = $(document).find('input[name="unknownItem[]"]:checked').map(function(){return $(this).val()}).get();
+    var unknownItemsName = $(document).find('input[name="unknownItem[]"]:checked').map(function(){return $(this).attr('rel')}).get();
+    var data = {"page": page,"state": state,"unknownItems":unknownItems,"unknownItemsName":unknownItemsName};
+    const currentTab = $('[data-role="unknownMod-input"]').val();
+
+    if(unknownItems.length==0){
+        alert('질문을 선택해주세요');
+        return false;
+    }
+    if(state=='wait' && 'except' !== currentTab) {
+        if(!confirm('인텐트 지정이 된 문장의 경우, 인텐트에서 삭제됩니다. 대기처리 하시겠습니까?')) return false;
+    }
+    // 인텐트 지정 
+    if(state=='intent'){
+       getIntentModal(data);   
+    }
+    else getUnKnownList(data);
+    
+});
+
+// 답변 못한 문장 리스트 > 학습완료 / 학습대기 sort 탭 이벤트 
+$('[data-role="change-unknownMod"]').on('click',function(){
+    var mod = $(this).data('mod');
+    var page = 1;
+    var data = {"mod":mod,"page":page}
+    $('[data-role="unknownMod-input"]').val(mod);
+    $('[data-role="unknownPage-input"]').val(page);
+    if('wait' === mod) {
+        $('#btn_done').show();
+        $('#btn_wait').hide();
+        $('#btn_intent').show();
+    } else {
+        $('#btn_done').hide();
+        $('#btn_wait').show();
+        $('#btn_intent').hide();
+    }
+    
+    getUnKnownList(data);
+});
+
+// 답변 못한 문장 리스트 > 페이징  
+$(document).on('click','[data-role="unknown-paging"]',function(){
+    var mod = $(this).data('mod');
+    var page = $(this).data('page')?$(this).data('page'):1;
+    var data = {"mod":mod,"page":page}    
+    $('[data-role="unknownPage-input"]').val(page);
+
+    getUnKnownList(data);
+});
+$(document).on('click','[data-role="btn-paging"]',function(){
+    var mod = $(this).data('mod');
+    var page = $(this).data('page')?$(this).data('page'):1;
+    var data = {"mod":mod,"page":page};
+    getQuestionList(data);
+});
+
+</script>

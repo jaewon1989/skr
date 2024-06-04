@@ -1,0 +1,50 @@
+<h4 class="guide-title">페이스북 메신져(Messenger) 연동을 위해서 아래의 항목을 체크해주세요 </h4>
+<ul class="sns-guide">
+    <li>1) 페이스북 개발자센터(<a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>) 접속. <li>
+    <li>2) 메신져를 연동할 특정 app 혹은 신규 app <strong>대시보드</strong> 페이지 접속. <li>
+    <li>3) <strong>대시보드</strong> 페이지에서 <strong>제품추가</strong> 버튼 클릭한 후 <code>Messenger 제품</code> 의 <strong>설정</strong>버튼 클릭해서 설정 페이지((/apps/앱ID/messenger/settings)로 이동.<li>
+    <li>4) 3)의 <code>메신져 설정 페이지</code> 항목 중 <code>Webhooks</code> 항목의 <strong>Webhooks 설정</strong> 버튼 클릭.<li>
+    <li>5) 팝업창에 나오는 설정항목 중 <code>콜백URL</code> 과 <code>확인토큰</code> 입력란에 아래의 값을 각각 입력하고 <code>받아보기 필드</code> 항목의 내용중 <strong>messages, messaging_postbacks</strong> 를 체크(개발상황에 따라 추후 추가항목 체크할 수 있음)한 후 <code>확인 및 저장</code> 버튼 클릭.</li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;" id="webhookUrl-wrapper"> 
+            <div class="input-group">
+                <span class="input-group-addon" >콜백 URL</span>
+                <input type="text" class="form-control" value="{$return_url}" disabled />
+                <span class="input-group-addon">
+                    <button class="btn btn-default btn-copy" data-role="clipboard-copy" data-clipboard-text="{$return_url}" data-container="#webhookUrl-wrapper" data-feedback="URL 이 복사되었습니다.">복사</button>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;" id="verifyToken-wrapper"> 
+            <div class="input-group">
+                <span class="input-group-addon" >확인 토큰</span>
+                <input type="text" class="form-control" name="verify_token" value="{$verify_token}" disabled />
+                <span class="input-group-addon">
+                    <button class="btn btn-default btn-copy" data-role="clipboard-copy" data-clipboard-text="{$verify_token}" data-container="#verifyToken-wrapper" data-feedback="확인 토큰 이 복사되었습니다.">복사</button>
+                </span>
+            </div>
+        </div>
+    </li>
+
+    <li>6)  3)의 <code>메신져 설정 페이지</code> 항목 중 <code>토큰 생성</code> 항목에서 메신져를 연동할 <strong>페이지</strong> 선택하면 <code>페이지 토큰</code>이 생성되며 이 페이지 토큰 값을 아래 입력란에 입력하고 아래 <strong>저장버튼</strong> 클릭  .</li>
+    <li>
+        <div class="input-wrapper" style="padding-top:0;"> 
+            <div class="input-group">
+                <span class="input-group-addon" >페이지 엑세스 토큰</span>
+                <textarea name="access_token" rows="3" class="form-control" >{$access_token}</textarea>
+            </div>
+        </div>
+    </li>
+    
+<!--     <li>
+        <div class="input-wrapper" style="padding-top:0;"> 
+            <div class="input-group">
+                <span class="input-group-addon">Verify Token</span>
+                <input type="text" name="channel_secret" value="{$verify_token}" class="form-control" >
+            </div>
+        </div>
+    </li> -->
+
+</ul>

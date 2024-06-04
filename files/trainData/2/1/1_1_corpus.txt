@@ -1,0 +1,8 @@
+__label__444 라떼|NNG 주세요|NNP
+__label__444 주문|NNG
+__label__445 asdfsadf|SL
+__label__445 ㅁ|NNG ㄴ|NNG ㅇㄻㄴㅇㄻㄴㅇㄹ|UNKNOWN
+__label__444 아메리카노|NNP 주세요|NNP
+__label__445 ㅁ|NNG ㅇㄴㄻㄴㅇㄹ|UNKNOWN
+__label__444 커피|NNG 주문|NNG 할게요|XSV+EC
+__label__444 주문|NNG 받|VV 아|EC

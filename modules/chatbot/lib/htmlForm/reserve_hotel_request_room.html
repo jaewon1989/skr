@@ -1,0 +1,30 @@
+﻿<div class="cb-chatting-form onda">
+    <div class="cb-chatting-received">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        {$checkin_date}부터 {$checkout_date}까지 {$period_date} 동안 예약 가능한 객실입니다.
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bot_form onda room mt30">
+        <input type="hidden" name="reserve_nights" value="{$nights}" />
+        <fieldset class="form_field">
+            {$data_row}
+        </fieldset>
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item cancel cancel_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+            <button type="button" class="kwd-item submit_reserve {$submit_disp}" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="hotel_room">확인</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+<style>
+#langsel {
+    display: none;
+    position: absolute;
+    display: none;
+    height: auto;
+    padding: 10px;
+    top: 50px;
+    left: -50%;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px #666;
+    font-size: 12px;
+    text-align: left;
+    z-index: 5;
+}
+#langsel li {
+    margin: 10px 0 20px 0;
+}
+.langbox {position: relative;}
+.langbox .flag-wrap {display:inline-block;cursor: pointer;width: 40px;height: 40px;}
+#langsel .langimg {
+    display: inline-block;
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+    border: solid 1px #d9d9d9;
+
+}
+
+#langsel span {color: #333 !important;font-size: 10pt;cursor: pointer;}
+#mobile-langbox-wrap {position: absolute; right: 85px;}
+</style>
+
+<div id="mobile-langbox-wrap">
+    <div class="langbox">
+        <span class="flag-wrap" >
+            <img id="top_lang_img" src="{$g_s}/_core/images/flag/ko1.png" data-role="toggle-langsel">
+        </span>
+
+        <div class="langsel" id="langsel">
+            <ul>
+                <li>
+                    <span data-role="mobile-trans-act" data-lang="ko">
+                       <img class="langimg" src="{$g_s}/_core/images/flag/ko2.png" alt=""> 
+                    </span>
+                </li>
+                <li>
+                    <span data-role="mobile-trans-act" data-lang="en">
+                       <img class="langimg" src="{$g_s}/_core/images/flag/en2.png" alt=""> 
+                    </span>
+                </li>
+                <li>
+                    <span data-role="mobile-trans-act" data-lang="zh">
+                        <img class="langimg" src="{$g_s}/_core/images/flag/zh2.png" alt=""> 
+                    </span>
+                </li>
+                <li>
+                    <span data-role="mobile-trans-act" data-lang="ja">
+                        <img class="langimg" src="{$g_s}/_core/images/flag/ja2.png" alt=""> 
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+// var toggle_btn = $('[data-toggling]'); // 토글링 할 형제 레이어를 갖고있는 버튼
+// var translate_btn = $('[data-translang]'); // 번역할 국가 버튼
+
+// 번역 버튼 클릭 
+$('[data-role="mobile-trans-act"]').on('click',function(){
+   var location = $(this).attr('href'); 
+   var lang = $(this).data('lang');
+   sessionStorage.setItem("now_lang",lang);
+   setTimeout(function(){
+      var now_lang = sessionStorage.getItem("now_lang")?sessionStorage.getItem("now_lang"):'ko';
+      var src = rooturl+'/_core/images/flag/'+now_lang+'1.png';
+      $('#top_lang_img').attr("src",src);
+
+   },10);
+   
+   
+   // window.location=location;
+   // window.location.reload();
+ 
+});
+
+// 토글링
+$('[data-role="toggle-langsel"]').on('click', function(){
+   $('#langsel').toggle();
+})
+
+</script>

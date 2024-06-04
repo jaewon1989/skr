@@ -1,0 +1,193 @@
+﻿/* ============================================================================ */
+/* 21new.html */
+/* ============================================================================ */
+
+.cb-userwrapper {
+    width: 35px;
+    height: 35px;
+    background-color: #c6c6c6;
+    border-radius: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+
+.cb-icon-userprofile {
+    width: 20px;
+    height: 20px;
+    background: url("../svg/user.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-utilityarea .cb-name {
+    font-size: 10pt;
+    color: #fff;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.cb-botwrapper {
+    width: 35px;
+    height: 35px;
+    background-color: #d468ce;
+    border-radius: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 4px;
+    position: relative;
+}
+
+.cb-botwrapper .cb-icon-mbot {
+    width: 20px;
+    height: 20px;
+    background: url("../svg/m_bot.svg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-botwrapper .cb-count {
+    font-size: 10pt;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #e44241;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: -8px;
+    right: -8px;
+}
+
+/* ============================================================================ */
+/* 22new.html */
+/* ============================================================================ */
+
+.cb-mychatbot-insertion {
+
+}
+                                            
+/* new, override */    
+.cb-mychatbot-insertion .cb-right #cb-chatzone {
+    background-color: #fff;
+}
+
+.cb-mychatbot-insertion > .cb-layout > .cb-left {
+    width: 345px;
+    height: 975px;
+    overflow-y: auto;
+}
+
+.cb-mychatbot-insertion > .cb-layout > .cb-right {
+    margin-left: 373px;
+}
+
+.cb-mychatbot-insertion > .cb-layout > .cb-left .cb-mychatbot-list {
+    padding: 51px 35px 0px 40px; 
+    box-sizing: border-box;
+    /* 스크롤바 샘플 */
+    height: 2000px;
+}
+
+.cb-icon-plus {
+    width: 59px;
+    height: 59px;
+    background: url("../svg/plus.svg") no-repeat center center;            
+    background-size: 100% 100%;   
+    vertical-align: middle;             
+}
+
+.cb-mychatbot-list .cb-mychatbot-list-plusline {
+    padding-top: 5px;
+    margin-bottom: 29px;
+}
+
+.cb-mychatbot-list .cb-mychatbot-list-plusline .cb-name {
+    height: 49px;
+    line-height: 47px;
+    font-size: 16pt;
+    color: #1caafc;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.cb-mychatbot-list .cb-chatbot-item {
+    width: 259px;
+    height: 259px;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    padding: 13px;
+}
+
+.cb-mychatbot-list .cb-chatbot-item .cb-rightward {
+    text-align: right;
+}
+
+.cb-mychatbot-list .cb-chatbot-item .cb-rightward .cb-icon-close {
+    width: 19px;
+    height: 19px;
+    background: url("../svg/bot_del.svg") no-repeat center center;            
+    background-size: 100% 100%;   
+    vertical-align: middle;     
+}
+
+.cb-mychatbot-list .cb-chatbot-item .cb-centerward {
+    text-align: center;
+}
+
+.cb-mychatbot-list .cb-chatbot-item .cb-centerward .cb-circle-image {
+    width: 92px;
+    height: 92px;
+    margin: 13px auto 31px;
+}
+
+.cb-mychatbot-list .cb-chatbot-item .cb-centerward .cb-circle-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.cb-mychatbot-list .cb-chatbot-item .cb-centerward .cb-button-copyurl {
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #fbfbfb;
+    border: 1px solid #dcdcdc;
+    color: #333;
+    cursor: pointer;
+}
+
+.cb-mychatbot-list .cb-chatbot-item-enableoption {
+    height: 43px;
+    padding: 6px 0px 6px 0;
+    box-sizing: border-box;
+}
+
+.cb-mychatbot-list .cb-chatbot-item-enableoption .cb-cell-left .cb-label {
+    font-size: 14pt;
+    color: #333;
+}
+
+.cb-mychatbot-list .cb-chatbot-item-enableoption .cb-cell-right {
+    text-align: right;
+}
+
+.cb-mychatbot-list .cb-chatbot-centering {
+    width: 100%;
+    height: 100%;    
+    line-height: 228px;                        
+    text-align: center;
+}
+.cb-mychatbot-list .cb-icon-plus2 {
+    width: 76px;
+    height: 76px;
+    background: url("../svg/plus2.svg") no-repeat center center;
+    background-size: 100% 100%;
+}

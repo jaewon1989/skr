@@ -1,0 +1,81 @@
+<canvas id="chart-total" style="height:100%;width:100%;"></canvas>
+<script>
+// 기간별 유입수 
+var ctx1 = document.getElementById("chart-total");
+//ctx1.height = 80;
+var gigan_data = {
+    labels: [{$page_date}],
+    datasets: [
+        {
+            label: "총 접속",
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            borderColor: "rgb(255, 99, 132)",
+            data: [{$page_all}],
+            fill: false,
+            tension:0.5
+        },
+        {
+            label: "순방문",
+            backgroundColor: "rgba(255, 159, 64, 0.2)",
+            borderColor: "rgb(255, 159, 64)",
+            data: [{$page_f}],
+            fill: false,
+            tension:0.5
+        },
+        {
+            label: "재방문",
+            backgroundColor: "rgba(255, 205, 86, 0.2)",
+            borderColor: "rgb(255, 205, 86)",
+            data: [{$page_s}],
+            fill: false,
+            tension:0.5
+        }
+    ]
+};
+var myChart = new Chart(ctx1, {
+    type: 'bar',
+    data: gigan_data,
+    options: {
+        animations: {
+            tension: {
+                duration: 1000,
+                easing: 'linear',
+                from: 1,
+                to: 0.5,
+                loop: false
+            }
+        },
+        scales: {
+            x: {
+                display: true,
+                border: {
+                    display: true
+                },
+                grid: {
+                    display: true,
+                    drawOnChartArea: true,
+                    drawTicks: true,
+                }
+            },
+            y: {
+                beginAtZero: true
+            }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            title: {
+                display: true,
+                text: '사용자 현황 그래프'
+            },
+            legend: {
+                position: "top",
+                align: "end",
+                labels: {
+                    boxWidth: 12
+                }
+            }
+        },
+    }
+});
+</script>

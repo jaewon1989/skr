@@ -1,0 +1,10 @@
+
+#grptbl {width:100%;_width:99.6%;border:#dfdfdf solid 1px;background:#f9f9f9;margin:0 0 35px 0;}
+#grptbl .grptr {height:350px;}
+#grptbl .grptr th {text-align:center;vertical-align:bottom;font-weight:normal;}
+#grptbl .tabtr {height:30px;font-size:13px;}
+#grptbl .tabtr td {text-align:center;background:#efefef;}
+#grptbl .info {font-size:11px;font-family:arial;color:#545454;}
+#grptbl .info span {font-size:10px;font-family:arial;color:#c0c0c0;}
+#grptbl .grp {background:#28BFFE;}
+

@@ -1,0 +1,147 @@
+.table tr.active a {
+	color:#999
+}
+.table td .label {
+	font-size: 90%;
+	font-weight: normal;
+}
+.well .btn-toolbar {
+	margin-bottom: 10px;
+}
+.panel-footer.btn-toolbar fieldset {
+	float: left;
+	margin-right: 5px;
+}
+.date_range {
+	padding-left: 15px;
+}
+.date_range > div {
+	padding-left: 5px;
+}
+.panel .table th .sort .fa-sort-asc {
+    margin-left: -15px;
+}
+
+/*modal*/
+@media screen and (min-width: 768px) {
+	#modal-member-info .modal-dialog {
+		width: 730px;
+	}
+}
+#modal-member-info .modal-header h4 {
+	width: 250px;
+	float: left;
+}
+#modal-member-info .modal-body {
+	padding: 15px;
+}
+
+#modal-member-info .modal-footer {
+	margin-top: 0
+}
+#modal-member-info .modal-header small {
+	font-size: 11px;
+	color: #999;
+	float: left;
+	padding: 6px 0 0 0;
+}
+#modal-member-info .panel .panel-heading h4 {
+	padding: 11px 0 11px 50px;
+}
+#modal-member-info .panel .panel-heading h4.panel-title {
+	font-size: 14px;
+}
+#modal-member-info .col-sm-4 {
+	overflow-y: scroll;
+	padding: 15px 7px;
+	height:480px;
+}
+#modal-member-info .col-sm-8 {
+	overflow: auto;
+	padding: 15px;
+	height:480px;
+}
+
+#modal-member-info .col-sm-8 .page-header {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0
+}
+
+#modal-member-info .tab-content .tab-pane {
+	height: 360px
+}
+
+#admin-users .panel {
+	border: none;
+} 
+
+#admin-users .panel-heading label {
+	line-height: 35px
+}
+
+#admin-users .panel-heading,
+#admin-users .panel-footer {
+	background-color: transparent;
+	padding: 10px 0
+} 
+
+#admin-users .panel-footer .row [class*="col-"] {
+    margin-top: 10px
+}
+
+@media (min-width: 768px) { 
+	#admin-users .panel-footer .row {
+	    margin-left: -.5%;
+	    margin-right: -.5%;
+	}
+	#admin-users .panel-footer .row [class*="col-"] {
+	    min-height: 1px;
+	    padding-left: .5%;
+	    padding-right: .5%;
+	    padding-top: 10px;
+	    margin-top: 0;
+	}
+}
+
+#admin-users .table thead tr {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+#admin-users .table th {
+	font-weight: normal;
+	font-size: 12px;
+	border-bottom: 1px solid #ddd;
+	color: #777
+}
+
+#admin-users .table th label,
+#admin-users .table th input {
+	margin: 0;
+	padding: 0
+}
+
+#admin-users .badge {
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.form-horizontal .has-feedback.rb-outside .form-control-feedback {
+        right: -925px;
+}
+
+@media (min-width: 768px) {
+    .form-horizontal .has-feedback.rb-outside .form-control-feedback {
+        width: 46px;
+        height: 32px;
+        line-height: 32px;
+        right: -25px;
+    }
+}
+
+
+.table th,
+.table td {
+	text-align: center;
+}

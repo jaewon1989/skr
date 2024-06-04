@@ -1,0 +1,28 @@
+<div class="botList-title" style="width:100%;">
+    <h1 style="width:50%;"><span>{$botTypeName} 관리</span></h1>
+
+    <div class="frmSearch" style="display:inline-block;width: 50%;padding: 0;margin: 0;">
+        <div style="float: right;">
+            <div class="btn-addBot" style="display: none">
+                <span class="btn btn-primary btn-block btn-rounded waves-effect waves-light" data-toggle="modal">
+                    {$botTypeName} 추가 <i class="fa fa-plus"></i>
+                </span>
+            </div>
+            <form method="get" style="display: flex; gap: 10px">
+                <input type="hidden" name="bottype" value="{$botType}" />
+                <select id="sortField" name="sortField" class="form-control">
+                    <option value="d_regis">최신순</option>
+                    <option value="name">명칭순</option>
+                    <option value="callno">전화번호순</option>
+                </select>
+                <select id="searchField" name="searchField" class="form-control">
+                    <option value="name">{$botTypeName}명</option>
+                    <option value="callno">전화번호</option>
+                </select>
+                <input type="text" id="searchKeyword" name="searchKeyword" class="form-control" value="">
+                <button type="submit" id="btn_search" class="btn btn-default">검색</button>
+                <div><span class="glyphicon glyphicon-th-{$listType} p-absolute p-5 rnd-rect" style="border: 1px #ccc solid;border-radius: 6px;padding: 8px !important;"></span></div>
+            </form>
+        </div>
+    </div>
+</div>

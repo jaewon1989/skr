@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html id="html" lang="ko" class="home">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, shrink-to-fit=no, initial-scale=1.0" />
+<title>오류 알림</title>
+<link rel="stylesheet" type="text/css" href="/plugins/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body {margin:0; background: #d9e0e7; font-size: 12px; font-family: Verdana,Helvetica,Arial,sans-serif; color: #707478;line-height: 1.42857143;}
+	.error {margin: 0 auto; text-align: center;}
+	.error-code {position: absolute; left:0; right:0; bottom: 60%; color: #2d353c; font-size:50px; line-height: 100px; letter-spacing:-4px; margin-bottom:10px!important;}
+	.error-content {position: absolute; left:0; right:0; top: 40%; bottom: 0; padding-top: 15px; background: #2d353c;}
+	.error-message {color: #fff; font-size: 16px; line-height:150%;}
+	.error-desc {font-size: 12px; color: #647788; margin-bottom: 20px!important;}
+	.btn {
+		display: inline-block; color: #fff; background: #ff5b57; border-color: #ff5b57; font-weight: 300; border-radius: 3px; padding: 6px 20px;margin-bottom: 0;font-size: 14px; line-height: 1.42857143;
+		text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer;border: 1px solid transparent; text-decoration:none;
+	}
+	@media ( max-width: 768px ) {
+		.error-code {bottom:70%; font-size:1.8em; letter-spacing:-2px;}
+		.error-message {font-size:1.05em; letter-spacing:-1px; margin-top:20px;}
+		.error-desc {font-size:.90rem;}
+	}
+</style>
+<script>
+    //var fronturl = "https://www.bottalks.co.kr";
+    var fronturl = "/adm";
+    if(window.opener && !window.opener.closed) {
+        window.opener.location.href = fronturl;
+        window.close();
+    } else {
+        location.href=fronturl;
+    }
+</script>
+</head>
+<body>
+	<!-- begin #page-container -->
+	<div id="page-container">
+		<!-- begin error -->
+		<div class="error">
+			<div class="error-code">허용되지 않은 요청입니다 <i class="fa fa-warning"></i></div>
+			<div class="error-content">
+				<div class="error-message">
+					잘못된 경로로 접근하셨거나, 사용할 수 없는 주소입니다.<br />
+					이용에 불편을 드려 죄송합니다.
+				</div>
+			</div>
+		</div>
+		<!-- end error -->
+	</div>
+	<!-- end page container -->
+
+</body>
+</html>

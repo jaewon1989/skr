@@ -1,0 +1,361 @@
+body {
+
+	color: #444;
+
+	background: #e8ebed;
+
+}
+
+.rb-main {
+
+	padding-top: 15px;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+
+	font-family: dotum,'돋움',sans-serif;
+
+	color: #444
+
+}
+
+#pages-signup h1 {
+
+    font-size: 32px
+
+}
+
+#pages-signup h1 small {
+
+    font-size: 50%
+
+}
+
+#pages-signup h3 {
+
+    font-size: 18px
+
+}
+
+#pages-signup .page-header {
+
+	margin: 30px 0 20px;
+
+	padding-bottom: 0;
+
+	border-bottom: 0;
+
+	letter-spacing: -1px;
+
+	color: #444
+
+}
+
+#pages-signup .well {
+
+	color: #777
+
+}
+
+#pages-signup select,
+
+#pages-signup input[type="text"] + input[type="text"] {
+
+	margin-top: 5px;
+
+}
+
+#pages-signup .rb-divider {
+
+	float: left;
+
+	color: #999;
+
+	padding: 5px;
+
+}
+
+#pages-signup .rb-divider {
+
+	float: left;
+
+	color: #999;
+
+	padding: 5px;
+
+}
+
+#pages-signup .rb-divider:before {
+
+	content: "-";
+
+}
+
+#pages-signup .rb-zipsearch {
+
+	margin-left: 10px
+
+}
+
+
+
+.btn-facebook {
+
+    *background-color: #344d83;
+
+    background-color: #385490;
+
+    background-image: linear-gradient(top, #3b5998, #344d83);
+
+    background-repeat: repeat-x;
+
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=' #3b5998', endColorstr=' #344d83', GradientType=0);
+
+}
+
+.btn-twitter {
+
+    *background-color: #009dd8;
+
+    background-color: #00a6e5;
+
+    background-image: linear-gradient(top, #00aced, #009dd8);
+
+    background-repeat: repeat-x;
+
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=' #00aced', endColorstr=' #009dd8', GradientType=0);
+
+}
+
+.btn-google-plus {
+
+    *background-color: #DB4A37;
+
+    background-color: #DB4A37;
+
+    background-image: linear-gradient(top, #DB4A37, #BE2F1F);
+
+    background-repeat: repeat-x;
+
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=' #DB4A37', endColorstr=' #BE2F1F', GradientType=0);
+
+}
+
+.btn-twitter,
+
+.btn-facebook,
+
+.btn-google-plus {
+
+    color: #fff;
+
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn-twitter:hover,
+
+.btn-facebook:hover,
+
+.btn-google-plus:hover {
+
+    color: #fff;
+
+}
+
+
+
+/*가입단계 */
+
+#pages-signup .breadcrumb {
+
+	padding: 8px 15px;
+
+	margin-bottom: 20px;
+
+	list-style: none;
+
+	background-color: #f5f5f5;
+
+	border-radius: 4px;
+
+	background-color: transparent;
+
+	border: 1px dashed #c9c9c9;
+
+}
+
+#pages-signup .breadcrumb span {
+
+	font-family: FontAwesome;
+
+}
+
+#pages-signup .breadcrumb > li {
+
+	display: inline-block;
+
+	font-size: 13px;
+
+	color: #999;
+
+}
+
+#pages-signup .breadcrumb > li + li:before {
+
+	font-family: FontAwesome;
+
+	padding: 0 5px;
+
+	color: #cccccc;
+
+	content: "\f105";
+
+	font-size: 150%;
+
+}
+
+#pages-signup .breadcrumb > .active {
+
+	color: #428bca;
+
+	font-weight: bold;
+
+}
+
+#pages-signup .breadcrumb .fa-stack {
+
+	margin-top: -3px
+
+}
+
+
+
+.rb-sns-list li {
+
+	margin-bottom: 5px
+
+}
+
+
+
+.rb-form-footer {
+
+  border-top: 1px solid #e5e5e5;
+
+  margin-top: 35px;
+
+  padding-top: 15px;
+
+  clear: both;
+
+}
+
+
+
+/* 우편번호 검색 모달 */
+
+#modal-zipsearch .resultbox {
+
+	overflow: auto;
+
+	height: 311px
+
+}
+
+
+
+/**********가입 폼 **********/
+
+
+
+/* 필수 입력 표기 */
+
+.rb-form-required {
+
+	padding: 2px 4px;
+
+	font-size: 90%;
+
+	font-weight: normal;
+
+	color: #b94a48;
+
+}
+
+.rb-form-required:before {
+
+	content: "(*)";
+
+}
+
+
+
+/*전화번호*/
+
+#pages-signup .rb-tel-num-1 {
+
+	float: left;
+
+	width: 50px
+
+}
+
+#pages-signup .rb-tel-num-2 {
+
+	float: left;
+
+	width: 60px
+
+}
+
+#pages-signup .rb-tel-num-3 {
+
+	float: left;
+
+	width: 60px
+
+}
+
+
+
+/*기업정보*/
+
+#pages-signup .rb-comp-num-1 {
+
+	float: left;
+
+	width: 50px
+
+}
+
+#pages-signup .rb-comp-num-2 {
+
+	float: left;
+
+	width: 40px
+
+}
+
+#pages-signup .rb-comp-num-3 {
+
+	float: left;
+
+	width: 60px
+
+}
+
+#pages-signup .rb-comp-type {
+
+	float: left;
+
+	margin-left:15px;
+
+}

@@ -1,0 +1,19 @@
+<li data-role="resHeaderItem" data-id="{$group_id}" data-type="{$resType}" class="{$res_active}">
+    <input type="hidden" name="respondGroupHeader[]" value="{$resType}-{$group_id}"> <!-- 나열 순서 --> 
+    <a href="#{$group_id}" data-toggle="tab" data-role="resHeaderTab" class="{$hidden_class}">
+    	<div class="rgMenu-wrapper">
+	    	<div class="dropdown">
+                {$resHeaderMenuIcon}	         
+	            <ul class="dropdown-menu rgMenu-list" aria-labelledby="rgMenu-{$group_id}">
+	                <li class="dropdown-item" data-role="btn-delRespond" data-id="{$group_id}" data-uid="{$group_uid}">
+	                    <i class="fa fa-trash-o" aria-hidden="true"></i><span>삭제</span>
+	                </li>    
+	                <li class="dropdown-item" data-role="btn-showHideRespond" data-id="{$group_id}" data-uid="{$group_uid}" data-state="{$state_class}">
+	                    <i class="fa fa-{$showStateIcon}" aria-hidden="true"></i><span>{$showHide_label}</span>
+	                </li>    
+	            </ul>
+	        </div>    
+        </div>
+        {$type_label}
+    </a>
+</li>

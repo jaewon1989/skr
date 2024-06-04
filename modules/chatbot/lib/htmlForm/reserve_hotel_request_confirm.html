@@ -1,0 +1,113 @@
+<div class="cb-chatting-form onda">
+    <div class="bot_form onda">
+        {$reserve_refunds}
+        
+        <h1>선택 예약 정보</h1>
+        <fieldset class="form_field">
+            <ul class="ul_confirm total_info">
+                {$reserve_cart_data}
+            </ul>
+        </fieldset>
+        <hr class="hr" />
+        
+        <h1>결제 방법</h1>
+        <fieldset class="form_field">
+            <div class="input_area no_label">
+                <div class="selectwrap">
+                    <select id="reserve_upaymethod" name="reserve_upaymethod">
+                        <option value="wired" selected>무통장입금</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+        <hr class="hr" />
+        
+        <h1>약관 동의</h1>
+        <fieldset class="form_field">
+            <div class="agree_wrap reserve_agree">
+                <div>
+                    <input type="checkbox" class="ip_c" id="checkall" name="checkall" />
+                    <label for="checkall">모두 동의</label>
+                </div>
+                <ul class="ul_check_agree">
+                    <li>
+                        <div class="check_wrap">
+                            <input type="checkbox" class="ip_c required" id="agree_notice" name="agree_notice" />
+                            <label for="agree_notice">유의사항/환불규정 동의(필수)</label>
+                            <button type="button" class="btn_agree_open"></button>
+                        </div>
+                        <div class="agree_content">{$agree_notice}</div>
+                    </li>
+                    <li>
+                        <div class="check_wrap">
+                            <input type="checkbox" class="ip_c required" id="agree_privacy" name="agree_privacy" />
+                            <label for="agree_privacy">개인정보 수집/이용약관 동의(필수)</label>
+                            <button type="button" class="btn_agree_open"></button>
+                        </div>
+                        <div class="agree_content">{$agree_privacy}</div>
+                    </li>
+                    <li>
+                        <div class="check_wrap">
+                            <input type="checkbox" class="ip_c required" id="agree_marketing" name="agree_marketing" />
+                            <label for="agree_marketing">개인정보 제3자 제공 동의(필수)</label>
+                            <button type="button" class="btn_agree_open"></button>
+                        </div>
+                        <div class="agree_content">{$agree_marketing}</div>
+                    </li>
+                    <li>
+                        <div class="check_wrap">
+                            <input type="checkbox" class="ip_c required" id="agree_child" name="agree_child" />
+                            <label for="agree_child">미성년자 아님 동의(필수)</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </fieldset>
+        <hr class="hr" />
+        
+        <h1>예약자 정보 입력</h1>
+        <fieldset class="form_field">
+            <div class="input_flex">
+                <div class="flex mr10">
+                    <div class="input_area no_label">
+                        <label class="input_label">성 <span class="red">*</span></label>
+                        <div>
+                            <input type="text" id="reserve_ulast_name" name="reserve_ulast_name" maxlength="20" />
+                        </div>
+                    </div>
+                </div>
+                <div class="flex ml10">
+                    <div class="input_area no_label">
+                        <label class="input_label">이름 <span class="red">*</span></label>
+                        <div>
+                            <input type="text" id="reserve_ufirst_name" name="reserve_ufirst_name" maxlength="20" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="input_area no_label mt15">
+                <label class="input_label">휴대폰번호 <span class="red">*</span></label>
+                <div>
+                    <input type="tel" class="input_number" id="reserve_uphone" name="reserve_uphone" maxlength="13" />
+                </div>
+            </div>
+            <div class="input_area no_label mt15">
+                <label class="input_label">이메일 <span class="red">*</span></label>
+                <div>
+                    <input type="email" id="reserve_uemail" name="reserve_uemail" maxlength="50" />
+                </div>
+            </div>
+            <div class="input_area no_label mt15">
+                <label class="input_label">요청사항</label>
+                <div>
+                    <input type="text" id="reserve_udescription" name="reserve_udescription" />
+                </div>
+            </div>
+        </fieldset> 
+                    
+        <div class="btn_wrap">
+            <button type="button" class="kwd-item cancel cancel_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="cancel">취소</button>
+            <button type="button" class="kwd-item submit_reserve" data-hform="{$hform_type}" data-action="{$action}" data-category="{$category_type}" data-lastchat="{$last_chat}" data-step="hotel_confirm">예약하기</button>
+        </div>
+    </div>
+</div>

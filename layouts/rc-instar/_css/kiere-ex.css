@@ -1,0 +1,781 @@
+
+.snap-drawer-left {
+  position: fixed;
+  top: 0;
+  left: -1px;
+  bottom: 0;
+  -webkit-transform: translate3d(-600px, 0, 0);
+          transform: translate3d(-600px, 0, 0);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+}
+.snapjs-left .snap-drawer-left {
+  z-index: 3;
+  width: 85%;
+}
+
+#cb-leftmenu {
+    padding-right: 0;
+}
+#cb-header .cb-cell-left {
+    height: 20px;
+}
+.cb-leftmenu-body {
+    height: 90%;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.cb-icon-upward {
+    width: 20px;
+    height: 20px;
+    background: url(../svg/close.svg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.cb-icon-downward {
+    width: 20px;
+    height: 20px;
+    background: url(../svg/open.svg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/* main slider (swiper) */
+.cb-mainbanner-slidezone > .swiper-pagination {
+    text-align: right;
+    height: 20px;
+    z-index: 2;
+    top: 30px;
+    width: 97%;
+}
+
+.cb-mainbanner-slidezone > .swiper-pagination .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: #e0e0e0;
+    opacity: 1;
+    margin-left: 8px;
+}
+.cb-mainbanner-slidezone > .swiper-pagination .swiper-pagination-bullet-active {
+    background: #1daafc;
+}
+.cb-mainbanner-overlay {
+    height: 20%;
+    bottom: 0;
+    top: auto;
+}
+.bot-link {
+    color: #333;
+}
+#cb-chatting-body, #page-view .content {
+   padding-top: 40px;
+   /*background: url("../_images/bg.PNG") no-repeat center center;*/
+}
+#cb-chatting-body .cb-chatting-rows {
+    padding-bottom: 100px;
+    height: 85%;
+    overflow: auto;
+}
+
+#modal-botView .content{
+   background: none;
+}
+.cb-mainbanner-slidezone {
+   position: relative;
+}
+.cb-body {
+   background: none;
+}
+.bar-nav~.content {
+    padding-top: 0px;
+}
+/* chatting box */
+.cb-chatting-scroll {
+    padding-top: 20px !important;
+    height: 80%;
+    padding-bottom: 300px;
+}
+.cb-chatting-balloon span{
+    font-size: 11pt;
+    display: inline-block;
+    font-weight: 200;
+    line-height: 1.4em;
+    width: 100%;
+}
+.cb-chatting-received .cb-chatting-balloon span {
+    color: #fff;
+}
+
+
+/* notify */
+.alert-black {
+    color: #fff;
+    font-size: 1.0rem;
+    background-color: #292c33;
+    border-color: #2e3036;
+    width: 100% !important;
+    z-index: 10;
+}
+
+.alert-blackCB {
+    color: #fff;
+    font-size: 11pt;
+    background-color: #292c33;
+    border-color: #2e3036;
+    width: 100% !important;
+    z-index: 10;
+    margin-bottom: 50px !important;
+}
+
+.cb-leftmenu-body .collapse {
+    display: none;
+}
+.cb-leftmenu-body .collapse.in {
+    display: table;
+}
+#cb-leftmenu {
+   background-color:  #fff;
+}
+.cb-leftmenu-background {
+   height: auto;
+   overflow: hidden;
+}
+#modal-login .content, #modal-join .content, #modal-profile .content, #modal-chatBox .content, #modal-idpwsearch .content {
+    /*background: url(../_images/bg.PNG) no-repeat center center;*/
+}
+
+.modal .content {
+   padding-top: 80px;
+}
+.bar {
+   border-bottom: none;
+}
+
+.cb-chatbot-policytab li a {
+    padding-top: 8px;
+ }
+
+.cb-chatbot-factorystep-item .cb-radio-label {
+    padding-top: 5px;
+}
+
+.cb-chatbot-policytab .active {
+    background: #1caafc;
+}
+.cb-chatbot-policytab .active a {
+    color: #fff;
+}
+.botSwitch-off .cb-switch {
+    width: 65px;
+    height: 29px;
+    background-color: #ccc;
+    border-radius: 29px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.botSwitch-off .cb-switch-button {
+    width: 23px;
+    height: 23px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,.6) -1px 0px 2px 0px;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+}
+
+
+.cb-viewchat-search-timebox select {
+    width: 100%;
+    background: url(../_images/arrow.jpg) no-repeat top right;
+    background-size: auto 100%;
+}
+
+.cb-viewchat-search-timebox {
+    width: 100%;
+    margin-right: 0px;
+}
+
+.cb-statistic-box {
+    height: auto;
+}
+.cb-body .cb-icon-camera{
+   margin-top: 35% !important;
+}
+
+.cb-body .cb-icon-user{
+   margin-top: 30% !important;
+}
+
+.cb-body .cb-login-socialbox .cb-left .cb-icon {
+   margin-top: 20% !important;
+}
+
+.modal .cb-inputnaked-age li {
+    font-size: 13pt !important;
+}
+
+#cb-login {
+    padding-top: 0px;
+}
+
+.cb-login-signup {
+    text-align: inherit;
+    padding: 20px 0px 39px;
+    padding: 0 25px;
+}
+
+.cb-login-signup #go-join {
+   float: right;
+}
+.cb-login-signup #go-idpwsearch {
+   float: left;
+}
+#modal-idpwsearch input[type=submit] {
+    font-size: 11pt;
+    font-weight: 300;
+    color: #303946;
+    background: rgba(255, 255, 255, .68);
+    border: 0;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+}
+
+#modal-idpwsearch .user-guide {
+   position: relative;
+   padding-top: 34px;
+   color: #fff;
+   font-size: 16px;
+
+}
+#modal-idpwsearch .user-guide .input-val {
+    color: #1caafc;
+}
+
+#modal-idpwsearch .user-guide .result-link{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline;
+}
+#modal-idpwsearch .user-guide .danggu {
+    display: inline-block;
+    width:20px;
+}
+#modal-idpwsearch .user-guide li {
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+#modal-botView .registed-mark {
+   display: inline-block;
+   text-align: center;
+   width: 34px;
+   height: 18px;
+   padding: 2px 5px;
+   background: #dcdcdc;
+   font-size: 18px;
+   color: #333;
+   margin-left:5px;
+}
+
+#modal-botView .chat-link {
+   vertical-align: top;
+}
+.cb-body a.cb-hidden {
+   display: none !important;
+}
+.cb-hidden {
+    display: none;
+}
+/* 폰트 변경으로 인한 변경*/
+.cb-service-button {
+   line-height: 30px;
+}
+.cb-service-urlcopy {
+   line-height: 35px;
+}
+
+/* 챗봇 등록하기 */
+.cb-icon-regis {
+    width: 52px;
+    height: 51px;
+    background: url(../svg/bot_upload.svg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.cb-icon-mbot {
+   margin-top: 13;
+}
+#cb-header .cat-title {
+    font-size: 11pt;
+    font-weight: 300;
+    color: #fff;
+}
+.cb-chatbot-talking .cb-chatting-balloon, .cb-chatbot-talking .cb-right {
+    height: auto;
+ }
+
+.cb-body .logo-wrapper {
+    width: 202px;
+    height: 40px;
+    background: url(../_images/logo.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: -5px;
+}
+
+.loader-wrapper {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: #444;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.loader-wrapper i {
+    margin-right: 10px;
+}
+
+/* 검색 모달 */
+.cb-body .modal-search table{
+    width: 100% !important;
+    margin-top: 20px;
+
+}
+.cb-body .modal-search table input {
+   width: 100% !important;
+   height: 42px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   font-size: 15pt;
+}
+.cb-body .modal-search table #td-input {
+    width: 100%;
+}
+.cb-body .modal-search table #td-btn{
+    width: 20%;
+    text-align: right;
+}
+
+.cb-body .modal-search table #td-btn #btn-search{
+    width: 80%;
+    font-size: 15pt;
+    padding: 6px 12px;
+}
+.cb-icon-mbot {
+   width: 65px !important;
+   height: 65px !important;
+   margin-top: 13px !important;
+}
+.leftmenu-h1 {
+   padding-bottom:5px !important;
+}
+
+.cb-chatting-scroll {
+   position: relative;
+}
+
+/* 통계 페이지 */
+#smod-ul li {
+     width: 23.33%;
+}
+#smod-ul #d-space {
+     width: 5%;
+     border: none;
+     background: none;
+}
+
+#smod-ul #select-wrap {
+     width: 25%;
+}
+
+#statics-ul .cb-viewchat-search-datebox {
+    width: 100% !important;
+    height: 98% !important;
+    padding: 1% 3% !important;
+    text-align: center;
+}
+#statics-ul li {
+    border: none !important;
+    width: 25%;
+}
+#statics-ul #d-start, #statics-ul #d-end {
+   width: 32.5%;
+}
+#statics-ul #d-space {
+   width: 5%;
+   background: none;
+}
+
+/* 이모티콘 */
+#cb-chatting-input {
+	background: none;
+    z-index: 100;
+}
+#cb-chatting-input .cb-chatting-icon li {
+	line-height: 0;
+	padding: 10px 0;
+}
+
+#cb-chatting-input .cb-right {
+    /*padding-top: 20px;*/
+}
+
+#cb-chatting-input .cb-layout {
+	background: #fff !important;
+  height: 50px;
+}
+
+.cb-body .emoticon-wrapper {
+	display: none;
+	overflow: hidden;
+	padding: 15px 5px;
+	background: #e6e6e6;
+
+}
+.cb-body .emoticon-wrapper ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.cb-body .emoticon-wrapper li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 12.5%;
+	cursor: pointer;
+}
+
+.cb-body .emoticon-wrapper li img{
+   border-radius: 0 !important;
+}
+.cb-body .emoticon_wrap img {
+	width: 25px;
+	height: 25px;
+	border-radius: 0;
+}
+
+.cb-chatting-balloon-selection ul li a {
+   display: inline-block !important;
+   width: 100%;
+   font-size: 11pt;
+   line-height: 1.4em;
+}
+
+#cb-chatting-input-mybot {
+   bottom: 0;
+}
+
+/* 광고 메세지 */
+#cb-chatbot-admsg .cb-chatbot-admsg-box {border-color: #d9d9d9}
+
+.cb-body .icon-go-wrap {position: relative;}
+.icon-go-wrap .cb-icon{
+   width:15px;
+   height: 12px;
+   background: url(../svg/go.svg) no-repeat center left;
+   background-size: 100% 100%;
+   position: absolute;
+   top:8px;
+   right: 10px;
+}
+
+.cb-lost-found-profileholder > div .cb-icon-user {
+    width: 50%;
+    height: 50%;
+    margin-top: 25% !important;
+}
+.cb-list-slidelane {
+   height: auto;
+}
+.cb-list-slidelane-limitless {
+    width: 100%;
+    height: auto;
+}
+.cb-list-slidelane-limitless li {
+    width: 20%;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+#cb-chatting-input .cb-chatting-icon li .cb-chatting-send {
+   margin-top: -5px;
+}
+
+#cb-chatbot-admsg .cb-chatbot-admsg-box textarea {
+    min-height: 600px;
+}
+
+/* 업체 질문 추가 */
+.cb-chatbot-case .vq-question {
+    height: 80px !important;
+}
+.cb-chatbot-case .vq-question .category {
+    float:left;
+    width: 10%;
+    height: 80px;
+}
+.cb-chatbot-case .vq-question .category select {
+    width: 95%;
+    padding: 5px 0;
+    border: solid 1px #dcdcdc;
+}
+.cb-chatbot-case .vq-question .question {
+    float:right;
+    width: 100%;
+    height: 80px;
+}
+.cb-chatbot-case .vq-question textarea {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+}
+
+#vqa-rows .cb-chatbot-case{
+    margin-bottom: 10px !important;
+}
+
+#vqa-rows .cb-inputnaked-label {
+   margin-bottom: 0 !important;
+}
+
+.cb-service-banner .view-logo{
+   position: absolute;
+   display: inline-block;
+   width: 50%;
+   height: 15%;
+   z-index: 10;
+   left: 25%;
+   top: 47%;
+}
+
+.cb-selectholder select {
+  text-align: center;
+  text-align-last: center;
+  /* webkit*/
+}
+.cb-selectholder option {
+  text-align: left;
+  /* reset to left*/
+}
+
+.cb-viewchat-search-timebox {
+   border: none;
+}
+
+.intro-img-wrappper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.intro-img-wrappper img {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#intro-custom {
+   position: relative;
+}
+
+#intro-custom #custom-1 {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+}
+
+#intro-custom #custom-1 #btn-wrapper {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    text-align: right;
+    z-index: 100;
+}
+
+#intro-custom #custom-1 #btn-wrapper .intro-btn {
+    display: inline-block;
+    width: 23%;
+    height: 10%;
+    margin-left:1%;
+}
+
+#intro-custom .banner-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 360px;
+}
+
+#intro-custom .banner-wrapper .banner-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1110px;
+    height: 545px;
+}
+#intro-custom .banner-wrapper .banner-inner .swiper-container {
+    width: 984px;
+}
+
+#intro-custom .swiper-slide-next {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+#intro-custom .banner-wrapper .cb-icon-next {
+    top: 45%;
+    width: 41px;
+    height: 75px;
+    background: url(../_images/right.png) no-repeat center center;
+    background-size: 100% 100%;
+
+}
+
+#intro-custom .banner-wrapper .cb-icon-prev {
+    top: 45%;
+    width: 41px;
+    height: 75px;
+    background: url(../_images/left.png) no-repeat center center;
+    background-size: 100% 100%;
+
+}
+#intro-premium .small-banner {
+    width: 60%;
+    margin: 112px auto;
+}
+
+.kwd-menu {
+   display: inline-block;
+   width: auto !important;
+   border: solid 1px #999;
+   border-radius: 8%;
+   padding: 5px 7px;
+   font-weight: bold;
+   font-size: 1rem;
+   background: #fff;
+   color: #333 !important;
+}
+
+.kwd-item {
+    display: inline-block;
+    text-align: center;
+    border: solid 1px #1caafc;
+    width: auto !important;
+    height: 20px !important;
+    border-radius: 25px;
+    font-size: 14px;
+    background: #fff;
+    color: #333 !important;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.keyword-swiper {
+    margin-left: 20px;
+}
+
+.keyword-swiper .swiper-wrapper {
+    height: auto !important;
+    margin-bottom: 1.8rem;
+}
+
+.keyword-swiper .mv-slot-item {
+    display: inline-block;
+    height: 285px;
+    position: relative;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    margin-right: 5rem;
+    overflow: hidden;
+ }
+
+ .keyword-swiper .mv-slot-item .poster-wrapper {
+    height: 82%;
+    background-size:cover;
+    background-position:center;
+ }
+ .keyword-swiper .mv-slot-item .slot-more-wrapper {
+    height: 100%;
+    background: url(../_images/add.png) #fff no-repeat center center;
+    opacity: 0.7;
+ }
+
+.keyword-swiper .mv-slot-item .slot-title {
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+
+#page-movieView .mvDetail-wrapper {
+    width: 100%;
+}
+
+#page-movieView .dt-poster {
+    width: 100%;
+    height: 30rem;
+}
+
+#page-movieView .dt-content {
+    padding: 1.7rem;
+}
+
+#page-movieView .dt-title{
+    padding-bottom: 1.7rem;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000;
+}
+
+#page-movieView .dt-table {
+    width: 100%;
+}
+#page-movieView .dt-table th{
+    width: 20%;
+}
+
+#page-movieView .dt-table td{
+    color: #333;
+    line-height: 2rem;
+}
+
+#page-movieView .dt-table th, #page-movieView .dt-rated {
+    color: #666;
+}
+
+#page-movieView .dt-table th, #page-movieView .dt-table td{
+    padding: 0.5rem 0;
+    font-size: 1.4rem;
+}
+
+#page-movieView .dt-close {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 20px 0;
+    background: #90a7d0;
+    color: #fff;
+
+}
+
+
+
+

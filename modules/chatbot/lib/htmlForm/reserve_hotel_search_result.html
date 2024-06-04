@@ -1,0 +1,31 @@
+<div class="cb-chatting-form onda">
+    <div class="cb-chatting-received">
+        <div class="cb-layout">
+            <div class="cb-left">
+                <div class="cb-chatting-sender" style="background-image:url({$bot_avatar_src});"></div>
+            </div>
+            <div class="cb-right">
+                <div class="cb-chatting-info">
+                    <span class="cb-chatting-name">{$bot_name}</span>
+                    <span class="cb-chatting-date-side">{$date}</span>
+                </div>
+                <div class="cb-chatting-balloon">
+                    <p>
+                        {$customer_name}님의 예약 정보는 아래와 같습니다.
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bot_form onda pb15 mt30">
+        <h1>{$customer_name}님의 예약 정보</h1>
+        <fieldset class="form_field">
+            <ul class="ul_confirm mt10">
+                {$data_row}
+            </ul>
+        </fieldset>
+        <div class="mt20 kr14">
+            * 자세한 문의사항이나 예약취소를 원하시면 {$cs_phone}로 유선 문의 부탁드립니다.
+        </div>
+    </div>
+</div>

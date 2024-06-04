@@ -1,0 +1,57 @@
+#cb-chatting-input .cb-center {
+   margin-left: 10px !important;	  
+}
+.kwd-menu {
+    cursor: pointer;
+}
+/* notify */
+#cb-chatting-body .cb-chatting-rows {
+    position: relative;
+}
+
+#kiere-notify {
+    visibility: hidden;
+    width: 100%;    
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+}
+
+#kiere-notify-msg {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding:12px 6px; 
+    font-size: 14px;
+}
+
+#kiere-notify.active {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 1.8s;
+    animation: fadein 0.5s, fadeout 0.5s 1.8s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/* notify */
